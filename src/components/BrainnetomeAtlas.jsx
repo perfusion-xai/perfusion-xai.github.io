@@ -9,8 +9,8 @@
 //   "sex-morph"      — color = divergingColor(d × t), t in [-1, 1] driven by slider
 //   "compare"        — CBF-only red, morph-only blue, both saffron, others dim grey
 
-import { useEffect, useRef, useState } from "react";
-import { Canvas, useThree } from "@react-three/fiber";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { Canvas } from "@react-three/fiber";
 import { OrbitControls, useGLTF, Text } from "@react-three/drei";
 import * as THREE from "three";
 import { palette, divergingColor } from "../lib/theme.js";
@@ -93,21 +93,40 @@ export default function BrainnetomeAtlas({
 }
 
 function AtlasMeshes({ mode, morph, highlight, onHover }) {
-  const { scene } = useGLTF(ATLAS_URL);
+  const { scene: rawScene } = useGLTF(ATLAS_URL);
   const [stats, setStats] = useState(null);
+
+  // useGLTF caches and returns the *same* scene instance across all callers.
+  // Three.js disallows one Object3D in multiple scenes, so multiple
+  // BrainnetomeAtlas instances would steal meshes from each other. Clone the
+  // scene + materials so each instance owns its own copy. Geometries can stay
+  // shared (they're not mutated, just referenced).
+  const scene = useMemo(() => {
+    if (!rawScene) return null;
+    const cloned = rawScene.clone(true);
+    cloned.traverse((obj) => {
+      if (obj.isMesh) {
+        obj.material = new THREE.MeshStandardMaterial({
+          color: BASE_GREY,
+          opacity: 0.85,
+          transparent: false,
+          roughness: 0.6,
+          metalness: 0.0,
+          side: THREE.DoubleSide,
+        });
+      }
+    });
+    // Center this clone (mutating its own position is safe, not the cache).
+    const box = new THREE.Box3().setFromObject(cloned);
+    const center = new THREE.Vector3();
+    box.getCenter(center);
+    cloned.position.sub(center);
+    return cloned;
+  }, [rawScene]);
 
   useEffect(() => {
     loadRegionStats().then((s) => setStats(byId(s)));
   }, []);
-
-  // Center the atlas at world origin so MNI coords don't push everything off
-  useEffect(() => {
-    if (!scene) return;
-    const box = new THREE.Box3().setFromObject(scene);
-    const center = new THREE.Vector3();
-    box.getCenter(center);
-    scene.position.sub(center);
-  }, [scene]);
 
   // Apply per-region material based on mode + stats
   useEffect(() => {
@@ -119,15 +138,6 @@ function AtlasMeshes({ mode, morph, highlight, onHover }) {
       const id = parseInt(idMatch[1], 10);
       const s = stats.get(id);
       const { color, opacity, scale } = materialFor(mode, s, morph, highlight, id);
-
-      // Reuse existing material if already a MeshStandardMaterial — saves GC churn
-      if (!obj.material || obj.material.type !== "MeshStandardMaterial") {
-        obj.material = new THREE.MeshStandardMaterial({
-          roughness: 0.6,
-          metalness: 0.0,
-          side: THREE.DoubleSide,
-        });
-      }
       obj.material.color.set(color);
       obj.material.transparent = opacity < 1;
       obj.material.opacity = opacity;
