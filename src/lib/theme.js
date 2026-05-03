@@ -10,8 +10,10 @@ export const palette = {
   female: "#C8312B",
   male: "#1E5A8A",
   highlight: "#E89B2C",
-  // Diverging colormap stops (cool → paper → warm)
-  cbf: ["#1E5A8A", "#7AA0BD", "#FAF7F2", "#E5A29D", "#C8312B"],
+  // Diverging colormap stops (cool → warm grey → warm).
+  // Middle stop is a warm neutral grey, NOT paper, so t≈0 regions are
+  // still visible against the page background.
+  cbf: ["#1E5A8A", "#7AA0BD", "#B8B0A4", "#E5A29D", "#C8312B"],
 };
 
 // Map a value in [-1, +1] to a hex color along the diverging colormap.

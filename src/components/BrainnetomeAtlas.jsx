@@ -4,13 +4,14 @@
 //
 // Modes:
 //   "rest"           — all regions warm-grey, slow rotation
-//   "shap-explode"   — consensus 30 regions translated outward by |SHAP|, others wireframe
+//   "shap-explode"   — consensus 30 regions colored by Cohen's d (diverging colormap),
+//                      others dim grey; consensus regions slightly enlarged
 //   "sex-morph"      — color = divergingColor(d × t), t in [-1, 1] driven by slider
-//   "compare"        — left half = CBF SHAP, right half = morphometry SHAP, with cross-modal arcs
+//   "compare"        — CBF-only red, morph-only blue, both saffron, others dim grey
 
-import { useEffect, useMemo, useRef, useState } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
-import { OrbitControls, useGLTF } from "@react-three/drei";
+import { useEffect, useRef, useState } from "react";
+import { Canvas, useThree } from "@react-three/fiber";
+import { OrbitControls, useGLTF, Text } from "@react-three/drei";
 import * as THREE from "three";
 import { palette, divergingColor } from "../lib/theme.js";
 import { loadRegionStats, byId } from "../lib/data.js";
@@ -19,21 +20,42 @@ const ATLAS_URL = "/assets/meshes/atlas.glb";
 
 export default function BrainnetomeAtlas({
   mode = "rest",
-  morph = 0,             // sex-morph: -1 (male) ↔ +1 (female)
-  highlight = null,      // optional region id to spotlight
-  onHover,               // (regionId | null) => void
+  morph = 0,
+  highlight = null,
+  onHover,
   className = "h-[520px]",
 }) {
+  const wrapRef = useRef(null);
+  const [isFs, setIsFs] = useState(false);
+
+  const toggleFullscreen = () => {
+    if (!wrapRef.current) return;
+    if (!document.fullscreenElement) {
+      wrapRef.current.requestFullscreen?.();
+    } else {
+      document.exitFullscreen?.();
+    }
+  };
+
+  useEffect(() => {
+    const onChange = () => setIsFs(!!document.fullscreenElement);
+    document.addEventListener("fullscreenchange", onChange);
+    return () => document.removeEventListener("fullscreenchange", onChange);
+  }, []);
+
   return (
-    <div className={`relative bg-paper2 border border-ink/10 rounded-md ${className}`}>
+    <div
+      ref={wrapRef}
+      className={`relative bg-paper2 border border-ink/10 rounded-md overflow-hidden ${className}`}
+    >
       <Canvas
         camera={{ position: [0, 0, 220], fov: 35 }}
         dpr={[1, 2]}
         gl={{ antialias: true, alpha: true }}
       >
-        <ambientLight intensity={0.65} />
+        <ambientLight intensity={0.7} />
         <directionalLight position={[100, 200, 200]} intensity={0.7} />
-        <directionalLight position={[-100, -50, -200]} intensity={0.25} />
+        <directionalLight position={[-100, -50, -200]} intensity={0.3} />
 
         <AtlasMeshes
           mode={mode}
@@ -42,14 +64,30 @@ export default function BrainnetomeAtlas({
           onHover={onHover}
         />
 
+        <OrientationLabels />
+
         <OrbitControls
           enablePan={false}
           minDistance={120}
-          maxDistance={360}
+          maxDistance={isFs ? 500 : 360}
           autoRotate={mode === "rest"}
           autoRotateSpeed={0.6}
         />
       </Canvas>
+
+      {/* Top-right: fullscreen toggle */}
+      <button
+        onClick={toggleFullscreen}
+        className="absolute top-3 right-3 z-10 px-2 py-1 bg-paper/90 border border-ink/15 rounded text-xs font-mono uppercase tracking-widest hover:border-female"
+        aria-label="Toggle fullscreen"
+      >
+        {isFs ? "exit ⤢" : "full ⤢"}
+      </button>
+
+      {/* Bottom-left: orientation legend */}
+      <div className="absolute bottom-3 left-3 z-10 font-mono text-[10px] uppercase tracking-widest text-ink2 bg-paper/85 border border-ink/10 rounded px-2 py-1">
+        L / R · A / P · S / I
+      </div>
     </div>
   );
 }
@@ -62,7 +100,6 @@ function AtlasMeshes({ mode, morph, highlight, onHover }) {
     loadRegionStats().then((s) => setStats(byId(s)));
   }, []);
 
-  const groupRef = useRef();
   // Center the atlas at world origin so MNI coords don't push everything off
   useEffect(() => {
     if (!scene) return;
@@ -81,17 +118,20 @@ function AtlasMeshes({ mode, morph, highlight, onHover }) {
       if (!idMatch) return;
       const id = parseInt(idMatch[1], 10);
       const s = stats.get(id);
-      const { color, opacity, wireframe, scale } = materialFor(mode, s, morph, highlight, id);
+      const { color, opacity, scale } = materialFor(mode, s, morph, highlight, id);
 
-      obj.material = new THREE.MeshStandardMaterial({
-        color,
-        roughness: 0.55,
-        metalness: 0.0,
-        transparent: opacity < 1,
-        opacity,
-        wireframe,
-        side: THREE.DoubleSide,
-      });
+      // Reuse existing material if already a MeshStandardMaterial — saves GC churn
+      if (!obj.material || obj.material.type !== "MeshStandardMaterial") {
+        obj.material = new THREE.MeshStandardMaterial({
+          roughness: 0.6,
+          metalness: 0.0,
+          side: THREE.DoubleSide,
+        });
+      }
+      obj.material.color.set(color);
+      obj.material.transparent = opacity < 1;
+      obj.material.opacity = opacity;
+      obj.material.needsUpdate = true;
       obj.scale.setScalar(scale);
       obj.userData.regionId = id;
     });
@@ -107,59 +147,87 @@ function AtlasMeshes({ mode, morph, highlight, onHover }) {
   const handlePointerOut = () => onHover && onHover(null);
 
   return (
-    <group
-      ref={groupRef}
-      onPointerMove={handlePointerMove}
-      onPointerOut={handlePointerOut}
-    >
+    <group onPointerMove={handlePointerMove} onPointerOut={handlePointerOut}>
       {scene && <primitive object={scene} />}
     </group>
   );
 }
 
+// Visible-everywhere base color for non-highlighted regions, so the brain
+// SHAPE is always readable against the cream page.
+const BASE_GREY = "#B8B0A4";
+const BASE_OPACITY = 0.55;
+
 function materialFor(mode, s, morph, highlight, id) {
-  const baseGrey = "#B8B0A4";
-  const base = { color: baseGrey, opacity: 0.85, wireframe: false, scale: 1 };
+  const base = { color: BASE_GREY, opacity: BASE_OPACITY, scale: 1 };
+
+  if (highlight === id) {
+    return { color: palette.highlight, opacity: 1, scale: 1.05 };
+  }
   if (!s) return base;
 
   if (mode === "rest") {
-    return base;
+    return { color: BASE_GREY, opacity: 0.85, scale: 1 };
   }
 
   if (mode === "shap-explode") {
     if (s.in_consensus30) {
-      return {
-        color: palette.female,
-        opacity: 0.95,
-        wireframe: false,
-        scale: 1 + (s.shap_mean_freq - 289) / 800, // gentle expansion for higher SHAP
-      };
+      // Color by Cohen's d sign+magnitude — dense info per region.
+      // Most CBF sex effects are female-positive (red side).
+      const t = Math.max(-1, Math.min(1, (s.cohens_d || 0) / 1.5));
+      const expand = 1 + Math.max(0, (s.shap_mean_freq - 289) / 1200);
+      return { color: divergingColor(t), opacity: 0.97, scale: expand };
     }
-    return { color: palette.ink2, opacity: 0.18, wireframe: true, scale: 1 };
+    return base;
   }
 
   if (mode === "sex-morph") {
-    // morph in [-1, 1]: -1 = male-flavored, +1 = female-flavored
-    // Shade by Cohen's d × morph so positions of the slider drive coloring.
-    const t = Math.max(-1, Math.min(1, (s.cohens_d || 0) * morph));
-    return {
-      color: divergingColor(t),
-      opacity: 0.92,
-      wireframe: false,
-      scale: 1,
-    };
+    // Slider t in [-1, 1]: -1 = male-flavored, +1 = female-flavored.
+    // Modulate by region's Cohen's d so high-d regions respond more.
+    const t = Math.max(-1, Math.min(1, (s.cohens_d || 0) * morph * 0.8));
+    return { color: divergingColor(t), opacity: 0.93, scale: 1 };
   }
 
   if (mode === "compare") {
-    if (s.in_crossmodal4) {
-      return { color: palette.highlight, opacity: 1, wireframe: false, scale: 1.05 };
-    }
-    if (s.in_consensus30) return { color: palette.female, opacity: 0.85, wireframe: false, scale: 1 };
-    if (s.in_morph28) return { color: palette.male, opacity: 0.85, wireframe: false, scale: 1 };
-    return { color: palette.ink2, opacity: 0.15, wireframe: true, scale: 1 };
+    if (s.in_crossmodal4) return { color: palette.highlight, opacity: 1, scale: 1.05 };
+    if (s.in_consensus30) return { color: palette.female, opacity: 0.88, scale: 1 };
+    if (s.in_morph28) return { color: palette.male, opacity: 0.88, scale: 1 };
+    return base;
   }
 
   return base;
+}
+
+// Anatomical orientation labels.
+// MNI conventions for the Brainnetome atlas: x=L-R (−L/+R), y=P-A (−P/+A), z=I-S (−I/+S).
+// After atlas re-centering, world axes match MNI axes.
+function OrientationLabels() {
+  const D = 100; // distance from origin for the labels
+  return (
+    <group>
+      <OrientText position={[-D, 0, 0]} label="L" />
+      <OrientText position={[ D, 0, 0]} label="R" />
+      <OrientText position={[0, D + 10, 0]} label="A" />
+      <OrientText position={[0, -(D + 10), 0]} label="P" />
+      <OrientText position={[0, 0, D + 10]} label="S" />
+      <OrientText position={[0, 0, -(D + 10)]} label="I" />
+    </group>
+  );
+}
+
+function OrientText({ position, label }) {
+  return (
+    <Text
+      position={position}
+      fontSize={9}
+      color={palette.ink2}
+      anchorX="center"
+      anchorY="middle"
+      depthOffset={-1}
+    >
+      {label}
+    </Text>
+  );
 }
 
 // Pre-load the GLB on mount of the module

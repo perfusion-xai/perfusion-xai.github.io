@@ -3,7 +3,7 @@ import Section from "../components/Section.jsx";
 import BrainnetomeAtlas from "../components/BrainnetomeAtlas.jsx";
 
 export default function SexMorphSection() {
-  const [t, setT] = useState(0); // -1 (male) ↔ +1 (female)
+  const [t, setT] = useState(0.6); // -1 (male) ↔ +1 (female); start mid-female
 
   return (
     <Section
