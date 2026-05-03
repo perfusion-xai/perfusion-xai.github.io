@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- Perfusion Print theme ---------- */
+
+:root {
+  --paper: #faf7f2;
+  --ink: #1a2332;
+  --female: #c8312b;
+  --male: #1e5a8a;
+  --highlight: #e89b2c;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: "Newsreader", Georgia, serif;
+  font-feature-settings: "liga", "kern";
+  font-optical-sizing: auto;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+/* Headings: Sora, slightly tightened */
+h1, h2, h3, h4, h5 {
+  font-family: "Sora", system-ui, sans-serif;
+  letter-spacing: -0.015em;
+  font-weight: 600;
+}
+
+/* Numbers / data: JetBrains Mono */
+.num,
+code,
+.font-mono {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-feature-settings: "tnum", "ss01";
+}
+
+/* Hairline horizontal rules */
+hr {
+  border: 0;
+  border-top: 1px solid var(--ink);
+  opacity: 0.18;
+}
+
+/* Reduced-motion respect: kill all transitions and animations */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Selection color matches the female-high accent */
+::selection {
+  background: var(--female);
+  color: var(--paper);
+}

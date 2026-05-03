@@ -1,0 +1,16 @@
+node_modules
+dist
+.DS_Store
+*.log
+.env*
+.vscode
+.idea
+
+# Phase 0 outputs are committed (small, immutable per analysis)
+# but cache files are not
+scripts/__pycache__
+scripts/.cache
+*.pyc
+
+# Build artifacts only
+.cache
