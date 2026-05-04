@@ -9,14 +9,35 @@ export default function CrossModalSection() {
       title="CBF and morphometry barely agree."
       lede="The 30 CBF biomarkers and 28 FreeSurfer morphometry biomarkers share only 4 regions (Jaccard 0.074). Perfusion and structure encode complementary aspects of sex-related brain organization."
     >
-      <div className="grid md:grid-cols-12 gap-6 mt-6">
+      {/* Side-by-side: CBF map · Morphometry map */}
+      <div className="grid md:grid-cols-2 gap-4 mt-6">
+        <BrainViewer
+          staticSrc="assets/figures/fig_glass_cbf30.png"
+          alt="30 CBF biomarker regions"
+          caption="CBF · 30 regions"
+          mode="shap-explode"
+          title="CBF biomarkers"
+          subtitle="Result · 3a · 30 regions selected by SHAP on mean CBF"
+        />
+        <BrainViewer
+          staticSrc="assets/figures/fig_glass_morph28.png"
+          alt="28 morphometry biomarker regions"
+          caption="Morphometry · 28 regions"
+          mode="compare"
+          title="Morphometry biomarkers"
+          subtitle="Result · 3b · 28 regions selected by SHAP on FreeSurfer cortical features"
+        />
+      </div>
+
+      {/* Intersection: the 4 cross-modal hits */}
+      <div className="grid md:grid-cols-12 gap-6 mt-4">
         <div className="md:col-span-9">
           <BrainViewer
             staticSrc="assets/figures/fig_glass_crossmodal.png"
-            alt="Glass-brain projection of the 4 cross-modal regions"
-            caption="The 4 regions selected by both modalities (saffron). 2D = nilearn projection · 3D = interactive atlas."
+            alt="The 4 cross-modal regions"
+            caption="Intersection · the 4 regions selected by both modalities (saffron)"
             mode="compare"
-            title="CBF and morphometry barely agree"
+            title="CBF ∩ morphometry"
             subtitle="Result · 3 · 4 cross-modal regions · Jaccard 0.074"
           />
         </div>

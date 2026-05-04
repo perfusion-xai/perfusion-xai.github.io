@@ -130,6 +130,36 @@ def fig_glass_cohensd(atlas_img, regions, stats):
     print("wrote fig_glass_cohensd.png")
 
 
+def fig_glass_cbf30(atlas_img, regions, stats):
+    """Glass brain: just the 30 CBF consensus regions, single arterial-red color."""
+    value_by_id = {rid: 1.0 for rid, s in stats.items() if s.get("in_consensus30")}
+    img = build_label_image(atlas_img, value_by_id, default=0.0)
+    cmap = ListedColormap(["#00000000", "#C8312B"])
+    fig = plt.figure(figsize=(11, 4), facecolor=PAPER)
+    plotting.plot_glass_brain(
+        img, figure=fig, display_mode="lyrz", colorbar=False,
+        cmap=cmap, vmin=0, vmax=1, plot_abs=False, alpha=0.75, black_bg=False,
+    )
+    fig.savefig(OUT / "fig_glass_cbf30.png", dpi=200, facecolor=PAPER, bbox_inches="tight")
+    plt.close(fig)
+    print("wrote fig_glass_cbf30.png")
+
+
+def fig_glass_morph28(atlas_img, regions, stats):
+    """Glass brain: just the 28 morphometry biomarkers, single cool-blue color."""
+    value_by_id = {rid: 1.0 for rid, s in stats.items() if s.get("in_morph28")}
+    img = build_label_image(atlas_img, value_by_id, default=0.0)
+    cmap = ListedColormap(["#00000000", "#1E5A8A"])
+    fig = plt.figure(figsize=(11, 4), facecolor=PAPER)
+    plotting.plot_glass_brain(
+        img, figure=fig, display_mode="lyrz", colorbar=False,
+        cmap=cmap, vmin=0, vmax=1, plot_abs=False, alpha=0.75, black_bg=False,
+    )
+    fig.savefig(OUT / "fig_glass_morph28.png", dpi=200, facecolor=PAPER, bbox_inches="tight")
+    plt.close(fig)
+    print("wrote fig_glass_morph28.png")
+
+
 def fig_glass_crossmodal(atlas_img, regions, stats):
     """Glass brain: just the 4 cross-modal regions."""
     value_by_id = {}
@@ -181,6 +211,8 @@ def main():
 
     fig_glass_networks(atlas_img, regions, stats)
     fig_glass_cohensd(atlas_img, regions, stats)
+    fig_glass_cbf30(atlas_img, regions, stats)
+    fig_glass_morph28(atlas_img, regions, stats)
     fig_glass_crossmodal(atlas_img, regions, stats)
     fig_legend_networks()
     print("Done →", OUT)
