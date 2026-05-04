@@ -13,7 +13,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, useGLTF, Text } from "@react-three/drei";
 import * as THREE from "three";
-import { palette, divergingColor } from "../lib/theme.js";
+import { palette, divergingColor, sequentialColor } from "../lib/theme.js";
 import { loadRegionStats, byId } from "../lib/data.js";
 
 const ATLAS_URL = "/assets/meshes/atlas.glb";
@@ -49,7 +49,7 @@ export default function BrainnetomeAtlas({
       className={`relative bg-paper2 border border-ink/10 rounded-md overflow-hidden ${className}`}
     >
       <Canvas
-        camera={{ position: [0, 0, 220], fov: 35 }}
+        camera={{ position: [120, 80, 180], fov: 32 }}
         dpr={[1, 2]}
         gl={{ antialias: true, alpha: true }}
       >
@@ -182,11 +182,13 @@ function materialFor(mode, s, morph, highlight, id) {
 
   if (mode === "shap-explode") {
     if (s.in_consensus30) {
-      // Color by Cohen's d sign+magnitude — dense info per region.
-      // Most CBF sex effects are female-positive (red side).
-      const t = Math.max(-1, Math.min(1, (s.cohens_d || 0) / 1.5));
+      // CBF sex effects are mostly female-positive — use a sequential
+      // (cream → red) scale on |d| so within-30 magnitude differences are
+      // actually visible, instead of compressing into a small slice of the
+      // diverging map.
+      const t = Math.max(0, Math.min(1, (Math.abs(s.cohens_d) - 0.3) / 1.2));
       const expand = 1 + Math.max(0, (s.shap_mean_freq - 289) / 1200);
-      return { color: divergingColor(t), opacity: 0.97, scale: expand };
+      return { color: sequentialColor(t), opacity: 0.97, scale: expand };
     }
     return base;
   }

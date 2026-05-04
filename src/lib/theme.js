@@ -28,6 +28,18 @@ export function divergingColor(t) {
   return mixHex(stops[i], stops[i + 1], f);
 }
 
+// Sequential map from cream → arterial red, for one-sided magnitudes
+// (e.g., |Cohen's d| or SHAP frequency). t in [0, 1].
+const SEQUENTIAL_STOPS = ["#F4EAD9", "#E8B19A", "#D86A56", "#C8312B", "#8E1D17"];
+export function sequentialColor(t) {
+  const x = Math.max(0, Math.min(1, t));
+  const idx = x * (SEQUENTIAL_STOPS.length - 1);
+  const i = Math.floor(idx);
+  const f = idx - i;
+  if (i >= SEQUENTIAL_STOPS.length - 1) return SEQUENTIAL_STOPS[SEQUENTIAL_STOPS.length - 1];
+  return mixHex(SEQUENTIAL_STOPS[i], SEQUENTIAL_STOPS[i + 1], f);
+}
+
 function mixHex(a, b, t) {
   const ar = parseInt(a.slice(1, 3), 16),
         ag = parseInt(a.slice(3, 5), 16),
