@@ -173,11 +173,15 @@ function AtlasMeshes({ mode, morph, highlight, onHover }) {
     const cloned = rawScene.clone(true);
     cloned.traverse((obj) => {
       if (obj.isMesh) {
+        // FrontSide + depthWrite=true: only the nearest fragment per pixel
+        // passes the depth test, so 246 overlapping translucent meshes can't
+        // accumulate alpha into a dark mud. Fragment alpha blends once,
+        // against the cream paper. This is the standard "glass brain" idiom.
         obj.material = new THREE.MeshStandardMaterial({
-          color: BASE_GREY,
-          roughness: 0.6,
+          color: SHELL_COLOR,
+          roughness: 0.55,
           metalness: 0.0,
-          side: THREE.DoubleSide,
+          side: THREE.FrontSide,
         });
       }
     });
@@ -209,10 +213,14 @@ function AtlasMeshes({ mode, morph, highlight, onHover }) {
       obj.material.color.set(spec.color);
       obj.material.transparent = spec.opacity < 1;
       obj.material.opacity = spec.opacity;
-      obj.material.depthWrite = spec.opacity >= 0.5; // glass = no depthWrite
+      obj.material.depthWrite = true; // always — depth-test prevents stacking
+      // Highlighted regions draw on top of the shell so deep regions
+      // (subcortical, limbic) aren't hidden behind cortical glass.
+      obj.material.depthTest = !spec.alwaysOnTop;
       obj.material.needsUpdate = true;
       obj.userData.regionId = id;
-      obj.renderOrder = spec.opacity >= 0.5 ? 1 : 0;
+      obj.renderOrder = spec.alwaysOnTop ? 2 : 0;
+      obj.scale.setScalar(spec.scale ?? 1);
     });
   }, [scene, stats, meta, mode, morph, highlight]);
 
@@ -231,44 +239,52 @@ function AtlasMeshes({ mode, morph, highlight, onHover }) {
   );
 }
 
-const BASE_GREY = "#B8B0A4";
-const GLASS_OPACITY = 0.12;
+// Light warm grey for the translucent "glass brain" shell. Visible against
+// cream paper without dominating, leaves headroom for saturated overlays.
+const SHELL_COLOR = "#D8D2C5";
+const SHELL_OPACITY = 0.32;
 
 function materialFor(mode, s, m, morph, highlight, id) {
-  // "Glass brain" default — translucent, no depthWrite, so highlighted regions
-  // pop against a faint full-shape silhouette.
-  const glass = { color: BASE_GREY, opacity: GLASS_OPACITY };
+  const shell = { color: SHELL_COLOR, opacity: SHELL_OPACITY, scale: 1 };
 
   if (highlight === id) {
-    return { color: palette.highlight, opacity: 1 };
+    return { color: palette.highlight, opacity: 1, scale: 1.06, alwaysOnTop: true };
   }
-  if (!s) return glass;
+  if (!s) return shell;
 
   if (mode === "rest") {
-    return { color: BASE_GREY, opacity: 0.85 };
+    return shell;
   }
 
   if (mode === "shap-explode") {
     if (s.in_consensus30) {
       const net = m?.network7 || "Default";
-      return { color: networkColors[net] || palette.female, opacity: 0.97 };
+      return {
+        color: networkColors[net] || palette.female,
+        opacity: 1,
+        scale: 1.02,
+        alwaysOnTop: true,
+      };
     }
-    return glass;
+    return shell;
   }
 
   if (mode === "sex-morph") {
     const t = Math.max(-1, Math.min(1, (s.cohens_d || 0) * morph * 0.8));
-    return { color: divergingColor(t), opacity: 0.93 };
+    return { color: divergingColor(t), opacity: 1, scale: 1, alwaysOnTop: false };
   }
 
   if (mode === "compare") {
-    if (s.in_crossmodal4) return { color: palette.highlight, opacity: 1 };
-    if (s.in_consensus30) return { color: palette.female, opacity: 0.92 };
-    if (s.in_morph28) return { color: palette.male, opacity: 0.92 };
-    return glass;
+    if (s.in_crossmodal4)
+      return { color: palette.highlight, opacity: 1, scale: 1.06, alwaysOnTop: true };
+    if (s.in_consensus30)
+      return { color: palette.female, opacity: 1, scale: 1.02, alwaysOnTop: true };
+    if (s.in_morph28)
+      return { color: palette.male, opacity: 1, scale: 1.02, alwaysOnTop: true };
+    return shell;
   }
 
-  return glass;
+  return shell;
 }
 
 // Anatomical orientation labels in 3D world space.
