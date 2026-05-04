@@ -50,6 +50,7 @@ export default function BrainnetomeAtlas({
   const [stats, setStats] = useState(null);
   const [disabledNets, setDisabledNets] = useState(() => new Set());
   const [shellOnly, setShellOnly] = useState(false);
+  const [shellAlpha, setShellAlpha] = useState(0.30);
 
   const toggleNet = (n) =>
     setDisabledNets((prev) => {
@@ -116,6 +117,7 @@ export default function BrainnetomeAtlas({
           onHover={handleHover}
           disabledNets={disabledNets}
           shellOnly={shellOnly}
+          shellAlpha={shellAlpha}
         />
 
         <OrientationLabels />
@@ -199,6 +201,22 @@ export default function BrainnetomeAtlas({
             />
             <span className="text-ink2">shell only</span>
           </label>
+          <div className="px-1 pt-1">
+            <div className="flex items-center justify-between text-[10px] font-mono uppercase tracking-widest text-ink2 mb-1">
+              <span>shell</span>
+              <span>{Math.round(shellAlpha * 100)}%</span>
+            </div>
+            <input
+              type="range"
+              min={0}
+              max={0.85}
+              step={0.01}
+              value={shellAlpha}
+              onChange={(e) => setShellAlpha(parseFloat(e.target.value))}
+              className="w-full accent-female cursor-pointer"
+              aria-label="Shell opacity"
+            />
+          </div>
         </div>
       </div>
 
@@ -254,7 +272,7 @@ export default function BrainnetomeAtlas({
 // region sits behind it.
 const NO_RAYCAST = () => {};
 
-function AtlasMeshes({ mode, morph, highlight, onHover, disabledNets, shellOnly }) {
+function AtlasMeshes({ mode, morph, highlight, onHover, disabledNets, shellOnly, shellAlpha = SHELL_OPACITY }) {
   const { scene: rawScene } = useGLTF(ATLAS_URL);
   const [stats, setStats] = useState(null);
   const [meta, setMeta] = useState(null);
@@ -306,11 +324,14 @@ function AtlasMeshes({ mode, morph, highlight, onHover, disabledNets, shellOnly 
       const m = meta.get(id);
       let spec = materialFor(mode, s, m, morph, highlight, id);
       // Network filter / shell-only: collapse to shell when toggled off.
-      const isShellSpec = spec.color === SHELL_COLOR && spec.opacity === SHELL_OPACITY;
+      const isShellSpec = spec.color === SHELL_COLOR && !spec.alwaysOnTop;
       if (!isShellSpec) {
         if (shellOnly || (m && disabledNets && disabledNets.has(m.network7))) {
-          spec = { color: SHELL_COLOR, opacity: SHELL_OPACITY, scale: 1 };
+          spec = { color: SHELL_COLOR, opacity: shellAlpha, scale: 1 };
         }
+      } else {
+        // User-tuned shell opacity overrides the default.
+        spec = { ...spec, opacity: shellAlpha };
       }
       obj.material.color.set(spec.color);
       obj.material.transparent = spec.opacity < 1;
@@ -325,7 +346,7 @@ function AtlasMeshes({ mode, morph, highlight, onHover, disabledNets, shellOnly 
       // so pointer events pass through them to selected regions behind.
       obj.raycast = spec.alwaysOnTop ? THREE.Mesh.prototype.raycast : NO_RAYCAST;
     });
-  }, [scene, stats, meta, mode, morph, highlight, disabledNets, shellOnly]);
+  }, [scene, stats, meta, mode, morph, highlight, disabledNets, shellOnly, shellAlpha]);
 
   const handlePointerMove = (e) => {
     if (!onHover) return;
