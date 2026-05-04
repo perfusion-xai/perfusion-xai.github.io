@@ -29,16 +29,17 @@ export function divergingColor(t) {
 }
 
 // Categorical palette for Yeo-7 networks + SCGM (subcortical grey matter).
-// Tab10-flavored but slightly desaturated to fit the Perfusion Print page.
+// Tab10-derived: vibrant, max categorical separability against cream paper.
+// Brown is replaced with cyan (Frontoparietal) and grey with olive (SCGM).
 export const networkColors = {
-  "Visual":            "#3A6FA8",
-  "Somatomotor":       "#E89B2C",
-  "Dorsal Attention":  "#2E8B57",
-  "Ventral Attention": "#C8312B",
-  "Limbic":            "#8E5BA8",
-  "Frontoparietal":    "#8B5A3C",
-  "Default":           "#D17BA8",
-  "SCGM":              "#5A6478",
+  "Visual":            "#1F77B4", // tab10 blue
+  "Somatomotor":       "#FF7F0E", // tab10 orange
+  "Dorsal Attention":  "#2CA02C", // tab10 green
+  "Ventral Attention": "#D62728", // tab10 red
+  "Limbic":            "#9467BD", // tab10 purple
+  "Frontoparietal":    "#17BECF", // tab10 cyan
+  "Default":           "#E377C2", // tab10 pink
+  "SCGM":              "#BCBD22", // tab10 olive
 };
 
 // Sequential map from cream → arterial red, for one-sided magnitudes

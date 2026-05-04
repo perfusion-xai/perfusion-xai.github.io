@@ -7,14 +7,10 @@ import CrossModalSection from "./sections/05-CrossModal.jsx";
 import MethodsSection from "./sections/06-Methods.jsx";
 import ResourcesSection from "./sections/07-Resources.jsx";
 
-// Switch HERO_VARIANT to "rotating" or "fingerprints" to ship one of the two.
-// During development, "ab" shows both side-by-side so we can compare.
-const HERO_VARIANT = "ab"; // "rotating" | "fingerprints" | "ab"
-
 export default function App() {
   return (
     <main className="min-h-screen">
-      <HeroSection variant={HERO_VARIANT} />
+      <HeroSection />
       <TldrSection />
       <WhatIsCbf />
       <FingerprintSection />

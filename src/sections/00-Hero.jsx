@@ -1,7 +1,6 @@
 import HeroRotating from "../components/HeroRotating.jsx";
-import HeroFingerprints from "../components/HeroFingerprints.jsx";
 
-export default function HeroSection({ variant = "ab" }) {
+export default function HeroSection() {
   return (
     <section id="hero" className="px-6 pt-10">
       <div className="max-w-wide mx-auto">
@@ -19,26 +18,7 @@ export default function HeroSection({ variant = "ab" }) {
           </div>
         </div>
 
-        {variant === "ab" ? (
-          <div className="grid md:grid-cols-2 gap-3">
-            <div>
-              <div className="font-mono text-[10px] uppercase tracking-widest text-ink2 mb-1">
-                Variant A — rotating
-              </div>
-              <HeroRotating />
-            </div>
-            <div>
-              <div className="font-mono text-[10px] uppercase tracking-widest text-ink2 mb-1">
-                Variant B — fingerprints
-              </div>
-              <HeroFingerprints />
-            </div>
-          </div>
-        ) : variant === "fingerprints" ? (
-          <HeroFingerprints />
-        ) : (
-          <HeroRotating />
-        )}
+        <HeroRotating />
       </div>
     </section>
   );
