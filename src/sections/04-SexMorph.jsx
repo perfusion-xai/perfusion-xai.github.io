@@ -1,5 +1,5 @@
 import Section from "../components/Section.jsx";
-import GlassBrain from "../components/GlassBrain.jsx";
+import BrainViewer from "../components/BrainViewer.jsx";
 
 export default function SexMorphSection() {
   return (
@@ -11,10 +11,12 @@ export default function SexMorphSection() {
     >
       <div className="grid md:grid-cols-12 gap-6 mt-6">
         <div className="md:col-span-9">
-          <GlassBrain
-            src="assets/figures/fig_glass_cohensd.png"
+          <BrainViewer
+            staticSrc="assets/figures/fig_glass_cohensd.png"
             alt="Glass-brain projection of Cohen's d for the 30 consensus regions"
-            caption="Cohen's d (female − male) projected onto a glass-brain template. Diverging colormap · symmetric vmin/vmax."
+            caption="Cohen's d (female − male) · diverging colormap. 2D = nilearn projection · 3D = interactive atlas."
+            mode="sex-morph"
+            morph={1}
           />
         </div>
         <aside className="md:col-span-3 bg-paper2 border border-ink/10 rounded-md p-6 text-sm">

@@ -1,5 +1,5 @@
 import Section from "../components/Section.jsx";
-import GlassBrain from "../components/GlassBrain.jsx";
+import BrainViewer from "../components/BrainViewer.jsx";
 import { networkColors } from "../lib/theme.js";
 
 export default function FingerprintSection() {
@@ -12,10 +12,11 @@ export default function FingerprintSection() {
     >
       <div className="grid md:grid-cols-12 gap-6 mt-6">
         <div className="md:col-span-9">
-          <GlassBrain
-            src="assets/figures/fig_glass_networks.png"
+          <BrainViewer
+            staticSrc="assets/figures/fig_glass_networks.png"
             alt="Glass-brain projection of the 30 consensus regions, colored by Yeo-7 network"
-            caption="Glass-brain projection · 30 consensus regions colored by Yeo-7 network. Sagittal L · Coronal · Sagittal R · Axial."
+            caption="30 consensus regions colored by Yeo-7 network. 2D = nilearn glass-brain projection · 3D = interactive Brainnetome atlas."
+            mode="shap-explode"
           />
         </div>
         <aside className="md:col-span-3 bg-paper2 border border-ink/10 rounded-md p-6">

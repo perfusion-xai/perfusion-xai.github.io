@@ -1,5 +1,5 @@
 import Section from "../components/Section.jsx";
-import GlassBrain from "../components/GlassBrain.jsx";
+import BrainViewer from "../components/BrainViewer.jsx";
 
 export default function CrossModalSection() {
   return (
@@ -11,10 +11,11 @@ export default function CrossModalSection() {
     >
       <div className="grid md:grid-cols-12 gap-6 mt-6">
         <div className="md:col-span-9">
-          <GlassBrain
-            src="assets/figures/fig_glass_crossmodal.png"
+          <BrainViewer
+            staticSrc="assets/figures/fig_glass_crossmodal.png"
             alt="Glass-brain projection of the 4 cross-modal regions"
-            caption="The 4 regions selected by both modalities (saffron). Three are parietal-association; one is primary visual."
+            caption="The 4 regions selected by both modalities (saffron). 2D = nilearn projection · 3D = interactive atlas."
+            mode="compare"
           />
         </div>
         <aside className="md:col-span-3 bg-paper2 border border-ink/10 rounded-md p-6 text-sm space-y-3">

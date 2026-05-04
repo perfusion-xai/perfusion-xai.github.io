@@ -82,14 +82,15 @@ export default function BrainnetomeAtlas({
   return (
     <div
       ref={wrapRef}
-      className={`relative bg-paper2 border border-ink/10 rounded-md overflow-hidden ${className}`}
+      className={`relative bg-white border border-ink/10 rounded-md overflow-hidden ${className}`}
     >
       <Canvas
         camera={camInit}
         dpr={[1, 2]}
-        gl={{ antialias: true, alpha: true }}
+        gl={{ antialias: true, alpha: false }}
       >
-        <ambientLight intensity={0.75} />
+        <color attach="background" args={["#ffffff"]} />
+        <ambientLight intensity={0.85} />
         <directionalLight position={[100, 200, 200]} intensity={0.7} />
         <directionalLight position={[-100, -50, -200]} intensity={0.3} />
 
@@ -241,8 +242,9 @@ function AtlasMeshes({ mode, morph, highlight, onHover }) {
 
 // Light warm grey for the translucent "glass brain" shell. Visible against
 // cream paper without dominating, leaves headroom for saturated overlays.
-const SHELL_COLOR = "#D8D2C5";
-const SHELL_OPACITY = 0.32;
+// Light cool grey at 30% alpha against pure white → reads as ~70% white shell.
+const SHELL_COLOR = "#C8CCD2";
+const SHELL_OPACITY = 0.30;
 
 function materialFor(mode, s, m, morph, highlight, id) {
   const shell = { color: SHELL_COLOR, opacity: SHELL_OPACITY, scale: 1 };

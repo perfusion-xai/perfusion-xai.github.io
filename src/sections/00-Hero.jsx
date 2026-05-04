@@ -1,4 +1,4 @@
-import GlassBrain from "../components/GlassBrain.jsx";
+import BrainViewer from "../components/BrainViewer.jsx";
 
 export default function HeroSection() {
   return (
@@ -18,10 +18,11 @@ export default function HeroSection() {
           </div>
         </div>
 
-        <GlassBrain
-          src="assets/figures/fig_glass_networks.png"
+        <BrainViewer
+          staticSrc="assets/figures/fig_glass_networks.png"
           alt="Glass-brain projection of the 30 consensus regions, colored by Yeo-7 network"
-          caption="Sagittal L · Coronal · Sagittal R · Axial · 30 consensus regions colored by network"
+          caption="30 consensus regions colored by Yeo-7 network. Switch to 3D for an interactive atlas view."
+          mode="shap-explode"
         />
       </div>
     </section>
