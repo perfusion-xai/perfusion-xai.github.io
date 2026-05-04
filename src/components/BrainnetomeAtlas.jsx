@@ -48,6 +48,16 @@ export default function BrainnetomeAtlas({
   const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 });
   const [meta, setMeta] = useState(null);
   const [stats, setStats] = useState(null);
+  const [disabledNets, setDisabledNets] = useState(() => new Set());
+  const [shellOnly, setShellOnly] = useState(false);
+
+  const toggleNet = (n) =>
+    setDisabledNets((prev) => {
+      const next = new Set(prev);
+      if (next.has(n)) next.delete(n);
+      else next.add(n);
+      return next;
+    });
 
   useEffect(() => {
     Promise.all([loadRegions(), loadRegionStats()]).then(([r, s]) => {
@@ -104,6 +114,8 @@ export default function BrainnetomeAtlas({
           morph={morph}
           highlight={highlight}
           onHover={handleHover}
+          disabledNets={disabledNets}
+          shellOnly={shellOnly}
         />
 
         <OrientationLabels />
@@ -147,6 +159,48 @@ export default function BrainnetomeAtlas({
       >
         {isFs ? "exit ⤢" : "full ⤢"}
       </button>
+
+      {/* Right side: network filter + legend (always visible — also shows in fullscreen) */}
+      <div className="absolute top-14 right-3 z-10 bg-paper/95 border border-ink/15 rounded p-2 max-w-[180px] shadow-sm">
+        <div className="font-mono text-[10px] uppercase tracking-widest text-ink2 mb-1.5 px-1">
+          Networks
+        </div>
+        <ul className="space-y-1">
+          {Object.entries(networkColors).map(([name, color]) => {
+            const off = disabledNets.has(name);
+            return (
+              <li key={name}>
+                <button
+                  onClick={() => toggleNet(name)}
+                  className={`flex items-center gap-2 w-full text-left text-[11px] px-1 py-0.5 rounded hover:bg-paper2 ${off ? "opacity-35 line-through" : ""}`}
+                  title={off ? `Show ${name}` : `Hide ${name}`}
+                >
+                  <span className="inline-block w-3 h-3 rounded-sm shrink-0" style={{ background: color }} />
+                  <span className="text-ink2 truncate">{name}</span>
+                </button>
+              </li>
+            );
+          })}
+        </ul>
+        <div className="border-t border-ink/10 mt-2 pt-2 space-y-1">
+          <button
+            onClick={() => setDisabledNets(new Set())}
+            disabled={disabledNets.size === 0 && !shellOnly}
+            className="w-full text-[10px] font-mono uppercase tracking-widest text-ink2 hover:text-ink disabled:opacity-30"
+          >
+            show all
+          </button>
+          <label className="flex items-center gap-2 text-[11px] cursor-pointer px-1">
+            <input
+              type="checkbox"
+              checked={shellOnly}
+              onChange={(e) => setShellOnly(e.target.checked)}
+              className="accent-female"
+            />
+            <span className="text-ink2">shell only</span>
+          </label>
+        </div>
+      </div>
 
       {/* Top-center: drag hint (shown briefly via CSS hover-only is excessive — just always show) */}
       <div className="absolute top-3 left-1/2 -translate-x-1/2 z-10 font-mono text-[10px] uppercase tracking-widest text-ink2 bg-paper/85 border border-ink/10 rounded px-2 py-1 pointer-events-none">
@@ -195,7 +249,12 @@ export default function BrainnetomeAtlas({
   );
 }
 
-function AtlasMeshes({ mode, morph, highlight, onHover }) {
+// no-op raycast: assigning to a mesh's `raycast` makes the raycaster skip
+// it, so pointer events pass straight through the shell to whatever colored
+// region sits behind it.
+const NO_RAYCAST = () => {};
+
+function AtlasMeshes({ mode, morph, highlight, onHover, disabledNets, shellOnly }) {
   const { scene: rawScene } = useGLTF(ATLAS_URL);
   const [stats, setStats] = useState(null);
   const [meta, setMeta] = useState(null);
@@ -245,20 +304,28 @@ function AtlasMeshes({ mode, morph, highlight, onHover }) {
       const id = parseInt(idMatch[1], 10);
       const s = stats.get(id);
       const m = meta.get(id);
-      const spec = materialFor(mode, s, m, morph, highlight, id);
+      let spec = materialFor(mode, s, m, morph, highlight, id);
+      // Network filter / shell-only: collapse to shell when toggled off.
+      const isShellSpec = spec.color === SHELL_COLOR && spec.opacity === SHELL_OPACITY;
+      if (!isShellSpec) {
+        if (shellOnly || (m && disabledNets && disabledNets.has(m.network7))) {
+          spec = { color: SHELL_COLOR, opacity: SHELL_OPACITY, scale: 1 };
+        }
+      }
       obj.material.color.set(spec.color);
       obj.material.transparent = spec.opacity < 1;
       obj.material.opacity = spec.opacity;
       obj.material.depthWrite = true; // always — depth-test prevents stacking
-      // Highlighted regions draw on top of the shell so deep regions
-      // (subcortical, limbic) aren't hidden behind cortical glass.
       obj.material.depthTest = !spec.alwaysOnTop;
       obj.material.needsUpdate = true;
       obj.userData.regionId = id;
       obj.renderOrder = spec.alwaysOnTop ? 2 : 0;
       obj.scale.setScalar(spec.scale ?? 1);
+      // Hover only on highlighted regions: shell meshes get a no-op raycast,
+      // so pointer events pass through them to selected regions behind.
+      obj.raycast = spec.alwaysOnTop ? THREE.Mesh.prototype.raycast : NO_RAYCAST;
     });
-  }, [scene, stats, meta, mode, morph, highlight]);
+  }, [scene, stats, meta, mode, morph, highlight, disabledNets, shellOnly]);
 
   const handlePointerMove = (e) => {
     if (!onHover) return;
@@ -307,8 +374,12 @@ function materialFor(mode, s, m, morph, highlight, id) {
   }
 
   if (mode === "sex-morph") {
+    // Color by Cohen's d for the consensus 30 (which carry the effect-size
+    // story) and bring them to the front for hover. Other regions stay shell
+    // so the d-map isn't muddied by sub-threshold voxels.
+    if (!s.in_consensus30) return shell;
     const t = Math.max(-1, Math.min(1, (s.cohens_d || 0) * morph * 0.8));
-    return { color: divergingColor(t), opacity: 1, scale: 1, alwaysOnTop: false };
+    return { color: divergingColor(t), opacity: 1, scale: 1.02, alwaysOnTop: true };
   }
 
   if (mode === "compare") {
