@@ -1,3692 +1,3692 @@
 [
- {
-  "id": 1,
-  "name": "SFG_L_7_1",
-  "label": "A8m_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Superior Frontal Gyrus",
-  "subregion": "medial area 8",
-  "network7": "Frontoparietal",
-  "mni": [
-   -5.0,
-   15.0,
-   54.0
-  ]
- },
- {
-  "id": 2,
-  "name": "SFG_R_7_1",
-  "label": "A8m_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Superior Frontal Gyrus",
-  "subregion": "medial area 8",
-  "network7": "Ventral Attention",
-  "mni": [
-   7.0,
-   16.0,
-   54.0
-  ]
- },
- {
-  "id": 3,
-  "name": "SFG_L_7_2",
-  "label": "A8dl_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Superior Frontal Gyrus",
-  "subregion": "dorsolateral area 8",
-  "network7": "Default",
-  "mni": [
-   -18.0,
-   24.0,
-   53.0
-  ]
- },
- {
-  "id": 4,
-  "name": "SFG_R_7_2",
-  "label": "A8dl_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Superior Frontal Gyrus",
-  "subregion": "dorsolateral area 8",
-  "network7": "Frontoparietal",
-  "mni": [
-   22.0,
-   26.0,
-   51.0
-  ]
- },
- {
-  "id": 5,
-  "name": "SFG_L_7_3",
-  "label": "A9l_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Superior Frontal Gyrus",
-  "subregion": "lateral area 9",
-  "network7": "Default",
-  "mni": [
-   -11.0,
-   49.0,
-   40.0
-  ]
- },
- {
-  "id": 6,
-  "name": "SFG_R_7_3",
-  "label": "A9l_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Superior Frontal Gyrus",
-  "subregion": "lateral area 9",
-  "network7": "Default",
-  "mni": [
-   13.0,
-   48.0,
-   40.0
-  ]
- },
- {
-  "id": 7,
-  "name": "SFG_L_7_4",
-  "label": "A6dl_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Superior Frontal Gyrus",
-  "subregion": "dorsolateral area 6",
-  "network7": "Dorsal Attention",
-  "mni": [
-   -18.0,
-   -1.0,
-   65.0
-  ]
- },
- {
-  "id": 8,
-  "name": "SFG_R_7_4",
-  "label": "A6dl_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Superior Frontal Gyrus",
-  "subregion": "dorsolateral area 6",
-  "network7": "Dorsal Attention",
-  "mni": [
-   20.0,
-   4.0,
-   64.0
-  ]
- },
- {
-  "id": 9,
-  "name": "SFG_L_7_5",
-  "label": "A6m_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Superior Frontal Gyrus",
-  "subregion": "medial area 6",
-  "network7": "Somatomotor",
-  "mni": [
-   -6.0,
-   -5.0,
-   58.0
-  ]
- },
- {
-  "id": 10,
-  "name": "SFG_R_7_5",
-  "label": "A6m_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Superior Frontal Gyrus",
-  "subregion": "medial area 6",
-  "network7": "Somatomotor",
-  "mni": [
-   7.0,
-   -4.0,
-   60.0
-  ]
- },
- {
-  "id": 11,
-  "name": "SFG_L_7_6",
-  "label": "A9m_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Superior Frontal Gyrus",
-  "subregion": "medial area 9",
-  "network7": "Default",
-  "mni": [
-   -5.0,
-   36.0,
-   38.0
-  ]
- },
- {
-  "id": 12,
-  "name": "SFG_R_7_6",
-  "label": "A9m_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Superior Frontal Gyrus",
-  "subregion": "medial area 9",
-  "network7": "Frontoparietal",
-  "mni": [
-   6.0,
-   38.0,
-   35.0
-  ]
- },
- {
-  "id": 13,
-  "name": "SFG_L_7_7",
-  "label": "A10m_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Superior Frontal Gyrus",
-  "subregion": "medial area 10",
-  "network7": "Default",
-  "mni": [
-   -8.0,
-   56.0,
-   15.0
-  ]
- },
- {
-  "id": 14,
-  "name": "SFG_R_7_7",
-  "label": "A10m_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Superior Frontal Gyrus",
-  "subregion": "medial area 10",
-  "network7": "Default",
-  "mni": [
-   8.0,
-   58.0,
-   13.0
-  ]
- },
- {
-  "id": 15,
-  "name": "MFG_L_7_1",
-  "label": "A9/46d_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Middle Frontal Gyrus",
-  "subregion": "dorsal area 9/46",
-  "network7": "Ventral Attention",
-  "mni": [
-   -27.0,
-   43.0,
-   31.0
-  ]
- },
- {
-  "id": 16,
-  "name": "MFG_R_7_1",
-  "label": "A9/46d_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Middle Frontal Gyrus",
-  "subregion": "dorsal area 9/46",
-  "network7": "Frontoparietal",
-  "mni": [
-   30.0,
-   37.0,
-   36.0
-  ]
- },
- {
-  "id": 17,
-  "name": "MFG_L_7_2",
-  "label": "IFJ_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Middle Frontal Gyrus",
-  "subregion": "inferior frontal junction",
-  "network7": "Frontoparietal",
-  "mni": [
-   -42.0,
-   13.0,
-   36.0
-  ]
- },
- {
-  "id": 18,
-  "name": "MFG_R_7_2",
-  "label": "IFJ_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Middle Frontal Gyrus",
-  "subregion": "inferior frontal junction",
-  "network7": "Frontoparietal",
-  "mni": [
-   42.0,
-   11.0,
-   39.0
-  ]
- },
- {
-  "id": 19,
-  "name": "MFG_L_7_3",
-  "label": "A46_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Middle Frontal Gyrus",
-  "subregion": "area 46",
-  "network7": "Frontoparietal",
-  "mni": [
-   -28.0,
-   56.0,
-   12.0
-  ]
- },
- {
-  "id": 20,
-  "name": "MFG_R_7_3",
-  "label": "A46_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Middle Frontal Gyrus",
-  "subregion": "area 46",
-  "network7": "Frontoparietal",
-  "mni": [
-   28.0,
-   55.0,
-   17.0
-  ]
- },
- {
-  "id": 21,
-  "name": "MFG_L_7_4",
-  "label": "A9/46v_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Middle Frontal Gyrus",
-  "subregion": "ventral area 9/46",
-  "network7": "Frontoparietal",
-  "mni": [
-   -41.0,
-   41.0,
-   16.0
-  ]
- },
- {
-  "id": 22,
-  "name": "MFG_R_7_4",
-  "label": "A9/46v_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Middle Frontal Gyrus",
-  "subregion": "ventral area 9/46",
-  "network7": "Frontoparietal",
-  "mni": [
-   42.0,
-   44.0,
-   14.0
-  ]
- },
- {
-  "id": 23,
-  "name": "MFG_L_7_5",
-  "label": "A8vl_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Middle Frontal Gyrus",
-  "subregion": "ventrolateral area 8",
-  "network7": "Default",
-  "mni": [
-   -33.0,
-   23.0,
-   45.0
-  ]
- },
- {
-  "id": 24,
-  "name": "MFG_R_7_5",
-  "label": "A8vl_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Middle Frontal Gyrus",
-  "subregion": "ventrolateral area 8",
-  "network7": "Frontoparietal",
-  "mni": [
-   42.0,
-   27.0,
-   39.0
-  ]
- },
- {
-  "id": 25,
-  "name": "MFG_L_7_6",
-  "label": "A6vl_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Middle Frontal Gyrus",
-  "subregion": "ventrolateral area 6",
-  "network7": "Dorsal Attention",
-  "mni": [
-   -32.0,
-   4.0,
-   55.0
-  ]
- },
- {
-  "id": 26,
-  "name": "MFG_R_7_6",
-  "label": "A6vl_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Middle Frontal Gyrus",
-  "subregion": "ventrolateral area 6",
-  "network7": "Dorsal Attention",
-  "mni": [
-   34.0,
-   8.0,
-   54.0
-  ]
- },
- {
-  "id": 27,
-  "name": "MFG_L_7_7",
-  "label": "A10l_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Middle Frontal Gyrus",
-  "subregion": "lateral area10",
-  "network7": "Limbic",
-  "mni": [
-   -26.0,
-   60.0,
-   -6.0
-  ]
- },
- {
-  "id": 28,
-  "name": "MFG_R_7_7",
-  "label": "A10l_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Middle Frontal Gyrus",
-  "subregion": "lateral area 10",
-  "network7": "Frontoparietal",
-  "mni": [
-   25.0,
-   61.0,
-   -4.0
-  ]
- },
- {
-  "id": 29,
-  "name": "IFG_L_6_1",
-  "label": "A44d_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Inferior Frontal Gyrus",
-  "subregion": "dorsal area 44",
-  "network7": "Frontoparietal",
-  "mni": [
-   -46.0,
-   13.0,
-   24.0
-  ]
- },
- {
-  "id": 30,
-  "name": "IFG_R_6_1",
-  "label": "A44d_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Inferior Frontal Gyrus",
-  "subregion": "dorsal area 44",
-  "network7": "Dorsal Attention",
-  "mni": [
-   45.0,
-   16.0,
-   25.0
-  ]
- },
- {
-  "id": 31,
-  "name": "IFG_L_6_2",
-  "label": "IFS_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Inferior Frontal Gyrus",
-  "subregion": "inferior frontal sulcus",
-  "network7": "Frontoparietal",
-  "mni": [
-   -47.0,
-   32.0,
-   14.0
-  ]
- },
- {
-  "id": 32,
-  "name": "IFG_R_6_2",
-  "label": "IFS_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Inferior Frontal Gyrus",
-  "subregion": "inferior frontal sulcus",
-  "network7": "Frontoparietal",
-  "mni": [
-   48.0,
-   35.0,
-   13.0
-  ]
- },
- {
-  "id": 33,
-  "name": "IFG_L_6_3",
-  "label": "A45c_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Inferior Frontal Gyrus",
-  "subregion": "caudal area 45",
-  "network7": "Default",
-  "mni": [
-   -53.0,
-   23.0,
-   11.0
-  ]
- },
- {
-  "id": 34,
-  "name": "IFG_R_6_3",
-  "label": "A45c_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Inferior Frontal Gyrus",
-  "subregion": "caudal area 45",
-  "network7": "Default",
-  "mni": [
-   54.0,
-   24.0,
-   12.0
-  ]
- },
- {
-  "id": 35,
-  "name": "IFG_L_6_4",
-  "label": "A45r_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Inferior Frontal Gyrus",
-  "subregion": "rostral area 45",
-  "network7": "Default",
-  "mni": [
-   -49.0,
-   36.0,
-   -3.0
-  ]
- },
- {
-  "id": 36,
-  "name": "IFG_R_6_4",
-  "label": "A45r_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Inferior Frontal Gyrus",
-  "subregion": "rostral area 45",
-  "network7": "Frontoparietal",
-  "mni": [
-   51.0,
-   36.0,
-   -1.0
-  ]
- },
- {
-  "id": 37,
-  "name": "IFG_L_6_5",
-  "label": "A44op_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Inferior Frontal Gyrus",
-  "subregion": "opercular area 44",
-  "network7": "Ventral Attention",
-  "mni": [
-   -39.0,
-   23.0,
-   4.0
-  ]
- },
- {
-  "id": 38,
-  "name": "IFG_R_6_5",
-  "label": "A44op_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Inferior Frontal Gyrus",
-  "subregion": "opercular area 44",
-  "network7": "Ventral Attention",
-  "mni": [
-   42.0,
-   22.0,
-   3.0
-  ]
- },
- {
-  "id": 39,
-  "name": "IFG_L_6_6",
-  "label": "A44v_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Inferior Frontal Gyrus",
-  "subregion": "ventral area 44",
-  "network7": "Ventral Attention",
-  "mni": [
-   -52.0,
-   13.0,
-   6.0
-  ]
- },
- {
-  "id": 40,
-  "name": "IFG_R_6_6",
-  "label": "A44v_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Inferior Frontal Gyrus",
-  "subregion": "ventral area 44",
-  "network7": "Ventral Attention",
-  "mni": [
-   54.0,
-   14.0,
-   11.0
-  ]
- },
- {
-  "id": 41,
-  "name": "OrG_L_6_1",
-  "label": "A14m_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Orbital Gyrus",
-  "subregion": "medial area 14",
-  "network7": "Default",
-  "mni": [
-   -7.0,
-   54.0,
-   -7.0
-  ]
- },
- {
-  "id": 42,
-  "name": "OrG_R_6_1",
-  "label": "A14m_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Orbital Gyrus",
-  "subregion": "medial area 14",
-  "network7": "Default",
-  "mni": [
-   6.0,
-   47.0,
-   -7.0
-  ]
- },
- {
-  "id": 43,
-  "name": "OrG_L_6_2",
-  "label": "A12/47o_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Orbital Gyrus",
-  "subregion": "orbital area 12/47",
-  "network7": "Default",
-  "mni": [
-   -36.0,
-   33.0,
-   -16.0
-  ]
- },
- {
-  "id": 44,
-  "name": "OrG_R_6_2",
-  "label": "A12/47o_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Orbital Gyrus",
-  "subregion": "orbital area 12/47",
-  "network7": "Default",
-  "mni": [
-   40.0,
-   39.0,
-   -14.0
-  ]
- },
- {
-  "id": 45,
-  "name": "OrG_L_6_3",
-  "label": "A11l_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Orbital Gyrus",
-  "subregion": "lateral area 11",
-  "network7": "Limbic",
-  "mni": [
-   -23.0,
-   38.0,
-   -18.0
-  ]
- },
- {
-  "id": 46,
-  "name": "OrG_R_6_3",
-  "label": "A11l_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Orbital Gyrus",
-  "subregion": "lateral area 11",
-  "network7": "Frontoparietal",
-  "mni": [
-   23.0,
-   36.0,
-   -18.0
-  ]
- },
- {
-  "id": 47,
-  "name": "OrG_L_6_4",
-  "label": "A11m_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Orbital Gyrus",
-  "subregion": "medial area 11",
-  "network7": "Limbic",
-  "mni": [
-   -6.0,
-   52.0,
-   -19.0
-  ]
- },
- {
-  "id": 48,
-  "name": "OrG_R_6_4",
-  "label": "A11m_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Orbital Gyrus",
-  "subregion": "medial area 11",
-  "network7": "Limbic",
-  "mni": [
-   6.0,
-   57.0,
-   -16.0
-  ]
- },
- {
-  "id": 49,
-  "name": "OrG_L_6_5",
-  "label": "A13_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Orbital Gyrus",
-  "subregion": "area 13",
-  "network7": "Limbic",
-  "mni": [
-   -10.0,
-   18.0,
-   -19.0
-  ]
- },
- {
-  "id": 50,
-  "name": "OrG_R_6_5",
-  "label": "A13_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Orbital Gyrus",
-  "subregion": "area 13",
-  "network7": "Limbic",
-  "mni": [
-   9.0,
-   20.0,
-   -19.0
-  ]
- },
- {
-  "id": 51,
-  "name": "OrG_L_6_6",
-  "label": "A12/47l_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Orbital Gyrus",
-  "subregion": "lateral area 12/47",
-  "network7": "Default",
-  "mni": [
-   -41.0,
-   32.0,
-   -9.0
-  ]
- },
- {
-  "id": 52,
-  "name": "OrG_R_6_6",
-  "label": "A12/47l_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Orbital Gyrus",
-  "subregion": "lateral area 12/47",
-  "network7": "Default",
-  "mni": [
-   42.0,
-   31.0,
-   -9.0
-  ]
- },
- {
-  "id": 53,
-  "name": "PrG_L_6_1",
-  "label": "A4hf_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Precentral Gyrus",
-  "subregion": "area 4 (head and face region)",
-  "network7": "Somatomotor",
-  "mni": [
-   -49.0,
-   -8.0,
-   39.0
-  ]
- },
- {
-  "id": 54,
-  "name": "PrG_R_6_1",
-  "label": "A4hf_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Precentral Gyrus",
-  "subregion": "area 4 (head and face region)",
-  "network7": "Somatomotor",
-  "mni": [
-   55.0,
-   -2.0,
-   33.0
-  ]
- },
- {
-  "id": 55,
-  "name": "PrG_L_6_2",
-  "label": "A6cdl_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Precentral Gyrus",
-  "subregion": "caudal dorsolateral area 6",
-  "network7": "Dorsal Attention",
-  "mni": [
-   -32.0,
-   -9.0,
-   58.0
-  ]
- },
- {
-  "id": 56,
-  "name": "PrG_R_6_2",
-  "label": "A6cdl_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Precentral Gyrus",
-  "subregion": "caudal dorsolateral area 6",
-  "network7": "Dorsal Attention",
-  "mni": [
-   33.0,
-   -7.0,
-   57.0
-  ]
- },
- {
-  "id": 57,
-  "name": "PrG_L_6_3",
-  "label": "A4ul_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Precentral Gyrus",
-  "subregion": "area 4 (upper limb region)",
-  "network7": "Somatomotor",
-  "mni": [
-   -26.0,
-   -25.0,
-   63.0
-  ]
- },
- {
-  "id": 58,
-  "name": "PrG_R_6_3",
-  "label": "A4ul_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Precentral Gyrus",
-  "subregion": "area 4 (upper limb region)",
-  "network7": "Somatomotor",
-  "mni": [
-   34.0,
-   -19.0,
-   59.0
-  ]
- },
- {
-  "id": 59,
-  "name": "PrG_L_6_4",
-  "label": "A4t_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Precentral Gyrus",
-  "subregion": "area 4 (trunk region)",
-  "network7": "Somatomotor",
-  "mni": [
-   -13.0,
-   -20.0,
-   73.0
-  ]
- },
- {
-  "id": 60,
-  "name": "PrG_R_6_4",
-  "label": "A4t_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Precentral Gyrus",
-  "subregion": "area 4 (trunk region)",
-  "network7": "Somatomotor",
-  "mni": [
-   15.0,
-   -22.0,
-   71.0
-  ]
- },
- {
-  "id": 61,
-  "name": "PrG_L_6_5",
-  "label": "A4tl_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Precentral Gyrus",
-  "subregion": "area 4 (tongue and larynx region)",
-  "network7": "Ventral Attention",
-  "mni": [
-   -52.0,
-   0.0,
-   8.0
-  ]
- },
- {
-  "id": 62,
-  "name": "PrG_R_6_5",
-  "label": "A4tl_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Precentral Gyrus",
-  "subregion": "area 4 (tongue and larynx region)",
-  "network7": "Ventral Attention",
-  "mni": [
-   54.0,
-   4.0,
-   9.0
-  ]
- },
- {
-  "id": 63,
-  "name": "PrG_L_6_6",
-  "label": "A6cvl_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Precentral Gyrus",
-  "subregion": "caudal ventrolateral area 6",
-  "network7": "Dorsal Attention",
-  "mni": [
-   -49.0,
-   5.0,
-   30.0
-  ]
- },
- {
-  "id": 64,
-  "name": "PrG_R_6_6",
-  "label": "A6cvl_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Precentral Gyrus",
-  "subregion": "caudal ventrolateral area 6",
-  "network7": "Dorsal Attention",
-  "mni": [
-   51.0,
-   7.0,
-   30.0
-  ]
- },
- {
-  "id": 65,
-  "name": "PCL_L_2_1",
-  "label": "A1/2/3ll_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Paracentral Lobule",
-  "subregion": "area1/2/3 (lower limb region)",
-  "network7": "Ventral Attention",
-  "mni": [
-   -8.0,
-   -38.0,
-   58.0
-  ]
- },
- {
-  "id": 66,
-  "name": "PCL_R_2_1",
-  "label": "A1/2/3ll_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Paracentral Lobule",
-  "subregion": "area1/2/3 (lower limb region)",
-  "network7": "Somatomotor",
-  "mni": [
-   10.0,
-   -34.0,
-   54.0
-  ]
- },
- {
-  "id": 67,
-  "name": "PCL_L_2_2",
-  "label": "A4ll_L",
-  "lobe": "Frontal",
-  "hemi": "L",
-  "gyrus": "Paracentral Lobule",
-  "subregion": "area 4 (lower limb region)",
-  "network7": "Somatomotor",
-  "mni": [
-   -4.0,
-   -23.0,
-   61.0
-  ]
- },
- {
-  "id": 68,
-  "name": "PCL_R_2_2",
-  "label": "A4ll_R",
-  "lobe": "Frontal",
-  "hemi": "R",
-  "gyrus": "Paracentral Lobule",
-  "subregion": "area 4 (lower limb region)",
-  "network7": "Somatomotor",
-  "mni": [
-   5.0,
-   -21.0,
-   61.0
-  ]
- },
- {
-  "id": 69,
-  "name": "STG_L_6_1",
-  "label": "A38m_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Superior Temporal Gyrus",
-  "subregion": "medial area 38",
-  "network7": "Limbic",
-  "mni": [
-   -32.0,
-   14.0,
-   -34.0
-  ]
- },
- {
-  "id": 70,
-  "name": "STG_R_6_1",
-  "label": "A38m_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Superior Temporal Gyrus",
-  "subregion": "medial area 38",
-  "network7": "Limbic",
-  "mni": [
-   31.0,
-   15.0,
-   -34.0
-  ]
- },
- {
-  "id": 71,
-  "name": "STG_L_6_2",
-  "label": "A41/42_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Superior Temporal Gyrus",
-  "subregion": "area 41/42",
-  "network7": "Somatomotor",
-  "mni": [
-   -54.0,
-   -32.0,
-   12.0
-  ]
- },
- {
-  "id": 72,
-  "name": "STG_R_6_2",
-  "label": "A41/42_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Superior Temporal Gyrus",
-  "subregion": "area 41/42",
-  "network7": "Somatomotor",
-  "mni": [
-   54.0,
-   -24.0,
-   11.0
-  ]
- },
- {
-  "id": 73,
-  "name": "STG_L_6_3",
-  "label": "TE1.0/TE1.2_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Superior Temporal Gyrus",
-  "subregion": NaN,
-  "network7": "Somatomotor",
-  "mni": [
-   -50.0,
-   -11.0,
-   1.0
-  ]
- },
- {
-  "id": 74,
-  "name": "STG_R_6_3",
-  "label": "TE1.0/TE1.2_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Superior Temporal Gyrus",
-  "subregion": NaN,
-  "network7": "Somatomotor",
-  "mni": [
-   51.0,
-   -4.0,
-   -1.0
-  ]
- },
- {
-  "id": 75,
-  "name": "STG_L_6_4",
-  "label": "A22c_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Superior Temporal Gyrus",
-  "subregion": "caudal area 22",
-  "network7": "Somatomotor",
-  "mni": [
-   -62.0,
-   -33.0,
-   7.0
-  ]
- },
- {
-  "id": 76,
-  "name": "STG_R_6_4",
-  "label": "A22c_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Superior Temporal Gyrus",
-  "subregion": "caudal area 22",
-  "network7": "Somatomotor",
-  "mni": [
-   66.0,
-   -20.0,
-   6.0
-  ]
- },
- {
-  "id": 77,
-  "name": "STG_L_6_5",
-  "label": "A38l_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Superior Temporal Gyrus",
-  "subregion": "lateral area 38",
-  "network7": "Limbic",
-  "mni": [
-   -45.0,
-   11.0,
-   -20.0
-  ]
- },
- {
-  "id": 78,
-  "name": "STG_R_6_5",
-  "label": "A38l_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Superior Temporal Gyrus",
-  "subregion": "lateral area 38",
-  "network7": "Limbic",
-  "mni": [
-   47.0,
-   12.0,
-   -20.0
-  ]
- },
- {
-  "id": 79,
-  "name": "STG_L_6_6",
-  "label": "A22r_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Superior Temporal Gyrus",
-  "subregion": "rostral area 22",
-  "network7": "Default",
-  "mni": [
-   -55.0,
-   -3.0,
-   -10.0
-  ]
- },
- {
-  "id": 80,
-  "name": "STG_R_6_6",
-  "label": "A22r_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Superior Temporal Gyrus",
-  "subregion": "rostral area 22",
-  "network7": "Default",
-  "mni": [
-   56.0,
-   -12.0,
-   -5.0
-  ]
- },
- {
-  "id": 81,
-  "name": "MTG_L_4_1",
-  "label": "A21c_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Middle Temporal Gyrus",
-  "subregion": "caudal area 21",
-  "network7": "Default",
-  "mni": [
-   -65.0,
-   -30.0,
-   -12.0
-  ]
- },
- {
-  "id": 82,
-  "name": "MTG_R_4_1",
-  "label": "A21c_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Middle Temporal Gyrus",
-  "subregion": "caudal area 21",
-  "network7": "Frontoparietal",
-  "mni": [
-   65.0,
-   -29.0,
-   -13.0
-  ]
- },
- {
-  "id": 83,
-  "name": "MTG_L_4_2",
-  "label": "A21r_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Middle Temporal Gyrus",
-  "subregion": "rostral area 21",
-  "network7": "Default",
-  "mni": [
-   -53.0,
-   2.0,
-   -30.0
-  ]
- },
- {
-  "id": 84,
-  "name": "MTG_R_4_2",
-  "label": "A21r_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Middle Temporal Gyrus",
-  "subregion": "rostral area 21",
-  "network7": "Default",
-  "mni": [
-   51.0,
-   6.0,
-   -32.0
-  ]
- },
- {
-  "id": 85,
-  "name": "MTG_L_4_3",
-  "label": "A37dl_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Middle Temporal Gyrus",
-  "subregion": "dorsolateral area 37",
-  "network7": "Dorsal Attention",
-  "mni": [
-   -59.0,
-   -58.0,
-   4.0
-  ]
- },
- {
-  "id": 86,
-  "name": "MTG_R_4_3",
-  "label": "A37dl_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Middle Temporal Gyrus",
-  "subregion": "dorsolateral area 37",
-  "network7": "Dorsal Attention",
-  "mni": [
-   60.0,
-   -53.0,
-   3.0
-  ]
- },
- {
-  "id": 87,
-  "name": "MTG_L_4_4",
-  "label": "aSTS_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Middle Temporal Gyrus",
-  "subregion": "anterior superior temporal sulcus",
-  "network7": "Default",
-  "mni": [
-   -58.0,
-   -20.0,
-   -9.0
-  ]
- },
- {
-  "id": 88,
-  "name": "MTG_R_4_4",
-  "label": "aSTS_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Middle Temporal Gyrus",
-  "subregion": "anterior superior temporal sulcus",
-  "network7": "Default",
-  "mni": [
-   58.0,
-   -16.0,
-   -10.0
-  ]
- },
- {
-  "id": 89,
-  "name": "ITG_L_7_1",
-  "label": "A20iv_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Inferior Temporal Gyrus",
-  "subregion": "intermediate ventral area 20",
-  "network7": "Limbic",
-  "mni": [
-   -45.0,
-   -26.0,
-   -27.0
-  ]
- },
- {
-  "id": 90,
-  "name": "ITG_R_7_1",
-  "label": "A20iv_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Inferior Temporal Gyrus",
-  "subregion": "intermediate ventral area 20",
-  "network7": "Limbic",
-  "mni": [
-   46.0,
-   -14.0,
-   -33.0
-  ]
- },
- {
-  "id": 91,
-  "name": "ITG_L_7_2",
-  "label": "A37elv_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Inferior Temporal Gyrus",
-  "subregion": "extreme lateroventral area 37",
-  "network7": "Dorsal Attention",
-  "mni": [
-   -51.0,
-   -57.0,
-   -15.0
-  ]
- },
- {
-  "id": 92,
-  "name": "ITG_R_7_2",
-  "label": "A37elv_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Inferior Temporal Gyrus",
-  "subregion": "extreme lateroventral area 37",
-  "network7": "Dorsal Attention",
-  "mni": [
-   53.0,
-   -52.0,
-   -18.0
-  ]
- },
- {
-  "id": 93,
-  "name": "ITG_L_7_3",
-  "label": "A20r_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Inferior Temporal Gyrus",
-  "subregion": "rostral area 20",
-  "network7": "Limbic",
-  "mni": [
-   -43.0,
-   -2.0,
-   -41.0
-  ]
- },
- {
-  "id": 94,
-  "name": "ITG_R_7_3",
-  "label": "A20r_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Inferior Temporal Gyrus",
-  "subregion": "rostral area 20",
-  "network7": "Limbic",
-  "mni": [
-   40.0,
-   0.0,
-   -43.0
-  ]
- },
- {
-  "id": 95,
-  "name": "ITG_L_7_4",
-  "label": "A20il_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Inferior Temporal Gyrus",
-  "subregion": "intermediate lateral area 20",
-  "network7": "Default",
-  "mni": [
-   -56.0,
-   -16.0,
-   -28.0
-  ]
- },
- {
-  "id": 96,
-  "name": "ITG_R_7_4",
-  "label": "A20il_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Inferior Temporal Gyrus",
-  "subregion": "intermediate lateral area 20",
-  "network7": "Limbic",
-  "mni": [
-   55.0,
-   -11.0,
-   -32.0
-  ]
- },
- {
-  "id": 97,
-  "name": "ITG_L_7_5",
-  "label": "A37vl_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Inferior Temporal Gyrus",
-  "subregion": "ventrolateral area 37",
-  "network7": "Dorsal Attention",
-  "mni": [
-   -55.0,
-   -60.0,
-   -6.0
-  ]
- },
- {
-  "id": 98,
-  "name": "ITG_R_7_5",
-  "label": "A37vl_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Inferior Temporal Gyrus",
-  "subregion": "ventrolateral area 37",
-  "network7": "Dorsal Attention",
-  "mni": [
-   54.0,
-   -57.0,
-   -8.0
-  ]
- },
- {
-  "id": 99,
-  "name": "ITG_L_7_6",
-  "label": "A20cl_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Inferior Temporal Gyrus",
-  "subregion": "caudolateral of area 20",
-  "network7": "Frontoparietal",
-  "mni": [
-   -59.0,
-   -42.0,
-   -16.0
-  ]
- },
- {
-  "id": 100,
-  "name": "ITG_R_7_6",
-  "label": "A20cl_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Inferior Temporal Gyrus",
-  "subregion": "caudolateral of area 20",
-  "network7": "Frontoparietal",
-  "mni": [
-   61.0,
-   -40.0,
-   -17.0
-  ]
- },
- {
-  "id": 101,
-  "name": "ITG_L_7_7",
-  "label": "A20cv_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Inferior Temporal Gyrus",
-  "subregion": "caudoventral of area 20",
-  "network7": "Limbic",
-  "mni": [
-   -55.0,
-   -31.0,
-   -27.0
-  ]
- },
- {
-  "id": 102,
-  "name": "ITG_R_7_7",
-  "label": "A20cv_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Inferior Temporal Gyrus",
-  "subregion": "caudoventral of area 20",
-  "network7": "Limbic",
-  "mni": [
-   54.0,
-   -31.0,
-   -26.0
-  ]
- },
- {
-  "id": 103,
-  "name": "FuG_L_3_1",
-  "label": "A20rv_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Fusiform Gyrus",
-  "subregion": "rostroventral area 20",
-  "network7": "Limbic",
-  "mni": [
-   -33.0,
-   -16.0,
-   -32.0
-  ]
- },
- {
-  "id": 104,
-  "name": "FuG_R_3_1",
-  "label": "A20rv_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Fusiform Gyrus",
-  "subregion": "rostroventral area 20",
-  "network7": "Limbic",
-  "mni": [
-   33.0,
-   -15.0,
-   -34.0
-  ]
- },
- {
-  "id": 105,
-  "name": "FuG_L_3_2",
-  "label": "A37mv_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Fusiform Gyrus",
-  "subregion": "medioventral area 37",
-  "network7": "Visual",
-  "mni": [
-   -31.0,
-   -64.0,
-   -14.0
-  ]
- },
- {
-  "id": 106,
-  "name": "FuG_R_3_2",
-  "label": "A37mv_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Fusiform Gyrus",
-  "subregion": "medioventral area 37",
-  "network7": "Visual",
-  "mni": [
-   31.0,
-   -62.0,
-   -14.0
-  ]
- },
- {
-  "id": 107,
-  "name": "FuG_L_3_3",
-  "label": "A37lv_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Fusiform Gyrus",
-  "subregion": "lateroventral area 37",
-  "network7": "Dorsal Attention",
-  "mni": [
-   -42.0,
-   -51.0,
-   -17.0
-  ]
- },
- {
-  "id": 108,
-  "name": "FuG_R_3_3",
-  "label": "A37lv_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Fusiform Gyrus",
-  "subregion": "lateroventral area 37",
-  "network7": "Visual",
-  "mni": [
-   43.0,
-   -49.0,
-   -19.0
-  ]
- },
- {
-  "id": 109,
-  "name": "PhG_L_6_1",
-  "label": "A35/36r_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Parahippocampal Gyrus",
-  "subregion": "rostral area 35/36",
-  "network7": "Limbic",
-  "mni": [
-   -27.0,
-   -7.0,
-   -34.0
-  ]
- },
- {
-  "id": 110,
-  "name": "PhG_R_6_1",
-  "label": "A35/36r_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Parahippocampal Gyrus",
-  "subregion": "rostral area 35/36",
-  "network7": "Limbic",
-  "mni": [
-   28.0,
-   -8.0,
-   -33.0
-  ]
- },
- {
-  "id": 111,
-  "name": "PhG_L_6_2",
-  "label": "A35/36c_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Parahippocampal Gyrus",
-  "subregion": "caudal area 35/36",
-  "network7": "Limbic",
-  "mni": [
-   -25.0,
-   -25.0,
-   -26.0
-  ]
- },
- {
-  "id": 112,
-  "name": "PhG_R_6_2",
-  "label": "A35/36c_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Parahippocampal Gyrus",
-  "subregion": "caudal area 35/36",
-  "network7": "Visual",
-  "mni": [
-   26.0,
-   -23.0,
-   -27.0
-  ]
- },
- {
-  "id": 113,
-  "name": "PhG_L_6_3",
-  "label": "TL_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Parahippocampal Gyrus",
-  "subregion": "area TL (lateral PPHC posterior parahippocampal gyrus)",
-  "network7": "Visual",
-  "mni": [
-   -28.0,
-   -32.0,
-   -18.0
-  ]
- },
- {
-  "id": 114,
-  "name": "PhG_R_6_3",
-  "label": "TL_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Parahippocampal Gyrus",
-  "subregion": "area TL (lateral PPHC posterior parahippocampal gyrus)",
-  "network7": "Visual",
-  "mni": [
-   30.0,
-   -30.0,
-   -18.0
-  ]
- },
- {
-  "id": 115,
-  "name": "PhG_L_6_4",
-  "label": "A28/34_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Parahippocampal Gyrus",
-  "subregion": "area 28/34 (EC entorhinal cortex)",
-  "network7": "Limbic",
-  "mni": [
-   -19.0,
-   -12.0,
-   -30.0
-  ]
- },
- {
-  "id": 116,
-  "name": "PhG_R_6_4",
-  "label": "A28/34_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Parahippocampal Gyrus",
-  "subregion": "area 28/34 (EC entorhinal cortex)",
-  "network7": "Limbic",
-  "mni": [
-   19.0,
-   -10.0,
-   -30.0
-  ]
- },
- {
-  "id": 117,
-  "name": "PhG_L_6_5",
-  "label": "TI_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Parahippocampal Gyrus",
-  "subregion": "area TI (temporal agranular insular cortex)",
-  "network7": "Limbic",
-  "mni": [
-   -23.0,
-   2.0,
-   -32.0
-  ]
- },
- {
-  "id": 118,
-  "name": "PhG_R_6_5",
-  "label": "TI_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Parahippocampal Gyrus",
-  "subregion": "area TI (temporal agranular insular cortex)",
-  "network7": "Limbic",
-  "mni": [
-   22.0,
-   1.0,
-   -36.0
-  ]
- },
- {
-  "id": 119,
-  "name": "PhG_L_6_6",
-  "label": "TH_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "Parahippocampal Gyrus",
-  "subregion": "area TH (medial PPHC)",
-  "network7": "Visual",
-  "mni": [
-   -17.0,
-   -39.0,
-   -10.0
-  ]
- },
- {
-  "id": 120,
-  "name": "PhG_R_6_6",
-  "label": "TH_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "Parahippocampal Gyrus",
-  "subregion": "area TH (medial PPHC)",
-  "network7": "Visual",
-  "mni": [
-   19.0,
-   -36.0,
-   -11.0
-  ]
- },
- {
-  "id": 121,
-  "name": "pSTS_L_2_1",
-  "label": "rpSTS_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "posterior Superior Temporal Sulcus",
-  "subregion": "rostroposterior superior temporal sulcus",
-  "network7": "Default",
-  "mni": [
-   -54.0,
-   -40.0,
-   4.0
-  ]
- },
- {
-  "id": 122,
-  "name": "pSTS_R_2_1",
-  "label": "rpSTS_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "posterior Superior Temporal Sulcus",
-  "subregion": "rostroposterior superior temporal sulcus",
-  "network7": "Default",
-  "mni": [
-   53.0,
-   -37.0,
-   3.0
-  ]
- },
- {
-  "id": 123,
-  "name": "pSTS_L_2_2",
-  "label": "cpSTS_L",
-  "lobe": "Temporal",
-  "hemi": "L",
-  "gyrus": "posterior Superior Temporal Sulcus",
-  "subregion": "caudoposterior superior temporal sulcus",
-  "network7": "Ventral Attention",
-  "mni": [
-   -52.0,
-   -50.0,
-   11.0
-  ]
- },
- {
-  "id": 124,
-  "name": "pSTS_R_2_2",
-  "label": "cpSTS_R",
-  "lobe": "Temporal",
-  "hemi": "R",
-  "gyrus": "posterior Superior Temporal Sulcus",
-  "subregion": "caudoposterior superior temporal sulcus",
-  "network7": "Ventral Attention",
-  "mni": [
-   57.0,
-   -40.0,
-   12.0
-  ]
- },
- {
-  "id": 125,
-  "name": "SPL_L_5_1",
-  "label": "A7r_L",
-  "lobe": "Parietal",
-  "hemi": "L",
-  "gyrus": "Superior Parietal Lobule",
-  "subregion": "rostral area 7",
-  "network7": "Dorsal Attention",
-  "mni": [
-   -16.0,
-   -60.0,
-   63.0
-  ]
- },
- {
-  "id": 126,
-  "name": "SPL_R_5_1",
-  "label": "A7r_R",
-  "lobe": "Parietal",
-  "hemi": "R",
-  "gyrus": "Superior Parietal Lobule",
-  "subregion": "rostral area 7",
-  "network7": "Dorsal Attention",
-  "mni": [
-   19.0,
-   -57.0,
-   65.0
-  ]
- },
- {
-  "id": 127,
-  "name": "SPL_L_5_2",
-  "label": "A7c_L",
-  "lobe": "Parietal",
-  "hemi": "L",
-  "gyrus": "Superior Parietal Lobule",
-  "subregion": "caudal area 7",
-  "network7": "Dorsal Attention",
-  "mni": [
-   -15.0,
-   -71.0,
-   52.0
-  ]
- },
- {
-  "id": 128,
-  "name": "SPL_R_5_2",
-  "label": "A7c_R",
-  "lobe": "Parietal",
-  "hemi": "R",
-  "gyrus": "Superior Parietal Lobule",
-  "subregion": "caudal area 7",
-  "network7": "Dorsal Attention",
-  "mni": [
-   19.0,
-   -69.0,
-   54.0
-  ]
- },
- {
-  "id": 129,
-  "name": "SPL_L_5_3",
-  "label": "A5l_L",
-  "lobe": "Parietal",
-  "hemi": "L",
-  "gyrus": "Superior Parietal Lobule",
-  "subregion": "lateral area 5",
-  "network7": "Dorsal Attention",
-  "mni": [
-   -33.0,
-   -47.0,
-   50.0
-  ]
- },
- {
-  "id": 130,
-  "name": "SPL_R_5_3",
-  "label": "A5l_R",
-  "lobe": "Parietal",
-  "hemi": "R",
-  "gyrus": "Superior Parietal Lobule",
-  "subregion": "lateral area 5",
-  "network7": "Dorsal Attention",
-  "mni": [
-   35.0,
-   -42.0,
-   54.0
-  ]
- },
- {
-  "id": 131,
-  "name": "SPL_L_5_4",
-  "label": "A7pc_L",
-  "lobe": "Parietal",
-  "hemi": "L",
-  "gyrus": "Superior Parietal Lobule",
-  "subregion": "postcentral area 7",
-  "network7": "Somatomotor",
-  "mni": [
-   -22.0,
-   -47.0,
-   65.0
-  ]
- },
- {
-  "id": 132,
-  "name": "SPL_R_5_4",
-  "label": "A7pc_R",
-  "lobe": "Parietal",
-  "hemi": "R",
-  "gyrus": "Superior Parietal Lobule",
-  "subregion": "postcentral area 7",
-  "network7": "Somatomotor",
-  "mni": [
-   23.0,
-   -43.0,
-   67.0
-  ]
- },
- {
-  "id": 133,
-  "name": "SPL_L_5_5",
-  "label": "A7ip_L",
-  "lobe": "Parietal",
-  "hemi": "L",
-  "gyrus": "Superior Parietal Lobule",
-  "subregion": "intraparietal area 7 (hIP3)",
-  "network7": "Dorsal Attention",
-  "mni": [
-   -27.0,
-   -59.0,
-   54.0
-  ]
- },
- {
-  "id": 134,
-  "name": "SPL_R_5_5",
-  "label": "A7ip_R",
-  "lobe": "Parietal",
-  "hemi": "R",
-  "gyrus": "Superior Parietal Lobule",
-  "subregion": "intraparietal area 7 (hIP3)",
-  "network7": "Dorsal Attention",
-  "mni": [
-   31.0,
-   -54.0,
-   53.0
-  ]
- },
- {
-  "id": 135,
-  "name": "IPL_L_6_1",
-  "label": "A39c_L",
-  "lobe": "Parietal",
-  "hemi": "L",
-  "gyrus": "Inferior Parietal Lobule",
-  "subregion": "caudal area 39 (PGp)",
-  "network7": "Visual",
-  "mni": [
-   -34.0,
-   -80.0,
-   29.0
-  ]
- },
- {
-  "id": 136,
-  "name": "IPL_R_6_1",
-  "label": "A39c_R",
-  "lobe": "Parietal",
-  "hemi": "R",
-  "gyrus": "Inferior Parietal Lobule",
-  "subregion": "caudal area 39 (PGp)",
-  "network7": "Visual",
-  "mni": [
-   45.0,
-   -71.0,
-   20.0
-  ]
- },
- {
-  "id": 137,
-  "name": "IPL_L_6_2",
-  "label": "A39rd_L",
-  "lobe": "Parietal",
-  "hemi": "L",
-  "gyrus": "Inferior Parietal Lobule",
-  "subregion": "rostrodorsal area 39 (Hip3)",
-  "network7": "Frontoparietal",
-  "mni": [
-   -38.0,
-   -61.0,
-   46.0
-  ]
- },
- {
-  "id": 138,
-  "name": "IPL_R_6_2",
-  "label": "A39rd_R",
-  "lobe": "Parietal",
-  "hemi": "R",
-  "gyrus": "Inferior Parietal Lobule",
-  "subregion": "rostrodorsal area 39 (Hip3)",
-  "network7": "Frontoparietal",
-  "mni": [
-   39.0,
-   -65.0,
-   44.0
-  ]
- },
- {
-  "id": 139,
-  "name": "IPL_L_6_3",
-  "label": "A40rd_L",
-  "lobe": "Parietal",
-  "hemi": "L",
-  "gyrus": "Inferior Parietal Lobule",
-  "subregion": "rostrodorsal area 40 (PFt)",
-  "network7": "Dorsal Attention",
-  "mni": [
-   -51.0,
-   -33.0,
-   42.0
-  ]
- },
- {
-  "id": 140,
-  "name": "IPL_R_6_3",
-  "label": "A40rd_R",
-  "lobe": "Parietal",
-  "hemi": "R",
-  "gyrus": "Inferior Parietal Lobule",
-  "subregion": "rostrodorsal area 40 (PFt)",
-  "network7": "Dorsal Attention",
-  "mni": [
-   47.0,
-   -35.0,
-   45.0
-  ]
- },
- {
-  "id": 141,
-  "name": "IPL_L_6_4",
-  "label": "A40c_L",
-  "lobe": "Parietal",
-  "hemi": "L",
-  "gyrus": "Inferior Parietal Lobule",
-  "subregion": "caudal area 40 (PFm)",
-  "network7": "Default",
-  "mni": [
-   -56.0,
-   -49.0,
-   38.0
-  ]
- },
- {
-  "id": 142,
-  "name": "IPL_R_6_4",
-  "label": "A40c_R",
-  "lobe": "Parietal",
-  "hemi": "R",
-  "gyrus": "Inferior Parietal Lobule",
-  "subregion": "caudal area 40 (PFm)",
-  "network7": "Frontoparietal",
-  "mni": [
-   57.0,
-   -44.0,
-   38.0
-  ]
- },
- {
-  "id": 143,
-  "name": "IPL_L_6_5",
-  "label": "A39rv_L",
-  "lobe": "Parietal",
-  "hemi": "L",
-  "gyrus": "Inferior Parietal Lobule",
-  "subregion": "rostroventral area 39 (PGa)",
-  "network7": "Dorsal Attention",
-  "mni": [
-   -47.0,
-   -65.0,
-   26.0
-  ]
- },
- {
-  "id": 144,
-  "name": "IPL_R_6_5",
-  "label": "A39rv_R",
-  "lobe": "Parietal",
-  "hemi": "R",
-  "gyrus": "Inferior Parietal Lobule",
-  "subregion": "rostroventral area 39 (PGa)",
-  "network7": "Default",
-  "mni": [
-   53.0,
-   -54.0,
-   25.0
-  ]
- },
- {
-  "id": 145,
-  "name": "IPL_L_6_6",
-  "label": "A40rv_L",
-  "lobe": "Parietal",
-  "hemi": "L",
-  "gyrus": "Inferior Parietal Lobule",
-  "subregion": "rostroventral area 40 (PFop)",
-  "network7": "Somatomotor",
-  "mni": [
-   -53.0,
-   -31.0,
-   23.0
-  ]
- },
- {
-  "id": 146,
-  "name": "IPL_R_6_6",
-  "label": "A40rv_R",
-  "lobe": "Parietal",
-  "hemi": "R",
-  "gyrus": "Inferior Parietal Lobule",
-  "subregion": "rostroventral area 40 (PFop)",
-  "network7": "Somatomotor",
-  "mni": [
-   55.0,
-   -26.0,
-   26.0
-  ]
- },
- {
-  "id": 147,
-  "name": "PCun_L_4_1",
-  "label": "A7m_L",
-  "lobe": "Parietal",
-  "hemi": "L",
-  "gyrus": "Precuneus",
-  "subregion": "medial area 7 (PEp)",
-  "network7": "Frontoparietal",
-  "mni": [
-   -5.0,
-   -63.0,
-   51.0
-  ]
- },
- {
-  "id": 148,
-  "name": "PCun_R_4_1",
-  "label": "A7m_R",
-  "lobe": "Parietal",
-  "hemi": "R",
-  "gyrus": "Precuneus",
-  "subregion": "medial area 7 (PEp)",
-  "network7": "Frontoparietal",
-  "mni": [
-   6.0,
-   -65.0,
-   51.0
-  ]
- },
- {
-  "id": 149,
-  "name": "PCun_L_4_2",
-  "label": "A5m_L",
-  "lobe": "Parietal",
-  "hemi": "L",
-  "gyrus": "Precuneus",
-  "subregion": "medial area 5 (PEm)",
-  "network7": "Somatomotor",
-  "mni": [
-   -8.0,
-   -47.0,
-   57.0
-  ]
- },
- {
-  "id": 150,
-  "name": "PCun_R_4_2",
-  "label": "A5m_R",
-  "lobe": "Parietal",
-  "hemi": "R",
-  "gyrus": "Precuneus",
-  "subregion": "medial area 5 (PEm)",
-  "network7": "Dorsal Attention",
-  "mni": [
-   7.0,
-   -47.0,
-   58.0
-  ]
- },
- {
-  "id": 151,
-  "name": "PCun_L_4_3",
-  "label": "dmPOS_L",
-  "lobe": "Parietal",
-  "hemi": "L",
-  "gyrus": "Precuneus",
-  "subregion": "dorsomedial parietooccipital  sulcus (PEr)",
-  "network7": "Visual",
-  "mni": [
-   -12.0,
-   -67.0,
-   25.0
-  ]
- },
- {
-  "id": 152,
-  "name": "PCun_R_4_3",
-  "label": "dmPOS_R",
-  "lobe": "Parietal",
-  "hemi": "R",
-  "gyrus": "Precuneus",
-  "subregion": "dorsomedial parietooccipital  sulcus (PEr)",
-  "network7": "Visual",
-  "mni": [
-   16.0,
-   -64.0,
-   25.0
-  ]
- },
- {
-  "id": 153,
-  "name": "PCun_L_4_4",
-  "label": "A31_L",
-  "lobe": "Parietal",
-  "hemi": "L",
-  "gyrus": "Precuneus",
-  "subregion": "area 31 (Lc1)",
-  "network7": "Default",
-  "mni": [
-   -6.0,
-   -55.0,
-   34.0
-  ]
- },
- {
-  "id": 154,
-  "name": "PCun_R_4_4",
-  "label": "A31_R",
-  "lobe": "Parietal",
-  "hemi": "R",
-  "gyrus": "Precuneus",
-  "subregion": "area 31 (Lc1)",
-  "network7": "Default",
-  "mni": [
-   6.0,
-   -54.0,
-   35.0
-  ]
- },
- {
-  "id": 155,
-  "name": "PoG_L_4_1",
-  "label": "A1/2/3ulhf_L",
-  "lobe": "Parietal",
-  "hemi": "L",
-  "gyrus": "Postcentral Gyrus",
-  "subregion": "area 1/2/3 (upper limb head and face region)",
-  "network7": "Somatomotor",
-  "mni": [
-   -50.0,
-   -16.0,
-   43.0
-  ]
- },
- {
-  "id": 156,
-  "name": "PoG_R_4_1",
-  "label": "A1/2/3ulhf_R",
-  "lobe": "Parietal",
-  "hemi": "R",
-  "gyrus": "Postcentral Gyrus",
-  "subregion": "area 1/2/3 (upper limb head and face region)",
-  "network7": "Somatomotor",
-  "mni": [
-   50.0,
-   -14.0,
-   44.0
-  ]
- },
- {
-  "id": 157,
-  "name": "PoG_L_4_2",
-  "label": "A1/2/3tonIa_L",
-  "lobe": "Parietal",
-  "hemi": "L",
-  "gyrus": "Postcentral Gyrus",
-  "subregion": "area 1/2/3 (tongue and larynx region)",
-  "network7": "Somatomotor",
-  "mni": [
-   -56.0,
-   -14.0,
-   16.0
-  ]
- },
- {
-  "id": 158,
-  "name": "PoG_R_4_2",
-  "label": "A1/2/3tonIa_R",
-  "lobe": "Parietal",
-  "hemi": "R",
-  "gyrus": "Postcentral Gyrus",
-  "subregion": "area 1/2/3 (tongue and larynx region)",
-  "network7": "Somatomotor",
-  "mni": [
-   56.0,
-   -10.0,
-   15.0
-  ]
- },
- {
-  "id": 159,
-  "name": "PoG_L_4_3",
-  "label": "A2_L",
-  "lobe": "Parietal",
-  "hemi": "L",
-  "gyrus": "Postcentral Gyrus",
-  "subregion": "area 2",
-  "network7": "Dorsal Attention",
-  "mni": [
-   -46.0,
-   -30.0,
-   50.0
-  ]
- },
- {
-  "id": 160,
-  "name": "PoG_R_4_3",
-  "label": "A2_R",
-  "lobe": "Parietal",
-  "hemi": "R",
-  "gyrus": "Postcentral Gyrus",
-  "subregion": "area 2",
-  "network7": "Somatomotor",
-  "mni": [
-   48.0,
-   -24.0,
-   48.0
-  ]
- },
- {
-  "id": 161,
-  "name": "PoG_L_4_4",
-  "label": "A1/2/3tru_L",
-  "lobe": "Parietal",
-  "hemi": "L",
-  "gyrus": "Postcentral Gyrus",
-  "subregion": "area 1/2/3 (trunk region)",
-  "network7": "Somatomotor",
-  "mni": [
-   -21.0,
-   -35.0,
-   68.0
-  ]
- },
- {
-  "id": 162,
-  "name": "PoG_R_4_4",
-  "label": "A1/2/3tru_R",
-  "lobe": "Parietal",
-  "hemi": "R",
-  "gyrus": "Postcentral Gyrus",
-  "subregion": "area 1/2/3 (trunk region)",
-  "network7": "Somatomotor",
-  "mni": [
-   20.0,
-   -33.0,
-   69.0
-  ]
- },
- {
-  "id": 163,
-  "name": "INS_L_6_1",
-  "label": "G_L",
-  "lobe": "Insula",
-  "hemi": "L",
-  "gyrus": "Insular Gyrus",
-  "subregion": "hypergranular insula",
-  "network7": "Somatomotor",
-  "mni": [
-   -36.0,
-   -20.0,
-   10.0
-  ]
- },
- {
-  "id": 164,
-  "name": "INS_R_6_1",
-  "label": "G_R",
-  "lobe": "Insula",
-  "hemi": "R",
-  "gyrus": "Insular Gyrus",
-  "subregion": "hypergranular insula",
-  "network7": "Somatomotor",
-  "mni": [
-   37.0,
-   -18.0,
-   8.0
-  ]
- },
- {
-  "id": 165,
-  "name": "INS_L_6_2",
-  "label": "vIa_L",
-  "lobe": "Insula",
-  "hemi": "L",
-  "gyrus": "Insular Gyrus",
-  "subregion": "ventral agranular insula",
-  "network7": "SCGM",
-  "mni": [
-   -32.0,
-   14.0,
-   -13.0
-  ]
- },
- {
-  "id": 166,
-  "name": "INS_R_6_2",
-  "label": "vIa_R",
-  "lobe": "Insula",
-  "hemi": "R",
-  "gyrus": "Insular Gyrus",
-  "subregion": "ventral agranular insula",
-  "network7": "Frontoparietal",
-  "mni": [
-   33.0,
-   14.0,
-   -13.0
-  ]
- },
- {
-  "id": 167,
-  "name": "INS_L_6_3",
-  "label": "dIa_L",
-  "lobe": "Insula",
-  "hemi": "L",
-  "gyrus": "Insular Gyrus",
-  "subregion": "dorsal agranular insula",
-  "network7": "Ventral Attention",
-  "mni": [
-   -34.0,
-   18.0,
-   1.0
-  ]
- },
- {
-  "id": 168,
-  "name": "INS_R_6_3",
-  "label": "dIa_R",
-  "lobe": "Insula",
-  "hemi": "R",
-  "gyrus": "Insular Gyrus",
-  "subregion": "dorsal agranular insula",
-  "network7": "Ventral Attention",
-  "mni": [
-   36.0,
-   18.0,
-   1.0
-  ]
- },
- {
-  "id": 169,
-  "name": "INS_L_6_4",
-  "label": "vId/vIg_L",
-  "lobe": "Insula",
-  "hemi": "L",
-  "gyrus": "Insular Gyrus",
-  "subregion": "ventral dysgranular and granular insula",
-  "network7": "Ventral Attention",
-  "mni": [
-   -38.0,
-   -4.0,
-   -9.0
-  ]
- },
- {
-  "id": 170,
-  "name": "INS_R_6_4",
-  "label": "vId/vIg_R",
-  "lobe": "Insula",
-  "hemi": "R",
-  "gyrus": "Insular Gyrus",
-  "subregion": "ventral dysgranular and granular insula",
-  "network7": "Ventral Attention",
-  "mni": [
-   39.0,
-   -2.0,
-   -9.0
-  ]
- },
- {
-  "id": 171,
-  "name": "INS_L_6_5",
-  "label": "dIg_L",
-  "lobe": "Insula",
-  "hemi": "L",
-  "gyrus": "Insular Gyrus",
-  "subregion": "dorsal granular insula",
-  "network7": "Somatomotor",
-  "mni": [
-   -38.0,
-   -8.0,
-   8.0
-  ]
- },
- {
-  "id": 172,
-  "name": "INS_R_6_5",
-  "label": "dIg_R",
-  "lobe": "Insula",
-  "hemi": "R",
-  "gyrus": "Insular Gyrus",
-  "subregion": "dorsal granular insula",
-  "network7": "Somatomotor",
-  "mni": [
-   39.0,
-   -7.0,
-   8.0
-  ]
- },
- {
-  "id": 173,
-  "name": "INS_L_6_6",
-  "label": "dId_L",
-  "lobe": "Insula",
-  "hemi": "L",
-  "gyrus": "Insular Gyrus",
-  "subregion": "dorsal dysgranular insula",
-  "network7": "Ventral Attention",
-  "mni": [
-   -38.0,
-   5.0,
-   5.0
-  ]
- },
- {
-  "id": 174,
-  "name": "INS_R_6_6",
-  "label": "dId_R",
-  "lobe": "Insula",
-  "hemi": "R",
-  "gyrus": "Insular Gyrus",
-  "subregion": "dorsal dysgranular insula",
-  "network7": "Ventral Attention",
-  "mni": [
-   38.0,
-   5.0,
-   5.0
-  ]
- },
- {
-  "id": 175,
-  "name": "CG_L_7_1",
-  "label": "A23d_L",
-  "lobe": "Limbic",
-  "hemi": "L",
-  "gyrus": "Cingulate Gyrus",
-  "subregion": "dorsal area 23",
-  "network7": "Default",
-  "mni": [
-   -4.0,
-   -39.0,
-   31.0
-  ]
- },
- {
-  "id": 176,
-  "name": "CG_R_7_1",
-  "label": "A23d_R",
-  "lobe": "Limbic",
-  "hemi": "R",
-  "gyrus": "Cingulate Gyrus",
-  "subregion": "dorsal area 23",
-  "network7": "Default",
-  "mni": [
-   4.0,
-   -37.0,
-   32.0
-  ]
- },
- {
-  "id": 177,
-  "name": "CG_L_7_2",
-  "label": "A24rv_L",
-  "lobe": "Limbic",
-  "hemi": "L",
-  "gyrus": "Cingulate Gyrus",
-  "subregion": "rostroventral area 24",
-  "network7": "SCGM",
-  "mni": [
-   -3.0,
-   8.0,
-   25.0
-  ]
- },
- {
-  "id": 178,
-  "name": "CG_R_7_2",
-  "label": "A24rv_R",
-  "lobe": "Limbic",
-  "hemi": "R",
-  "gyrus": "Cingulate Gyrus",
-  "subregion": "rostroventral area 24",
-  "network7": "SCGM",
-  "mni": [
-   5.0,
-   22.0,
-   12.0
-  ]
- },
- {
-  "id": 179,
-  "name": "CG_L_7_3",
-  "label": "A32p_L",
-  "lobe": "Limbic",
-  "hemi": "L",
-  "gyrus": "Cingulate Gyrus",
-  "subregion": "pregenual area 32",
-  "network7": "Default",
-  "mni": [
-   -6.0,
-   34.0,
-   21.0
-  ]
- },
- {
-  "id": 180,
-  "name": "CG_R_7_3",
-  "label": "A32p_R",
-  "lobe": "Limbic",
-  "hemi": "R",
-  "gyrus": "Cingulate Gyrus",
-  "subregion": "pregenual area 32",
-  "network7": "Ventral Attention",
-  "mni": [
-   5.0,
-   28.0,
-   27.0
-  ]
- },
- {
-  "id": 181,
-  "name": "CG_L_7_4",
-  "label": "A23v_L",
-  "lobe": "Limbic",
-  "hemi": "L",
-  "gyrus": "Cingulate Gyrus",
-  "subregion": "ventral area 23",
-  "network7": "Default",
-  "mni": [
-   -8.0,
-   -47.0,
-   10.0
-  ]
- },
- {
-  "id": 182,
-  "name": "CG_R_7_4",
-  "label": "A23v_R",
-  "lobe": "Limbic",
-  "hemi": "R",
-  "gyrus": "Cingulate Gyrus",
-  "subregion": "ventral area 23",
-  "network7": "Visual",
-  "mni": [
-   9.0,
-   -44.0,
-   11.0
-  ]
- },
- {
-  "id": 183,
-  "name": "CG_L_7_5",
-  "label": "A24cd_L",
-  "lobe": "Limbic",
-  "hemi": "L",
-  "gyrus": "Cingulate Gyrus",
-  "subregion": "caudodorsal area 24",
-  "network7": "Ventral Attention",
-  "mni": [
-   -5.0,
-   7.0,
-   37.0
-  ]
- },
- {
-  "id": 184,
-  "name": "CG_R_7_5",
-  "label": "A24cd_R",
-  "lobe": "Limbic",
-  "hemi": "R",
-  "gyrus": "Cingulate Gyrus",
-  "subregion": "caudodorsal area 24",
-  "network7": "Ventral Attention",
-  "mni": [
-   4.0,
-   6.0,
-   38.0
-  ]
- },
- {
-  "id": 185,
-  "name": "CG_L_7_6",
-  "label": "A23c_L",
-  "lobe": "Limbic",
-  "hemi": "L",
-  "gyrus": "Cingulate Gyrus",
-  "subregion": "caudal area 23",
-  "network7": "Ventral Attention",
-  "mni": [
-   -7.0,
-   -23.0,
-   41.0
-  ]
- },
- {
-  "id": 186,
-  "name": "CG_R_7_6",
-  "label": "A23c_R",
-  "lobe": "Limbic",
-  "hemi": "R",
-  "gyrus": "Cingulate Gyrus",
-  "subregion": "caudal area 23",
-  "network7": "Ventral Attention",
-  "mni": [
-   6.0,
-   -20.0,
-   40.0
-  ]
- },
- {
-  "id": 187,
-  "name": "CG_L_7_7",
-  "label": "A32sg_L",
-  "lobe": "Limbic",
-  "hemi": "L",
-  "gyrus": "Cingulate Gyrus",
-  "subregion": "subgenual area 32",
-  "network7": "Default",
-  "mni": [
-   -4.0,
-   39.0,
-   -2.0
-  ]
- },
- {
-  "id": 188,
-  "name": "CG_R_7_7",
-  "label": "A32sg_R",
-  "lobe": "Limbic",
-  "hemi": "R",
-  "gyrus": "Cingulate Gyrus",
-  "subregion": "subgenual area 32",
-  "network7": "Default",
-  "mni": [
-   5.0,
-   41.0,
-   6.0
-  ]
- },
- {
-  "id": 189,
-  "name": "MVOcC_L_5_1",
-  "label": "cLinG_L",
-  "lobe": "Occipital",
-  "hemi": "L",
-  "gyrus": "MedioVentral Occipital Cortex",
-  "subregion": "caudal lingual gyrus",
-  "network7": "Visual",
-  "mni": [
-   -11.0,
-   -82.0,
-   -11.0
-  ]
- },
- {
-  "id": 190,
-  "name": "MVOcC_R_5_1",
-  "label": "cLinG_R",
-  "lobe": "Occipital",
-  "hemi": "R",
-  "gyrus": "MedioVentral Occipital Cortex",
-  "subregion": "caudal lingual gyrus",
-  "network7": "Visual",
-  "mni": [
-   10.0,
-   -85.0,
-   -9.0
-  ]
- },
- {
-  "id": 191,
-  "name": "MVOcC_L_5_2",
-  "label": "rCunG_L",
-  "lobe": "Occipital",
-  "hemi": "L",
-  "gyrus": "MedioVentral Occipital Cortex",
-  "subregion": "rostral cuneus gyrus",
-  "network7": "Visual",
-  "mni": [
-   -5.0,
-   -81.0,
-   10.0
-  ]
- },
- {
-  "id": 192,
-  "name": "MVOcC_R_5_2",
-  "label": "rCunG_R",
-  "lobe": "Occipital",
-  "hemi": "R",
-  "gyrus": "MedioVentral Occipital Cortex",
-  "subregion": "rostral cuneus gyrus",
-  "network7": "Visual",
-  "mni": [
-   7.0,
-   -76.0,
-   11.0
-  ]
- },
- {
-  "id": 193,
-  "name": "MVOcC_L_5_3",
-  "label": "cCunG_L",
-  "lobe": "Occipital",
-  "hemi": "L",
-  "gyrus": "MedioVentral Occipital Cortex",
-  "subregion": "caudal cuneus gyrus",
-  "network7": "Visual",
-  "mni": [
-   -6.0,
-   -94.0,
-   1.0
-  ]
- },
- {
-  "id": 194,
-  "name": "MVOcC_R_5_3",
-  "label": "cCunG_R",
-  "lobe": "Occipital",
-  "hemi": "R",
-  "gyrus": "MedioVentral Occipital Cortex",
-  "subregion": "caudal cuneus gyrus",
-  "network7": "Visual",
-  "mni": [
-   8.0,
-   -90.0,
-   12.0
-  ]
- },
- {
-  "id": 195,
-  "name": "MVOcC_L_5_4",
-  "label": "rLinG_L",
-  "lobe": "Occipital",
-  "hemi": "L",
-  "gyrus": "MedioVentral Occipital Cortex",
-  "subregion": "rostral lingual gyrus",
-  "network7": "Visual",
-  "mni": [
-   -17.0,
-   -60.0,
-   -6.0
-  ]
- },
- {
-  "id": 196,
-  "name": "MVOcC_R_5_4",
-  "label": "rLinG_R",
-  "lobe": "Occipital",
-  "hemi": "R",
-  "gyrus": "MedioVentral Occipital Cortex",
-  "subregion": "rostral lingual gyrus",
-  "network7": "Visual",
-  "mni": [
-   18.0,
-   -60.0,
-   -7.0
-  ]
- },
- {
-  "id": 197,
-  "name": "MVOcC_L_5_5",
-  "label": "vmPOS_L",
-  "lobe": "Occipital",
-  "hemi": "L",
-  "gyrus": "MedioVentral Occipital Cortex",
-  "subregion": "ventromedial parietooccipital sulcus",
-  "network7": "Visual",
-  "mni": [
-   -13.0,
-   -68.0,
-   12.0
-  ]
- },
- {
-  "id": 198,
-  "name": "MVOcC_R_5_5",
-  "label": "vmPOS_R",
-  "lobe": "Occipital",
-  "hemi": "R",
-  "gyrus": "MedioVentral Occipital Cortex",
-  "subregion": "ventromedial parietooccipital sulcus",
-  "network7": "Visual",
-  "mni": [
-   15.0,
-   -63.0,
-   12.0
-  ]
- },
- {
-  "id": 199,
-  "name": "LOcC_L_4_1",
-  "label": "mOccG_L",
-  "lobe": "Occipital",
-  "hemi": "L",
-  "gyrus": "lateral Occipital Cortex",
-  "subregion": "middle occipital gyrus",
-  "network7": "Visual",
-  "mni": [
-   -31.0,
-   -89.0,
-   11.0
-  ]
- },
- {
-  "id": 200,
-  "name": "LOcC_R_4_1",
-  "label": "mOccG_R",
-  "lobe": "Occipital",
-  "hemi": "R",
-  "gyrus": "lateral Occipital Cortex",
-  "subregion": "middle occipital gyrus",
-  "network7": "Visual",
-  "mni": [
-   34.0,
-   -86.0,
-   11.0
-  ]
- },
- {
-  "id": 201,
-  "name": "LOcC_L_4_2",
-  "label": "V5/MT+_L",
-  "lobe": "Occipital",
-  "hemi": "L",
-  "gyrus": "lateral Occipital Cortex",
-  "subregion": "area V5/MT+",
-  "network7": "Dorsal Attention",
-  "mni": [
-   -46.0,
-   -74.0,
-   3.0
-  ]
- },
- {
-  "id": 202,
-  "name": "LOcC_R_4_2",
-  "label": "V5/MT+_R",
-  "lobe": "Occipital",
-  "hemi": "R",
-  "gyrus": "lateral Occipital Cortex",
-  "subregion": "area V5/MT+",
-  "network7": "Visual",
-  "mni": [
-   48.0,
-   -70.0,
-   -1.0
-  ]
- },
- {
-  "id": 203,
-  "name": "LOcC_L_4_3",
-  "label": "OPC_L",
-  "lobe": "Occipital",
-  "hemi": "L",
-  "gyrus": "lateral Occipital Cortex",
-  "subregion": "occipital polar cortex",
-  "network7": "Visual",
-  "mni": [
-   -18.0,
-   -99.0,
-   2.0
-  ]
- },
- {
-  "id": 204,
-  "name": "LOcC_R_4_3",
-  "label": "OPC_R",
-  "lobe": "Occipital",
-  "hemi": "R",
-  "gyrus": "lateral Occipital Cortex",
-  "subregion": "occipital polar cortex",
-  "network7": "Visual",
-  "mni": [
-   22.0,
-   -97.0,
-   4.0
-  ]
- },
- {
-  "id": 205,
-  "name": "LOcC_L_4_4",
-  "label": "iOccG_L",
-  "lobe": "Occipital",
-  "hemi": "L",
-  "gyrus": "lateral Occipital Cortex",
-  "subregion": "inferior occipital gyrus",
-  "network7": "Visual",
-  "mni": [
-   -30.0,
-   -88.0,
-   -12.0
-  ]
- },
- {
-  "id": 206,
-  "name": "LOcC_R_4_4",
-  "label": "iOccG_R",
-  "lobe": "Occipital",
-  "hemi": "R",
-  "gyrus": "lateral Occipital Cortex",
-  "subregion": "inferior occipital gyrus",
-  "network7": "Visual",
-  "mni": [
-   32.0,
-   -85.0,
-   -12.0
-  ]
- },
- {
-  "id": 207,
-  "name": "LOcC_L_2_1",
-  "label": "msOccG_L",
-  "lobe": "Occipital",
-  "hemi": "L",
-  "gyrus": "lateral Occipital Cortex",
-  "subregion": "medial superior occipital gyrus",
-  "network7": "Visual",
-  "mni": [
-   -11.0,
-   -88.0,
-   31.0
-  ]
- },
- {
-  "id": 208,
-  "name": "LOcC_R_2_1",
-  "label": "msOccG_R",
-  "lobe": "Occipital",
-  "hemi": "R",
-  "gyrus": "lateral Occipital Cortex",
-  "subregion": "medial superior occipital gyrus",
-  "network7": "Visual",
-  "mni": [
-   16.0,
-   -85.0,
-   34.0
-  ]
- },
- {
-  "id": 209,
-  "name": "LOcC_L_2_2",
-  "label": "lsOccG_L",
-  "lobe": "Occipital",
-  "hemi": "L",
-  "gyrus": "lateral Occipital Cortex",
-  "subregion": "lateral superior occipital gyrus",
-  "network7": "Visual",
-  "mni": [
-   -22.0,
-   -77.0,
-   36.0
-  ]
- },
- {
-  "id": 210,
-  "name": "LOcC_R_2_2",
-  "label": "lsOccG_R",
-  "lobe": "Occipital",
-  "hemi": "R",
-  "gyrus": "lateral Occipital Cortex",
-  "subregion": "lateral superior occipital gyrus",
-  "network7": "Visual",
-  "mni": [
-   29.0,
-   -75.0,
-   36.0
-  ]
- },
- {
-  "id": 211,
-  "name": "Amyg_L_2_1",
-  "label": "mAmyg_L",
-  "lobe": "SCGM",
-  "hemi": "L",
-  "gyrus": "Amygdala",
-  "subregion": "medial amygdala",
-  "network7": "SCGM",
-  "mni": [
-   -19.0,
-   -2.0,
-   -20.0
-  ]
- },
- {
-  "id": 212,
-  "name": "Amyg_R_2_1",
-  "label": "mAmyg_R",
-  "lobe": "SCGM",
-  "hemi": "R",
-  "gyrus": "Amygdala",
-  "subregion": "medial amygdala",
-  "network7": "SCGM",
-  "mni": [
-   19.0,
-   -2.0,
-   -19.0
-  ]
- },
- {
-  "id": 213,
-  "name": "Amyg_L_2_2",
-  "label": "lAmyg_L",
-  "lobe": "SCGM",
-  "hemi": "L",
-  "gyrus": "Amygdala",
-  "subregion": "lateral amygdala",
-  "network7": "SCGM",
-  "mni": [
-   -27.0,
-   -4.0,
-   -20.0
-  ]
- },
- {
-  "id": 214,
-  "name": "Amyg_R_2_2",
-  "label": "lAmyg_R",
-  "lobe": "SCGM",
-  "hemi": "R",
-  "gyrus": "Amygdala",
-  "subregion": "lateral amygdala",
-  "network7": "SCGM",
-  "mni": [
-   28.0,
-   -3.0,
-   -20.0
-  ]
- },
- {
-  "id": 215,
-  "name": "Hipp_L_2_1",
-  "label": "rHipp_L",
-  "lobe": "SCGM",
-  "hemi": "L",
-  "gyrus": "Hippocampus",
-  "subregion": "rostral hippocampus",
-  "network7": "SCGM",
-  "mni": [
-   -22.0,
-   -14.0,
-   -19.0
-  ]
- },
- {
-  "id": 216,
-  "name": "Hipp_R_2_1",
-  "label": "rHipp_R",
-  "lobe": "SCGM",
-  "hemi": "R",
-  "gyrus": "Hippocampus",
-  "subregion": "rostral hippocampus",
-  "network7": "SCGM",
-  "mni": [
-   22.0,
-   -12.0,
-   -20.0
-  ]
- },
- {
-  "id": 217,
-  "name": "Hipp_L_2_2",
-  "label": "cHipp_L",
-  "lobe": "SCGM",
-  "hemi": "L",
-  "gyrus": "Hippocampus",
-  "subregion": "caudal hippocampus",
-  "network7": "SCGM",
-  "mni": [
-   -28.0,
-   -30.0,
-   -10.0
-  ]
- },
- {
-  "id": 218,
-  "name": "Hipp_R_2_2",
-  "label": "cHipp_R",
-  "lobe": "SCGM",
-  "hemi": "R",
-  "gyrus": "Hippocampus",
-  "subregion": "caudal hippocampus",
-  "network7": "SCGM",
-  "mni": [
-   29.0,
-   -27.0,
-   -10.0
-  ]
- },
- {
-  "id": 219,
-  "name": "BG_L_6_1",
-  "label": "vCa_L",
-  "lobe": "SCGM",
-  "hemi": "L",
-  "gyrus": "Basal Ganglia",
-  "subregion": "ventral caudate",
-  "network7": "SCGM",
-  "mni": [
-   -12.0,
-   14.0,
-   0.0
-  ]
- },
- {
-  "id": 220,
-  "name": "BG_R_6_1",
-  "label": "vCa_R",
-  "lobe": "SCGM",
-  "hemi": "R",
-  "gyrus": "Basal Ganglia",
-  "subregion": "ventral caudate",
-  "network7": "SCGM",
-  "mni": [
-   15.0,
-   14.0,
-   -2.0
-  ]
- },
- {
-  "id": 221,
-  "name": "BG_L_6_2",
-  "label": "GP_L",
-  "lobe": "SCGM",
-  "hemi": "L",
-  "gyrus": "Basal Ganglia",
-  "subregion": "globus pallidus",
-  "network7": "SCGM",
-  "mni": [
-   -22.0,
-   -2.0,
-   4.0
-  ]
- },
- {
-  "id": 222,
-  "name": "BG_R_6_2",
-  "label": "GP_R",
-  "lobe": "SCGM",
-  "hemi": "R",
-  "gyrus": "Basal Ganglia",
-  "subregion": "globus pallidus",
-  "network7": "SCGM",
-  "mni": [
-   22.0,
-   -2.0,
-   3.0
-  ]
- },
- {
-  "id": 223,
-  "name": "BG_L_6_3",
-  "label": "NAC_L",
-  "lobe": "SCGM",
-  "hemi": "L",
-  "gyrus": "Basal Ganglia",
-  "subregion": "nucleus accumbens",
-  "network7": "SCGM",
-  "mni": [
-   -17.0,
-   3.0,
-   -9.0
-  ]
- },
- {
-  "id": 224,
-  "name": "BG_R_6_3",
-  "label": "NAC_R",
-  "lobe": "SCGM",
-  "hemi": "R",
-  "gyrus": "Basal Ganglia",
-  "subregion": "nucleus accumbens",
-  "network7": "SCGM",
-  "mni": [
-   15.0,
-   8.0,
-   -9.0
-  ]
- },
- {
-  "id": 225,
-  "name": "BG_L_6_4",
-  "label": "vmPu_L",
-  "lobe": "SCGM",
-  "hemi": "L",
-  "gyrus": "Basal Ganglia",
-  "subregion": "ventromedial putamen",
-  "network7": "SCGM",
-  "mni": [
-   -23.0,
-   7.0,
-   -4.0
-  ]
- },
- {
-  "id": 226,
-  "name": "BG_R_6_4",
-  "label": "vmPu_R",
-  "lobe": "SCGM",
-  "hemi": "R",
-  "gyrus": "Basal Ganglia",
-  "subregion": "ventromedial putamen",
-  "network7": "SCGM",
-  "mni": [
-   22.0,
-   8.0,
-   -1.0
-  ]
- },
- {
-  "id": 227,
-  "name": "BG_L_6_5",
-  "label": "dCa_L",
-  "lobe": "SCGM",
-  "hemi": "L",
-  "gyrus": "Basal Ganglia",
-  "subregion": "dorsal caudate",
-  "network7": "SCGM",
-  "mni": [
-   -14.0,
-   2.0,
-   16.0
-  ]
- },
- {
-  "id": 228,
-  "name": "BG_R_6_5",
-  "label": "dCa_R",
-  "lobe": "SCGM",
-  "hemi": "R",
-  "gyrus": "Basal Ganglia",
-  "subregion": "dorsal caudate",
-  "network7": "SCGM",
-  "mni": [
-   14.0,
-   5.0,
-   14.0
-  ]
- },
- {
-  "id": 229,
-  "name": "BG_L_6_6",
-  "label": "dlPu_L",
-  "lobe": "SCGM",
-  "hemi": "L",
-  "gyrus": "Basal Ganglia",
-  "subregion": "dorsolateral putamen",
-  "network7": "SCGM",
-  "mni": [
-   -28.0,
-   -5.0,
-   2.0
-  ]
- },
- {
-  "id": 230,
-  "name": "BG_R_6_6",
-  "label": "dlPu_R",
-  "lobe": "SCGM",
-  "hemi": "R",
-  "gyrus": "Basal Ganglia",
-  "subregion": "dorsolateral putamen",
-  "network7": "SCGM",
-  "mni": [
-   29.0,
-   -3.0,
-   1.0
-  ]
- },
- {
-  "id": 231,
-  "name": "Tha_L_8_1",
-  "label": "mPFtha_L",
-  "lobe": "SCGM",
-  "hemi": "L",
-  "gyrus": "Thalamus",
-  "subregion": "medial pre-frontal thalamus",
-  "network7": "SCGM",
-  "mni": [
-   -7.0,
-   -12.0,
-   5.0
-  ]
- },
- {
-  "id": 232,
-  "name": "Tha_R_8_1",
-  "label": "mPFtha_R",
-  "lobe": "SCGM",
-  "hemi": "R",
-  "gyrus": "Thalamus",
-  "subregion": "medial pre-frontal thalamus",
-  "network7": "SCGM",
-  "mni": [
-   7.0,
-   -11.0,
-   6.0
-  ]
- },
- {
-  "id": 233,
-  "name": "Tha_L_8_2",
-  "label": "mPMtha_L",
-  "lobe": "SCGM",
-  "hemi": "L",
-  "gyrus": "Thalamus",
-  "subregion": "pre-motor thalamus",
-  "network7": "SCGM",
-  "mni": [
-   -18.0,
-   -13.0,
-   3.0
-  ]
- },
- {
-  "id": 234,
-  "name": "Tha_R_8_2",
-  "label": "mPMtha_R",
-  "lobe": "SCGM",
-  "hemi": "R",
-  "gyrus": "Thalamus",
-  "subregion": "pre-motor thalamus",
-  "network7": "SCGM",
-  "mni": [
-   12.0,
-   -14.0,
-   1.0
-  ]
- },
- {
-  "id": 235,
-  "name": "Tha_L_8_3",
-  "label": "Stha_L",
-  "lobe": "SCGM",
-  "hemi": "L",
-  "gyrus": "Thalamus",
-  "subregion": "sensory thalamus",
-  "network7": "SCGM",
-  "mni": [
-   -18.0,
-   -23.0,
-   4.0
-  ]
- },
- {
-  "id": 236,
-  "name": "Tha_R_8_3",
-  "label": "Stha_R",
-  "lobe": "SCGM",
-  "hemi": "R",
-  "gyrus": "Thalamus",
-  "subregion": "sensory thalamus",
-  "network7": "SCGM",
-  "mni": [
-   18.0,
-   -22.0,
-   3.0
-  ]
- },
- {
-  "id": 237,
-  "name": "Tha_L_8_4",
-  "label": "rTtha_L",
-  "lobe": "SCGM",
-  "hemi": "L",
-  "gyrus": "Thalamus",
-  "subregion": "rostral temporal thalamus",
-  "network7": "SCGM",
-  "mni": [
-   -7.0,
-   -14.0,
-   7.0
-  ]
- },
- {
-  "id": 238,
-  "name": "Tha_R_8_4",
-  "label": "rTtha_R",
-  "lobe": "SCGM",
-  "hemi": "R",
-  "gyrus": "Thalamus",
-  "subregion": "rostral temporal thalamus",
-  "network7": "SCGM",
-  "mni": [
-   3.0,
-   -13.0,
-   5.0
-  ]
- },
- {
-  "id": 239,
-  "name": "Tha_L_8_5",
-  "label": "PPtha_L",
-  "lobe": "SCGM",
-  "hemi": "L",
-  "gyrus": "Thalamus",
-  "subregion": "posterior parietal thalamus",
-  "network7": "SCGM",
-  "mni": [
-   -16.0,
-   -24.0,
-   6.0
-  ]
- },
- {
-  "id": 240,
-  "name": "Tha_R_8_5",
-  "label": "PPtha_R",
-  "lobe": "SCGM",
-  "hemi": "R",
-  "gyrus": "Thalamus",
-  "subregion": "posterior parietal thalamus",
-  "network7": "SCGM",
-  "mni": [
-   15.0,
-   -25.0,
-   6.0
-  ]
- },
- {
-  "id": 241,
-  "name": "Tha_L_8_6",
-  "label": "Otha_L",
-  "lobe": "SCGM",
-  "hemi": "L",
-  "gyrus": "Thalamus",
-  "subregion": "occipital thalamus",
-  "network7": "SCGM",
-  "mni": [
-   -15.0,
-   -28.0,
-   4.0
-  ]
- },
- {
-  "id": 242,
-  "name": "Tha_R_8_6",
-  "label": "Otha_R",
-  "lobe": "SCGM",
-  "hemi": "R",
-  "gyrus": "Thalamus",
-  "subregion": "occipital thalamus",
-  "network7": "SCGM",
-  "mni": [
-   13.0,
-   -27.0,
-   8.0
-  ]
- },
- {
-  "id": 243,
-  "name": "Tha_L_8_7",
-  "label": "cTtha_L",
-  "lobe": "SCGM",
-  "hemi": "L",
-  "gyrus": "Thalamus",
-  "subregion": "caudal temporal thalamus",
-  "network7": "SCGM",
-  "mni": [
-   -12.0,
-   -22.0,
-   13.0
-  ]
- },
- {
-  "id": 244,
-  "name": "Tha_R_8_7",
-  "label": "cTtha_R",
-  "lobe": "SCGM",
-  "hemi": "R",
-  "gyrus": "Thalamus",
-  "subregion": "caudal temporal thalamus",
-  "network7": "SCGM",
-  "mni": [
-   10.0,
-   -14.0,
-   14.0
-  ]
- },
- {
-  "id": 245,
-  "name": "Tha_L_8_8",
-  "label": "lPFtha_L",
-  "lobe": "SCGM",
-  "hemi": "L",
-  "gyrus": "Thalamus",
-  "subregion": "lateral pre-frontal thalamus",
-  "network7": "SCGM",
-  "mni": [
-   -11.0,
-   -14.0,
-   2.0
-  ]
- },
- {
-  "id": 246,
-  "name": "Tha_R_8_8",
-  "label": "lPFtha_R",
-  "lobe": "SCGM",
-  "hemi": "R",
-  "gyrus": "Thalamus",
-  "subregion": "lateral pre-frontal thalamus",
-  "network7": "SCGM",
-  "mni": [
-   13.0,
-   -16.0,
-   7.0
-  ]
- }
+  {
+    "id": 1,
+    "name": "SFG_L_7_1",
+    "label": "A8m_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Superior Frontal Gyrus",
+    "subregion": "medial area 8",
+    "network7": "Frontoparietal",
+    "mni": [
+      -5.0,
+      15.0,
+      54.0
+    ]
+  },
+  {
+    "id": 2,
+    "name": "SFG_R_7_1",
+    "label": "A8m_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Superior Frontal Gyrus",
+    "subregion": "medial area 8",
+    "network7": "Ventral Attention",
+    "mni": [
+      7.0,
+      16.0,
+      54.0
+    ]
+  },
+  {
+    "id": 3,
+    "name": "SFG_L_7_2",
+    "label": "A8dl_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Superior Frontal Gyrus",
+    "subregion": "dorsolateral area 8",
+    "network7": "Default",
+    "mni": [
+      -18.0,
+      24.0,
+      53.0
+    ]
+  },
+  {
+    "id": 4,
+    "name": "SFG_R_7_2",
+    "label": "A8dl_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Superior Frontal Gyrus",
+    "subregion": "dorsolateral area 8",
+    "network7": "Frontoparietal",
+    "mni": [
+      22.0,
+      26.0,
+      51.0
+    ]
+  },
+  {
+    "id": 5,
+    "name": "SFG_L_7_3",
+    "label": "A9l_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Superior Frontal Gyrus",
+    "subregion": "lateral area 9",
+    "network7": "Default",
+    "mni": [
+      -11.0,
+      49.0,
+      40.0
+    ]
+  },
+  {
+    "id": 6,
+    "name": "SFG_R_7_3",
+    "label": "A9l_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Superior Frontal Gyrus",
+    "subregion": "lateral area 9",
+    "network7": "Default",
+    "mni": [
+      13.0,
+      48.0,
+      40.0
+    ]
+  },
+  {
+    "id": 7,
+    "name": "SFG_L_7_4",
+    "label": "A6dl_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Superior Frontal Gyrus",
+    "subregion": "dorsolateral area 6",
+    "network7": "Dorsal Attention",
+    "mni": [
+      -18.0,
+      -1.0,
+      65.0
+    ]
+  },
+  {
+    "id": 8,
+    "name": "SFG_R_7_4",
+    "label": "A6dl_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Superior Frontal Gyrus",
+    "subregion": "dorsolateral area 6",
+    "network7": "Dorsal Attention",
+    "mni": [
+      20.0,
+      4.0,
+      64.0
+    ]
+  },
+  {
+    "id": 9,
+    "name": "SFG_L_7_5",
+    "label": "A6m_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Superior Frontal Gyrus",
+    "subregion": "medial area 6",
+    "network7": "Somatomotor",
+    "mni": [
+      -6.0,
+      -5.0,
+      58.0
+    ]
+  },
+  {
+    "id": 10,
+    "name": "SFG_R_7_5",
+    "label": "A6m_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Superior Frontal Gyrus",
+    "subregion": "medial area 6",
+    "network7": "Somatomotor",
+    "mni": [
+      7.0,
+      -4.0,
+      60.0
+    ]
+  },
+  {
+    "id": 11,
+    "name": "SFG_L_7_6",
+    "label": "A9m_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Superior Frontal Gyrus",
+    "subregion": "medial area 9",
+    "network7": "Default",
+    "mni": [
+      -5.0,
+      36.0,
+      38.0
+    ]
+  },
+  {
+    "id": 12,
+    "name": "SFG_R_7_6",
+    "label": "A9m_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Superior Frontal Gyrus",
+    "subregion": "medial area 9",
+    "network7": "Frontoparietal",
+    "mni": [
+      6.0,
+      38.0,
+      35.0
+    ]
+  },
+  {
+    "id": 13,
+    "name": "SFG_L_7_7",
+    "label": "A10m_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Superior Frontal Gyrus",
+    "subregion": "medial area 10",
+    "network7": "Default",
+    "mni": [
+      -8.0,
+      56.0,
+      15.0
+    ]
+  },
+  {
+    "id": 14,
+    "name": "SFG_R_7_7",
+    "label": "A10m_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Superior Frontal Gyrus",
+    "subregion": "medial area 10",
+    "network7": "Default",
+    "mni": [
+      8.0,
+      58.0,
+      13.0
+    ]
+  },
+  {
+    "id": 15,
+    "name": "MFG_L_7_1",
+    "label": "A9/46d_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Middle Frontal Gyrus",
+    "subregion": "dorsal area 9/46",
+    "network7": "Ventral Attention",
+    "mni": [
+      -27.0,
+      43.0,
+      31.0
+    ]
+  },
+  {
+    "id": 16,
+    "name": "MFG_R_7_1",
+    "label": "A9/46d_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Middle Frontal Gyrus",
+    "subregion": "dorsal area 9/46",
+    "network7": "Frontoparietal",
+    "mni": [
+      30.0,
+      37.0,
+      36.0
+    ]
+  },
+  {
+    "id": 17,
+    "name": "MFG_L_7_2",
+    "label": "IFJ_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Middle Frontal Gyrus",
+    "subregion": "inferior frontal junction",
+    "network7": "Frontoparietal",
+    "mni": [
+      -42.0,
+      13.0,
+      36.0
+    ]
+  },
+  {
+    "id": 18,
+    "name": "MFG_R_7_2",
+    "label": "IFJ_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Middle Frontal Gyrus",
+    "subregion": "inferior frontal junction",
+    "network7": "Frontoparietal",
+    "mni": [
+      42.0,
+      11.0,
+      39.0
+    ]
+  },
+  {
+    "id": 19,
+    "name": "MFG_L_7_3",
+    "label": "A46_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Middle Frontal Gyrus",
+    "subregion": "area 46",
+    "network7": "Frontoparietal",
+    "mni": [
+      -28.0,
+      56.0,
+      12.0
+    ]
+  },
+  {
+    "id": 20,
+    "name": "MFG_R_7_3",
+    "label": "A46_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Middle Frontal Gyrus",
+    "subregion": "area 46",
+    "network7": "Frontoparietal",
+    "mni": [
+      28.0,
+      55.0,
+      17.0
+    ]
+  },
+  {
+    "id": 21,
+    "name": "MFG_L_7_4",
+    "label": "A9/46v_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Middle Frontal Gyrus",
+    "subregion": "ventral area 9/46",
+    "network7": "Frontoparietal",
+    "mni": [
+      -41.0,
+      41.0,
+      16.0
+    ]
+  },
+  {
+    "id": 22,
+    "name": "MFG_R_7_4",
+    "label": "A9/46v_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Middle Frontal Gyrus",
+    "subregion": "ventral area 9/46",
+    "network7": "Frontoparietal",
+    "mni": [
+      42.0,
+      44.0,
+      14.0
+    ]
+  },
+  {
+    "id": 23,
+    "name": "MFG_L_7_5",
+    "label": "A8vl_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Middle Frontal Gyrus",
+    "subregion": "ventrolateral area 8",
+    "network7": "Default",
+    "mni": [
+      -33.0,
+      23.0,
+      45.0
+    ]
+  },
+  {
+    "id": 24,
+    "name": "MFG_R_7_5",
+    "label": "A8vl_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Middle Frontal Gyrus",
+    "subregion": "ventrolateral area 8",
+    "network7": "Frontoparietal",
+    "mni": [
+      42.0,
+      27.0,
+      39.0
+    ]
+  },
+  {
+    "id": 25,
+    "name": "MFG_L_7_6",
+    "label": "A6vl_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Middle Frontal Gyrus",
+    "subregion": "ventrolateral area 6",
+    "network7": "Dorsal Attention",
+    "mni": [
+      -32.0,
+      4.0,
+      55.0
+    ]
+  },
+  {
+    "id": 26,
+    "name": "MFG_R_7_6",
+    "label": "A6vl_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Middle Frontal Gyrus",
+    "subregion": "ventrolateral area 6",
+    "network7": "Dorsal Attention",
+    "mni": [
+      34.0,
+      8.0,
+      54.0
+    ]
+  },
+  {
+    "id": 27,
+    "name": "MFG_L_7_7",
+    "label": "A10l_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Middle Frontal Gyrus",
+    "subregion": "lateral area10",
+    "network7": "Limbic",
+    "mni": [
+      -26.0,
+      60.0,
+      -6.0
+    ]
+  },
+  {
+    "id": 28,
+    "name": "MFG_R_7_7",
+    "label": "A10l_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Middle Frontal Gyrus",
+    "subregion": "lateral area 10",
+    "network7": "Frontoparietal",
+    "mni": [
+      25.0,
+      61.0,
+      -4.0
+    ]
+  },
+  {
+    "id": 29,
+    "name": "IFG_L_6_1",
+    "label": "A44d_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Inferior Frontal Gyrus",
+    "subregion": "dorsal area 44",
+    "network7": "Frontoparietal",
+    "mni": [
+      -46.0,
+      13.0,
+      24.0
+    ]
+  },
+  {
+    "id": 30,
+    "name": "IFG_R_6_1",
+    "label": "A44d_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Inferior Frontal Gyrus",
+    "subregion": "dorsal area 44",
+    "network7": "Dorsal Attention",
+    "mni": [
+      45.0,
+      16.0,
+      25.0
+    ]
+  },
+  {
+    "id": 31,
+    "name": "IFG_L_6_2",
+    "label": "IFS_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Inferior Frontal Gyrus",
+    "subregion": "inferior frontal sulcus",
+    "network7": "Frontoparietal",
+    "mni": [
+      -47.0,
+      32.0,
+      14.0
+    ]
+  },
+  {
+    "id": 32,
+    "name": "IFG_R_6_2",
+    "label": "IFS_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Inferior Frontal Gyrus",
+    "subregion": "inferior frontal sulcus",
+    "network7": "Frontoparietal",
+    "mni": [
+      48.0,
+      35.0,
+      13.0
+    ]
+  },
+  {
+    "id": 33,
+    "name": "IFG_L_6_3",
+    "label": "A45c_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Inferior Frontal Gyrus",
+    "subregion": "caudal area 45",
+    "network7": "Default",
+    "mni": [
+      -53.0,
+      23.0,
+      11.0
+    ]
+  },
+  {
+    "id": 34,
+    "name": "IFG_R_6_3",
+    "label": "A45c_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Inferior Frontal Gyrus",
+    "subregion": "caudal area 45",
+    "network7": "Default",
+    "mni": [
+      54.0,
+      24.0,
+      12.0
+    ]
+  },
+  {
+    "id": 35,
+    "name": "IFG_L_6_4",
+    "label": "A45r_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Inferior Frontal Gyrus",
+    "subregion": "rostral area 45",
+    "network7": "Default",
+    "mni": [
+      -49.0,
+      36.0,
+      -3.0
+    ]
+  },
+  {
+    "id": 36,
+    "name": "IFG_R_6_4",
+    "label": "A45r_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Inferior Frontal Gyrus",
+    "subregion": "rostral area 45",
+    "network7": "Frontoparietal",
+    "mni": [
+      51.0,
+      36.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 37,
+    "name": "IFG_L_6_5",
+    "label": "A44op_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Inferior Frontal Gyrus",
+    "subregion": "opercular area 44",
+    "network7": "Ventral Attention",
+    "mni": [
+      -39.0,
+      23.0,
+      4.0
+    ]
+  },
+  {
+    "id": 38,
+    "name": "IFG_R_6_5",
+    "label": "A44op_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Inferior Frontal Gyrus",
+    "subregion": "opercular area 44",
+    "network7": "Ventral Attention",
+    "mni": [
+      42.0,
+      22.0,
+      3.0
+    ]
+  },
+  {
+    "id": 39,
+    "name": "IFG_L_6_6",
+    "label": "A44v_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Inferior Frontal Gyrus",
+    "subregion": "ventral area 44",
+    "network7": "Ventral Attention",
+    "mni": [
+      -52.0,
+      13.0,
+      6.0
+    ]
+  },
+  {
+    "id": 40,
+    "name": "IFG_R_6_6",
+    "label": "A44v_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Inferior Frontal Gyrus",
+    "subregion": "ventral area 44",
+    "network7": "Ventral Attention",
+    "mni": [
+      54.0,
+      14.0,
+      11.0
+    ]
+  },
+  {
+    "id": 41,
+    "name": "OrG_L_6_1",
+    "label": "A14m_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Orbital Gyrus",
+    "subregion": "medial area 14",
+    "network7": "Default",
+    "mni": [
+      -7.0,
+      54.0,
+      -7.0
+    ]
+  },
+  {
+    "id": 42,
+    "name": "OrG_R_6_1",
+    "label": "A14m_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Orbital Gyrus",
+    "subregion": "medial area 14",
+    "network7": "Default",
+    "mni": [
+      6.0,
+      47.0,
+      -7.0
+    ]
+  },
+  {
+    "id": 43,
+    "name": "OrG_L_6_2",
+    "label": "A12/47o_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Orbital Gyrus",
+    "subregion": "orbital area 12/47",
+    "network7": "Default",
+    "mni": [
+      -36.0,
+      33.0,
+      -16.0
+    ]
+  },
+  {
+    "id": 44,
+    "name": "OrG_R_6_2",
+    "label": "A12/47o_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Orbital Gyrus",
+    "subregion": "orbital area 12/47",
+    "network7": "Default",
+    "mni": [
+      40.0,
+      39.0,
+      -14.0
+    ]
+  },
+  {
+    "id": 45,
+    "name": "OrG_L_6_3",
+    "label": "A11l_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Orbital Gyrus",
+    "subregion": "lateral area 11",
+    "network7": "Limbic",
+    "mni": [
+      -23.0,
+      38.0,
+      -18.0
+    ]
+  },
+  {
+    "id": 46,
+    "name": "OrG_R_6_3",
+    "label": "A11l_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Orbital Gyrus",
+    "subregion": "lateral area 11",
+    "network7": "Frontoparietal",
+    "mni": [
+      23.0,
+      36.0,
+      -18.0
+    ]
+  },
+  {
+    "id": 47,
+    "name": "OrG_L_6_4",
+    "label": "A11m_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Orbital Gyrus",
+    "subregion": "medial area 11",
+    "network7": "Limbic",
+    "mni": [
+      -6.0,
+      52.0,
+      -19.0
+    ]
+  },
+  {
+    "id": 48,
+    "name": "OrG_R_6_4",
+    "label": "A11m_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Orbital Gyrus",
+    "subregion": "medial area 11",
+    "network7": "Limbic",
+    "mni": [
+      6.0,
+      57.0,
+      -16.0
+    ]
+  },
+  {
+    "id": 49,
+    "name": "OrG_L_6_5",
+    "label": "A13_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Orbital Gyrus",
+    "subregion": "area 13",
+    "network7": "Limbic",
+    "mni": [
+      -10.0,
+      18.0,
+      -19.0
+    ]
+  },
+  {
+    "id": 50,
+    "name": "OrG_R_6_5",
+    "label": "A13_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Orbital Gyrus",
+    "subregion": "area 13",
+    "network7": "Limbic",
+    "mni": [
+      9.0,
+      20.0,
+      -19.0
+    ]
+  },
+  {
+    "id": 51,
+    "name": "OrG_L_6_6",
+    "label": "A12/47l_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Orbital Gyrus",
+    "subregion": "lateral area 12/47",
+    "network7": "Default",
+    "mni": [
+      -41.0,
+      32.0,
+      -9.0
+    ]
+  },
+  {
+    "id": 52,
+    "name": "OrG_R_6_6",
+    "label": "A12/47l_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Orbital Gyrus",
+    "subregion": "lateral area 12/47",
+    "network7": "Default",
+    "mni": [
+      42.0,
+      31.0,
+      -9.0
+    ]
+  },
+  {
+    "id": 53,
+    "name": "PrG_L_6_1",
+    "label": "A4hf_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Precentral Gyrus",
+    "subregion": "area 4 (head and face region)",
+    "network7": "Somatomotor",
+    "mni": [
+      -49.0,
+      -8.0,
+      39.0
+    ]
+  },
+  {
+    "id": 54,
+    "name": "PrG_R_6_1",
+    "label": "A4hf_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Precentral Gyrus",
+    "subregion": "area 4 (head and face region)",
+    "network7": "Somatomotor",
+    "mni": [
+      55.0,
+      -2.0,
+      33.0
+    ]
+  },
+  {
+    "id": 55,
+    "name": "PrG_L_6_2",
+    "label": "A6cdl_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Precentral Gyrus",
+    "subregion": "caudal dorsolateral area 6",
+    "network7": "Dorsal Attention",
+    "mni": [
+      -32.0,
+      -9.0,
+      58.0
+    ]
+  },
+  {
+    "id": 56,
+    "name": "PrG_R_6_2",
+    "label": "A6cdl_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Precentral Gyrus",
+    "subregion": "caudal dorsolateral area 6",
+    "network7": "Dorsal Attention",
+    "mni": [
+      33.0,
+      -7.0,
+      57.0
+    ]
+  },
+  {
+    "id": 57,
+    "name": "PrG_L_6_3",
+    "label": "A4ul_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Precentral Gyrus",
+    "subregion": "area 4 (upper limb region)",
+    "network7": "Somatomotor",
+    "mni": [
+      -26.0,
+      -25.0,
+      63.0
+    ]
+  },
+  {
+    "id": 58,
+    "name": "PrG_R_6_3",
+    "label": "A4ul_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Precentral Gyrus",
+    "subregion": "area 4 (upper limb region)",
+    "network7": "Somatomotor",
+    "mni": [
+      34.0,
+      -19.0,
+      59.0
+    ]
+  },
+  {
+    "id": 59,
+    "name": "PrG_L_6_4",
+    "label": "A4t_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Precentral Gyrus",
+    "subregion": "area 4 (trunk region)",
+    "network7": "Somatomotor",
+    "mni": [
+      -13.0,
+      -20.0,
+      73.0
+    ]
+  },
+  {
+    "id": 60,
+    "name": "PrG_R_6_4",
+    "label": "A4t_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Precentral Gyrus",
+    "subregion": "area 4 (trunk region)",
+    "network7": "Somatomotor",
+    "mni": [
+      15.0,
+      -22.0,
+      71.0
+    ]
+  },
+  {
+    "id": 61,
+    "name": "PrG_L_6_5",
+    "label": "A4tl_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Precentral Gyrus",
+    "subregion": "area 4 (tongue and larynx region)",
+    "network7": "Ventral Attention",
+    "mni": [
+      -52.0,
+      0.0,
+      8.0
+    ]
+  },
+  {
+    "id": 62,
+    "name": "PrG_R_6_5",
+    "label": "A4tl_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Precentral Gyrus",
+    "subregion": "area 4 (tongue and larynx region)",
+    "network7": "Ventral Attention",
+    "mni": [
+      54.0,
+      4.0,
+      9.0
+    ]
+  },
+  {
+    "id": 63,
+    "name": "PrG_L_6_6",
+    "label": "A6cvl_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Precentral Gyrus",
+    "subregion": "caudal ventrolateral area 6",
+    "network7": "Dorsal Attention",
+    "mni": [
+      -49.0,
+      5.0,
+      30.0
+    ]
+  },
+  {
+    "id": 64,
+    "name": "PrG_R_6_6",
+    "label": "A6cvl_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Precentral Gyrus",
+    "subregion": "caudal ventrolateral area 6",
+    "network7": "Dorsal Attention",
+    "mni": [
+      51.0,
+      7.0,
+      30.0
+    ]
+  },
+  {
+    "id": 65,
+    "name": "PCL_L_2_1",
+    "label": "A1/2/3ll_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Paracentral Lobule",
+    "subregion": "area1/2/3 (lower limb region)",
+    "network7": "Ventral Attention",
+    "mni": [
+      -8.0,
+      -38.0,
+      58.0
+    ]
+  },
+  {
+    "id": 66,
+    "name": "PCL_R_2_1",
+    "label": "A1/2/3ll_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Paracentral Lobule",
+    "subregion": "area1/2/3 (lower limb region)",
+    "network7": "Somatomotor",
+    "mni": [
+      10.0,
+      -34.0,
+      54.0
+    ]
+  },
+  {
+    "id": 67,
+    "name": "PCL_L_2_2",
+    "label": "A4ll_L",
+    "lobe": "Frontal",
+    "hemi": "L",
+    "gyrus": "Paracentral Lobule",
+    "subregion": "area 4 (lower limb region)",
+    "network7": "Somatomotor",
+    "mni": [
+      -4.0,
+      -23.0,
+      61.0
+    ]
+  },
+  {
+    "id": 68,
+    "name": "PCL_R_2_2",
+    "label": "A4ll_R",
+    "lobe": "Frontal",
+    "hemi": "R",
+    "gyrus": "Paracentral Lobule",
+    "subregion": "area 4 (lower limb region)",
+    "network7": "Somatomotor",
+    "mni": [
+      5.0,
+      -21.0,
+      61.0
+    ]
+  },
+  {
+    "id": 69,
+    "name": "STG_L_6_1",
+    "label": "A38m_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Superior Temporal Gyrus",
+    "subregion": "medial area 38",
+    "network7": "Limbic",
+    "mni": [
+      -32.0,
+      14.0,
+      -34.0
+    ]
+  },
+  {
+    "id": 70,
+    "name": "STG_R_6_1",
+    "label": "A38m_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Superior Temporal Gyrus",
+    "subregion": "medial area 38",
+    "network7": "Limbic",
+    "mni": [
+      31.0,
+      15.0,
+      -34.0
+    ]
+  },
+  {
+    "id": 71,
+    "name": "STG_L_6_2",
+    "label": "A41/42_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Superior Temporal Gyrus",
+    "subregion": "area 41/42",
+    "network7": "Somatomotor",
+    "mni": [
+      -54.0,
+      -32.0,
+      12.0
+    ]
+  },
+  {
+    "id": 72,
+    "name": "STG_R_6_2",
+    "label": "A41/42_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Superior Temporal Gyrus",
+    "subregion": "area 41/42",
+    "network7": "Somatomotor",
+    "mni": [
+      54.0,
+      -24.0,
+      11.0
+    ]
+  },
+  {
+    "id": 73,
+    "name": "STG_L_6_3",
+    "label": "TE1.0/TE1.2_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Superior Temporal Gyrus",
+    "subregion": null,
+    "network7": "Somatomotor",
+    "mni": [
+      -50.0,
+      -11.0,
+      1.0
+    ]
+  },
+  {
+    "id": 74,
+    "name": "STG_R_6_3",
+    "label": "TE1.0/TE1.2_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Superior Temporal Gyrus",
+    "subregion": null,
+    "network7": "Somatomotor",
+    "mni": [
+      51.0,
+      -4.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 75,
+    "name": "STG_L_6_4",
+    "label": "A22c_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Superior Temporal Gyrus",
+    "subregion": "caudal area 22",
+    "network7": "Somatomotor",
+    "mni": [
+      -62.0,
+      -33.0,
+      7.0
+    ]
+  },
+  {
+    "id": 76,
+    "name": "STG_R_6_4",
+    "label": "A22c_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Superior Temporal Gyrus",
+    "subregion": "caudal area 22",
+    "network7": "Somatomotor",
+    "mni": [
+      66.0,
+      -20.0,
+      6.0
+    ]
+  },
+  {
+    "id": 77,
+    "name": "STG_L_6_5",
+    "label": "A38l_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Superior Temporal Gyrus",
+    "subregion": "lateral area 38",
+    "network7": "Limbic",
+    "mni": [
+      -45.0,
+      11.0,
+      -20.0
+    ]
+  },
+  {
+    "id": 78,
+    "name": "STG_R_6_5",
+    "label": "A38l_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Superior Temporal Gyrus",
+    "subregion": "lateral area 38",
+    "network7": "Limbic",
+    "mni": [
+      47.0,
+      12.0,
+      -20.0
+    ]
+  },
+  {
+    "id": 79,
+    "name": "STG_L_6_6",
+    "label": "A22r_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Superior Temporal Gyrus",
+    "subregion": "rostral area 22",
+    "network7": "Default",
+    "mni": [
+      -55.0,
+      -3.0,
+      -10.0
+    ]
+  },
+  {
+    "id": 80,
+    "name": "STG_R_6_6",
+    "label": "A22r_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Superior Temporal Gyrus",
+    "subregion": "rostral area 22",
+    "network7": "Default",
+    "mni": [
+      56.0,
+      -12.0,
+      -5.0
+    ]
+  },
+  {
+    "id": 81,
+    "name": "MTG_L_4_1",
+    "label": "A21c_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Middle Temporal Gyrus",
+    "subregion": "caudal area 21",
+    "network7": "Default",
+    "mni": [
+      -65.0,
+      -30.0,
+      -12.0
+    ]
+  },
+  {
+    "id": 82,
+    "name": "MTG_R_4_1",
+    "label": "A21c_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Middle Temporal Gyrus",
+    "subregion": "caudal area 21",
+    "network7": "Frontoparietal",
+    "mni": [
+      65.0,
+      -29.0,
+      -13.0
+    ]
+  },
+  {
+    "id": 83,
+    "name": "MTG_L_4_2",
+    "label": "A21r_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Middle Temporal Gyrus",
+    "subregion": "rostral area 21",
+    "network7": "Default",
+    "mni": [
+      -53.0,
+      2.0,
+      -30.0
+    ]
+  },
+  {
+    "id": 84,
+    "name": "MTG_R_4_2",
+    "label": "A21r_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Middle Temporal Gyrus",
+    "subregion": "rostral area 21",
+    "network7": "Default",
+    "mni": [
+      51.0,
+      6.0,
+      -32.0
+    ]
+  },
+  {
+    "id": 85,
+    "name": "MTG_L_4_3",
+    "label": "A37dl_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Middle Temporal Gyrus",
+    "subregion": "dorsolateral area 37",
+    "network7": "Dorsal Attention",
+    "mni": [
+      -59.0,
+      -58.0,
+      4.0
+    ]
+  },
+  {
+    "id": 86,
+    "name": "MTG_R_4_3",
+    "label": "A37dl_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Middle Temporal Gyrus",
+    "subregion": "dorsolateral area 37",
+    "network7": "Dorsal Attention",
+    "mni": [
+      60.0,
+      -53.0,
+      3.0
+    ]
+  },
+  {
+    "id": 87,
+    "name": "MTG_L_4_4",
+    "label": "aSTS_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Middle Temporal Gyrus",
+    "subregion": "anterior superior temporal sulcus",
+    "network7": "Default",
+    "mni": [
+      -58.0,
+      -20.0,
+      -9.0
+    ]
+  },
+  {
+    "id": 88,
+    "name": "MTG_R_4_4",
+    "label": "aSTS_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Middle Temporal Gyrus",
+    "subregion": "anterior superior temporal sulcus",
+    "network7": "Default",
+    "mni": [
+      58.0,
+      -16.0,
+      -10.0
+    ]
+  },
+  {
+    "id": 89,
+    "name": "ITG_L_7_1",
+    "label": "A20iv_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Inferior Temporal Gyrus",
+    "subregion": "intermediate ventral area 20",
+    "network7": "Limbic",
+    "mni": [
+      -45.0,
+      -26.0,
+      -27.0
+    ]
+  },
+  {
+    "id": 90,
+    "name": "ITG_R_7_1",
+    "label": "A20iv_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Inferior Temporal Gyrus",
+    "subregion": "intermediate ventral area 20",
+    "network7": "Limbic",
+    "mni": [
+      46.0,
+      -14.0,
+      -33.0
+    ]
+  },
+  {
+    "id": 91,
+    "name": "ITG_L_7_2",
+    "label": "A37elv_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Inferior Temporal Gyrus",
+    "subregion": "extreme lateroventral area 37",
+    "network7": "Dorsal Attention",
+    "mni": [
+      -51.0,
+      -57.0,
+      -15.0
+    ]
+  },
+  {
+    "id": 92,
+    "name": "ITG_R_7_2",
+    "label": "A37elv_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Inferior Temporal Gyrus",
+    "subregion": "extreme lateroventral area 37",
+    "network7": "Dorsal Attention",
+    "mni": [
+      53.0,
+      -52.0,
+      -18.0
+    ]
+  },
+  {
+    "id": 93,
+    "name": "ITG_L_7_3",
+    "label": "A20r_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Inferior Temporal Gyrus",
+    "subregion": "rostral area 20",
+    "network7": "Limbic",
+    "mni": [
+      -43.0,
+      -2.0,
+      -41.0
+    ]
+  },
+  {
+    "id": 94,
+    "name": "ITG_R_7_3",
+    "label": "A20r_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Inferior Temporal Gyrus",
+    "subregion": "rostral area 20",
+    "network7": "Limbic",
+    "mni": [
+      40.0,
+      0.0,
+      -43.0
+    ]
+  },
+  {
+    "id": 95,
+    "name": "ITG_L_7_4",
+    "label": "A20il_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Inferior Temporal Gyrus",
+    "subregion": "intermediate lateral area 20",
+    "network7": "Default",
+    "mni": [
+      -56.0,
+      -16.0,
+      -28.0
+    ]
+  },
+  {
+    "id": 96,
+    "name": "ITG_R_7_4",
+    "label": "A20il_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Inferior Temporal Gyrus",
+    "subregion": "intermediate lateral area 20",
+    "network7": "Limbic",
+    "mni": [
+      55.0,
+      -11.0,
+      -32.0
+    ]
+  },
+  {
+    "id": 97,
+    "name": "ITG_L_7_5",
+    "label": "A37vl_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Inferior Temporal Gyrus",
+    "subregion": "ventrolateral area 37",
+    "network7": "Dorsal Attention",
+    "mni": [
+      -55.0,
+      -60.0,
+      -6.0
+    ]
+  },
+  {
+    "id": 98,
+    "name": "ITG_R_7_5",
+    "label": "A37vl_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Inferior Temporal Gyrus",
+    "subregion": "ventrolateral area 37",
+    "network7": "Dorsal Attention",
+    "mni": [
+      54.0,
+      -57.0,
+      -8.0
+    ]
+  },
+  {
+    "id": 99,
+    "name": "ITG_L_7_6",
+    "label": "A20cl_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Inferior Temporal Gyrus",
+    "subregion": "caudolateral of area 20",
+    "network7": "Frontoparietal",
+    "mni": [
+      -59.0,
+      -42.0,
+      -16.0
+    ]
+  },
+  {
+    "id": 100,
+    "name": "ITG_R_7_6",
+    "label": "A20cl_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Inferior Temporal Gyrus",
+    "subregion": "caudolateral of area 20",
+    "network7": "Frontoparietal",
+    "mni": [
+      61.0,
+      -40.0,
+      -17.0
+    ]
+  },
+  {
+    "id": 101,
+    "name": "ITG_L_7_7",
+    "label": "A20cv_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Inferior Temporal Gyrus",
+    "subregion": "caudoventral of area 20",
+    "network7": "Limbic",
+    "mni": [
+      -55.0,
+      -31.0,
+      -27.0
+    ]
+  },
+  {
+    "id": 102,
+    "name": "ITG_R_7_7",
+    "label": "A20cv_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Inferior Temporal Gyrus",
+    "subregion": "caudoventral of area 20",
+    "network7": "Limbic",
+    "mni": [
+      54.0,
+      -31.0,
+      -26.0
+    ]
+  },
+  {
+    "id": 103,
+    "name": "FuG_L_3_1",
+    "label": "A20rv_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Fusiform Gyrus",
+    "subregion": "rostroventral area 20",
+    "network7": "Limbic",
+    "mni": [
+      -33.0,
+      -16.0,
+      -32.0
+    ]
+  },
+  {
+    "id": 104,
+    "name": "FuG_R_3_1",
+    "label": "A20rv_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Fusiform Gyrus",
+    "subregion": "rostroventral area 20",
+    "network7": "Limbic",
+    "mni": [
+      33.0,
+      -15.0,
+      -34.0
+    ]
+  },
+  {
+    "id": 105,
+    "name": "FuG_L_3_2",
+    "label": "A37mv_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Fusiform Gyrus",
+    "subregion": "medioventral area 37",
+    "network7": "Visual",
+    "mni": [
+      -31.0,
+      -64.0,
+      -14.0
+    ]
+  },
+  {
+    "id": 106,
+    "name": "FuG_R_3_2",
+    "label": "A37mv_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Fusiform Gyrus",
+    "subregion": "medioventral area 37",
+    "network7": "Visual",
+    "mni": [
+      31.0,
+      -62.0,
+      -14.0
+    ]
+  },
+  {
+    "id": 107,
+    "name": "FuG_L_3_3",
+    "label": "A37lv_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Fusiform Gyrus",
+    "subregion": "lateroventral area 37",
+    "network7": "Dorsal Attention",
+    "mni": [
+      -42.0,
+      -51.0,
+      -17.0
+    ]
+  },
+  {
+    "id": 108,
+    "name": "FuG_R_3_3",
+    "label": "A37lv_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Fusiform Gyrus",
+    "subregion": "lateroventral area 37",
+    "network7": "Visual",
+    "mni": [
+      43.0,
+      -49.0,
+      -19.0
+    ]
+  },
+  {
+    "id": 109,
+    "name": "PhG_L_6_1",
+    "label": "A35/36r_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Parahippocampal Gyrus",
+    "subregion": "rostral area 35/36",
+    "network7": "Limbic",
+    "mni": [
+      -27.0,
+      -7.0,
+      -34.0
+    ]
+  },
+  {
+    "id": 110,
+    "name": "PhG_R_6_1",
+    "label": "A35/36r_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Parahippocampal Gyrus",
+    "subregion": "rostral area 35/36",
+    "network7": "Limbic",
+    "mni": [
+      28.0,
+      -8.0,
+      -33.0
+    ]
+  },
+  {
+    "id": 111,
+    "name": "PhG_L_6_2",
+    "label": "A35/36c_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Parahippocampal Gyrus",
+    "subregion": "caudal area 35/36",
+    "network7": "Limbic",
+    "mni": [
+      -25.0,
+      -25.0,
+      -26.0
+    ]
+  },
+  {
+    "id": 112,
+    "name": "PhG_R_6_2",
+    "label": "A35/36c_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Parahippocampal Gyrus",
+    "subregion": "caudal area 35/36",
+    "network7": "Visual",
+    "mni": [
+      26.0,
+      -23.0,
+      -27.0
+    ]
+  },
+  {
+    "id": 113,
+    "name": "PhG_L_6_3",
+    "label": "TL_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Parahippocampal Gyrus",
+    "subregion": "area TL (lateral PPHC posterior parahippocampal gyrus)",
+    "network7": "Visual",
+    "mni": [
+      -28.0,
+      -32.0,
+      -18.0
+    ]
+  },
+  {
+    "id": 114,
+    "name": "PhG_R_6_3",
+    "label": "TL_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Parahippocampal Gyrus",
+    "subregion": "area TL (lateral PPHC posterior parahippocampal gyrus)",
+    "network7": "Visual",
+    "mni": [
+      30.0,
+      -30.0,
+      -18.0
+    ]
+  },
+  {
+    "id": 115,
+    "name": "PhG_L_6_4",
+    "label": "A28/34_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Parahippocampal Gyrus",
+    "subregion": "area 28/34 (EC entorhinal cortex)",
+    "network7": "Limbic",
+    "mni": [
+      -19.0,
+      -12.0,
+      -30.0
+    ]
+  },
+  {
+    "id": 116,
+    "name": "PhG_R_6_4",
+    "label": "A28/34_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Parahippocampal Gyrus",
+    "subregion": "area 28/34 (EC entorhinal cortex)",
+    "network7": "Limbic",
+    "mni": [
+      19.0,
+      -10.0,
+      -30.0
+    ]
+  },
+  {
+    "id": 117,
+    "name": "PhG_L_6_5",
+    "label": "TI_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Parahippocampal Gyrus",
+    "subregion": "area TI (temporal agranular insular cortex)",
+    "network7": "Limbic",
+    "mni": [
+      -23.0,
+      2.0,
+      -32.0
+    ]
+  },
+  {
+    "id": 118,
+    "name": "PhG_R_6_5",
+    "label": "TI_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Parahippocampal Gyrus",
+    "subregion": "area TI (temporal agranular insular cortex)",
+    "network7": "Limbic",
+    "mni": [
+      22.0,
+      1.0,
+      -36.0
+    ]
+  },
+  {
+    "id": 119,
+    "name": "PhG_L_6_6",
+    "label": "TH_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "Parahippocampal Gyrus",
+    "subregion": "area TH (medial PPHC)",
+    "network7": "Visual",
+    "mni": [
+      -17.0,
+      -39.0,
+      -10.0
+    ]
+  },
+  {
+    "id": 120,
+    "name": "PhG_R_6_6",
+    "label": "TH_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "Parahippocampal Gyrus",
+    "subregion": "area TH (medial PPHC)",
+    "network7": "Visual",
+    "mni": [
+      19.0,
+      -36.0,
+      -11.0
+    ]
+  },
+  {
+    "id": 121,
+    "name": "pSTS_L_2_1",
+    "label": "rpSTS_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "posterior Superior Temporal Sulcus",
+    "subregion": "rostroposterior superior temporal sulcus",
+    "network7": "Default",
+    "mni": [
+      -54.0,
+      -40.0,
+      4.0
+    ]
+  },
+  {
+    "id": 122,
+    "name": "pSTS_R_2_1",
+    "label": "rpSTS_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "posterior Superior Temporal Sulcus",
+    "subregion": "rostroposterior superior temporal sulcus",
+    "network7": "Default",
+    "mni": [
+      53.0,
+      -37.0,
+      3.0
+    ]
+  },
+  {
+    "id": 123,
+    "name": "pSTS_L_2_2",
+    "label": "cpSTS_L",
+    "lobe": "Temporal",
+    "hemi": "L",
+    "gyrus": "posterior Superior Temporal Sulcus",
+    "subregion": "caudoposterior superior temporal sulcus",
+    "network7": "Ventral Attention",
+    "mni": [
+      -52.0,
+      -50.0,
+      11.0
+    ]
+  },
+  {
+    "id": 124,
+    "name": "pSTS_R_2_2",
+    "label": "cpSTS_R",
+    "lobe": "Temporal",
+    "hemi": "R",
+    "gyrus": "posterior Superior Temporal Sulcus",
+    "subregion": "caudoposterior superior temporal sulcus",
+    "network7": "Ventral Attention",
+    "mni": [
+      57.0,
+      -40.0,
+      12.0
+    ]
+  },
+  {
+    "id": 125,
+    "name": "SPL_L_5_1",
+    "label": "A7r_L",
+    "lobe": "Parietal",
+    "hemi": "L",
+    "gyrus": "Superior Parietal Lobule",
+    "subregion": "rostral area 7",
+    "network7": "Dorsal Attention",
+    "mni": [
+      -16.0,
+      -60.0,
+      63.0
+    ]
+  },
+  {
+    "id": 126,
+    "name": "SPL_R_5_1",
+    "label": "A7r_R",
+    "lobe": "Parietal",
+    "hemi": "R",
+    "gyrus": "Superior Parietal Lobule",
+    "subregion": "rostral area 7",
+    "network7": "Dorsal Attention",
+    "mni": [
+      19.0,
+      -57.0,
+      65.0
+    ]
+  },
+  {
+    "id": 127,
+    "name": "SPL_L_5_2",
+    "label": "A7c_L",
+    "lobe": "Parietal",
+    "hemi": "L",
+    "gyrus": "Superior Parietal Lobule",
+    "subregion": "caudal area 7",
+    "network7": "Dorsal Attention",
+    "mni": [
+      -15.0,
+      -71.0,
+      52.0
+    ]
+  },
+  {
+    "id": 128,
+    "name": "SPL_R_5_2",
+    "label": "A7c_R",
+    "lobe": "Parietal",
+    "hemi": "R",
+    "gyrus": "Superior Parietal Lobule",
+    "subregion": "caudal area 7",
+    "network7": "Dorsal Attention",
+    "mni": [
+      19.0,
+      -69.0,
+      54.0
+    ]
+  },
+  {
+    "id": 129,
+    "name": "SPL_L_5_3",
+    "label": "A5l_L",
+    "lobe": "Parietal",
+    "hemi": "L",
+    "gyrus": "Superior Parietal Lobule",
+    "subregion": "lateral area 5",
+    "network7": "Dorsal Attention",
+    "mni": [
+      -33.0,
+      -47.0,
+      50.0
+    ]
+  },
+  {
+    "id": 130,
+    "name": "SPL_R_5_3",
+    "label": "A5l_R",
+    "lobe": "Parietal",
+    "hemi": "R",
+    "gyrus": "Superior Parietal Lobule",
+    "subregion": "lateral area 5",
+    "network7": "Dorsal Attention",
+    "mni": [
+      35.0,
+      -42.0,
+      54.0
+    ]
+  },
+  {
+    "id": 131,
+    "name": "SPL_L_5_4",
+    "label": "A7pc_L",
+    "lobe": "Parietal",
+    "hemi": "L",
+    "gyrus": "Superior Parietal Lobule",
+    "subregion": "postcentral area 7",
+    "network7": "Somatomotor",
+    "mni": [
+      -22.0,
+      -47.0,
+      65.0
+    ]
+  },
+  {
+    "id": 132,
+    "name": "SPL_R_5_4",
+    "label": "A7pc_R",
+    "lobe": "Parietal",
+    "hemi": "R",
+    "gyrus": "Superior Parietal Lobule",
+    "subregion": "postcentral area 7",
+    "network7": "Somatomotor",
+    "mni": [
+      23.0,
+      -43.0,
+      67.0
+    ]
+  },
+  {
+    "id": 133,
+    "name": "SPL_L_5_5",
+    "label": "A7ip_L",
+    "lobe": "Parietal",
+    "hemi": "L",
+    "gyrus": "Superior Parietal Lobule",
+    "subregion": "intraparietal area 7 (hIP3)",
+    "network7": "Dorsal Attention",
+    "mni": [
+      -27.0,
+      -59.0,
+      54.0
+    ]
+  },
+  {
+    "id": 134,
+    "name": "SPL_R_5_5",
+    "label": "A7ip_R",
+    "lobe": "Parietal",
+    "hemi": "R",
+    "gyrus": "Superior Parietal Lobule",
+    "subregion": "intraparietal area 7 (hIP3)",
+    "network7": "Dorsal Attention",
+    "mni": [
+      31.0,
+      -54.0,
+      53.0
+    ]
+  },
+  {
+    "id": 135,
+    "name": "IPL_L_6_1",
+    "label": "A39c_L",
+    "lobe": "Parietal",
+    "hemi": "L",
+    "gyrus": "Inferior Parietal Lobule",
+    "subregion": "caudal area 39 (PGp)",
+    "network7": "Visual",
+    "mni": [
+      -34.0,
+      -80.0,
+      29.0
+    ]
+  },
+  {
+    "id": 136,
+    "name": "IPL_R_6_1",
+    "label": "A39c_R",
+    "lobe": "Parietal",
+    "hemi": "R",
+    "gyrus": "Inferior Parietal Lobule",
+    "subregion": "caudal area 39 (PGp)",
+    "network7": "Visual",
+    "mni": [
+      45.0,
+      -71.0,
+      20.0
+    ]
+  },
+  {
+    "id": 137,
+    "name": "IPL_L_6_2",
+    "label": "A39rd_L",
+    "lobe": "Parietal",
+    "hemi": "L",
+    "gyrus": "Inferior Parietal Lobule",
+    "subregion": "rostrodorsal area 39 (Hip3)",
+    "network7": "Frontoparietal",
+    "mni": [
+      -38.0,
+      -61.0,
+      46.0
+    ]
+  },
+  {
+    "id": 138,
+    "name": "IPL_R_6_2",
+    "label": "A39rd_R",
+    "lobe": "Parietal",
+    "hemi": "R",
+    "gyrus": "Inferior Parietal Lobule",
+    "subregion": "rostrodorsal area 39 (Hip3)",
+    "network7": "Frontoparietal",
+    "mni": [
+      39.0,
+      -65.0,
+      44.0
+    ]
+  },
+  {
+    "id": 139,
+    "name": "IPL_L_6_3",
+    "label": "A40rd_L",
+    "lobe": "Parietal",
+    "hemi": "L",
+    "gyrus": "Inferior Parietal Lobule",
+    "subregion": "rostrodorsal area 40 (PFt)",
+    "network7": "Dorsal Attention",
+    "mni": [
+      -51.0,
+      -33.0,
+      42.0
+    ]
+  },
+  {
+    "id": 140,
+    "name": "IPL_R_6_3",
+    "label": "A40rd_R",
+    "lobe": "Parietal",
+    "hemi": "R",
+    "gyrus": "Inferior Parietal Lobule",
+    "subregion": "rostrodorsal area 40 (PFt)",
+    "network7": "Dorsal Attention",
+    "mni": [
+      47.0,
+      -35.0,
+      45.0
+    ]
+  },
+  {
+    "id": 141,
+    "name": "IPL_L_6_4",
+    "label": "A40c_L",
+    "lobe": "Parietal",
+    "hemi": "L",
+    "gyrus": "Inferior Parietal Lobule",
+    "subregion": "caudal area 40 (PFm)",
+    "network7": "Default",
+    "mni": [
+      -56.0,
+      -49.0,
+      38.0
+    ]
+  },
+  {
+    "id": 142,
+    "name": "IPL_R_6_4",
+    "label": "A40c_R",
+    "lobe": "Parietal",
+    "hemi": "R",
+    "gyrus": "Inferior Parietal Lobule",
+    "subregion": "caudal area 40 (PFm)",
+    "network7": "Frontoparietal",
+    "mni": [
+      57.0,
+      -44.0,
+      38.0
+    ]
+  },
+  {
+    "id": 143,
+    "name": "IPL_L_6_5",
+    "label": "A39rv_L",
+    "lobe": "Parietal",
+    "hemi": "L",
+    "gyrus": "Inferior Parietal Lobule",
+    "subregion": "rostroventral area 39 (PGa)",
+    "network7": "Dorsal Attention",
+    "mni": [
+      -47.0,
+      -65.0,
+      26.0
+    ]
+  },
+  {
+    "id": 144,
+    "name": "IPL_R_6_5",
+    "label": "A39rv_R",
+    "lobe": "Parietal",
+    "hemi": "R",
+    "gyrus": "Inferior Parietal Lobule",
+    "subregion": "rostroventral area 39 (PGa)",
+    "network7": "Default",
+    "mni": [
+      53.0,
+      -54.0,
+      25.0
+    ]
+  },
+  {
+    "id": 145,
+    "name": "IPL_L_6_6",
+    "label": "A40rv_L",
+    "lobe": "Parietal",
+    "hemi": "L",
+    "gyrus": "Inferior Parietal Lobule",
+    "subregion": "rostroventral area 40 (PFop)",
+    "network7": "Somatomotor",
+    "mni": [
+      -53.0,
+      -31.0,
+      23.0
+    ]
+  },
+  {
+    "id": 146,
+    "name": "IPL_R_6_6",
+    "label": "A40rv_R",
+    "lobe": "Parietal",
+    "hemi": "R",
+    "gyrus": "Inferior Parietal Lobule",
+    "subregion": "rostroventral area 40 (PFop)",
+    "network7": "Somatomotor",
+    "mni": [
+      55.0,
+      -26.0,
+      26.0
+    ]
+  },
+  {
+    "id": 147,
+    "name": "PCun_L_4_1",
+    "label": "A7m_L",
+    "lobe": "Parietal",
+    "hemi": "L",
+    "gyrus": "Precuneus",
+    "subregion": "medial area 7 (PEp)",
+    "network7": "Frontoparietal",
+    "mni": [
+      -5.0,
+      -63.0,
+      51.0
+    ]
+  },
+  {
+    "id": 148,
+    "name": "PCun_R_4_1",
+    "label": "A7m_R",
+    "lobe": "Parietal",
+    "hemi": "R",
+    "gyrus": "Precuneus",
+    "subregion": "medial area 7 (PEp)",
+    "network7": "Frontoparietal",
+    "mni": [
+      6.0,
+      -65.0,
+      51.0
+    ]
+  },
+  {
+    "id": 149,
+    "name": "PCun_L_4_2",
+    "label": "A5m_L",
+    "lobe": "Parietal",
+    "hemi": "L",
+    "gyrus": "Precuneus",
+    "subregion": "medial area 5 (PEm)",
+    "network7": "Somatomotor",
+    "mni": [
+      -8.0,
+      -47.0,
+      57.0
+    ]
+  },
+  {
+    "id": 150,
+    "name": "PCun_R_4_2",
+    "label": "A5m_R",
+    "lobe": "Parietal",
+    "hemi": "R",
+    "gyrus": "Precuneus",
+    "subregion": "medial area 5 (PEm)",
+    "network7": "Dorsal Attention",
+    "mni": [
+      7.0,
+      -47.0,
+      58.0
+    ]
+  },
+  {
+    "id": 151,
+    "name": "PCun_L_4_3",
+    "label": "dmPOS_L",
+    "lobe": "Parietal",
+    "hemi": "L",
+    "gyrus": "Precuneus",
+    "subregion": "dorsomedial parietooccipital  sulcus (PEr)",
+    "network7": "Visual",
+    "mni": [
+      -12.0,
+      -67.0,
+      25.0
+    ]
+  },
+  {
+    "id": 152,
+    "name": "PCun_R_4_3",
+    "label": "dmPOS_R",
+    "lobe": "Parietal",
+    "hemi": "R",
+    "gyrus": "Precuneus",
+    "subregion": "dorsomedial parietooccipital  sulcus (PEr)",
+    "network7": "Visual",
+    "mni": [
+      16.0,
+      -64.0,
+      25.0
+    ]
+  },
+  {
+    "id": 153,
+    "name": "PCun_L_4_4",
+    "label": "A31_L",
+    "lobe": "Parietal",
+    "hemi": "L",
+    "gyrus": "Precuneus",
+    "subregion": "area 31 (Lc1)",
+    "network7": "Default",
+    "mni": [
+      -6.0,
+      -55.0,
+      34.0
+    ]
+  },
+  {
+    "id": 154,
+    "name": "PCun_R_4_4",
+    "label": "A31_R",
+    "lobe": "Parietal",
+    "hemi": "R",
+    "gyrus": "Precuneus",
+    "subregion": "area 31 (Lc1)",
+    "network7": "Default",
+    "mni": [
+      6.0,
+      -54.0,
+      35.0
+    ]
+  },
+  {
+    "id": 155,
+    "name": "PoG_L_4_1",
+    "label": "A1/2/3ulhf_L",
+    "lobe": "Parietal",
+    "hemi": "L",
+    "gyrus": "Postcentral Gyrus",
+    "subregion": "area 1/2/3 (upper limb head and face region)",
+    "network7": "Somatomotor",
+    "mni": [
+      -50.0,
+      -16.0,
+      43.0
+    ]
+  },
+  {
+    "id": 156,
+    "name": "PoG_R_4_1",
+    "label": "A1/2/3ulhf_R",
+    "lobe": "Parietal",
+    "hemi": "R",
+    "gyrus": "Postcentral Gyrus",
+    "subregion": "area 1/2/3 (upper limb head and face region)",
+    "network7": "Somatomotor",
+    "mni": [
+      50.0,
+      -14.0,
+      44.0
+    ]
+  },
+  {
+    "id": 157,
+    "name": "PoG_L_4_2",
+    "label": "A1/2/3tonIa_L",
+    "lobe": "Parietal",
+    "hemi": "L",
+    "gyrus": "Postcentral Gyrus",
+    "subregion": "area 1/2/3 (tongue and larynx region)",
+    "network7": "Somatomotor",
+    "mni": [
+      -56.0,
+      -14.0,
+      16.0
+    ]
+  },
+  {
+    "id": 158,
+    "name": "PoG_R_4_2",
+    "label": "A1/2/3tonIa_R",
+    "lobe": "Parietal",
+    "hemi": "R",
+    "gyrus": "Postcentral Gyrus",
+    "subregion": "area 1/2/3 (tongue and larynx region)",
+    "network7": "Somatomotor",
+    "mni": [
+      56.0,
+      -10.0,
+      15.0
+    ]
+  },
+  {
+    "id": 159,
+    "name": "PoG_L_4_3",
+    "label": "A2_L",
+    "lobe": "Parietal",
+    "hemi": "L",
+    "gyrus": "Postcentral Gyrus",
+    "subregion": "area 2",
+    "network7": "Dorsal Attention",
+    "mni": [
+      -46.0,
+      -30.0,
+      50.0
+    ]
+  },
+  {
+    "id": 160,
+    "name": "PoG_R_4_3",
+    "label": "A2_R",
+    "lobe": "Parietal",
+    "hemi": "R",
+    "gyrus": "Postcentral Gyrus",
+    "subregion": "area 2",
+    "network7": "Somatomotor",
+    "mni": [
+      48.0,
+      -24.0,
+      48.0
+    ]
+  },
+  {
+    "id": 161,
+    "name": "PoG_L_4_4",
+    "label": "A1/2/3tru_L",
+    "lobe": "Parietal",
+    "hemi": "L",
+    "gyrus": "Postcentral Gyrus",
+    "subregion": "area 1/2/3 (trunk region)",
+    "network7": "Somatomotor",
+    "mni": [
+      -21.0,
+      -35.0,
+      68.0
+    ]
+  },
+  {
+    "id": 162,
+    "name": "PoG_R_4_4",
+    "label": "A1/2/3tru_R",
+    "lobe": "Parietal",
+    "hemi": "R",
+    "gyrus": "Postcentral Gyrus",
+    "subregion": "area 1/2/3 (trunk region)",
+    "network7": "Somatomotor",
+    "mni": [
+      20.0,
+      -33.0,
+      69.0
+    ]
+  },
+  {
+    "id": 163,
+    "name": "INS_L_6_1",
+    "label": "G_L",
+    "lobe": "Insula",
+    "hemi": "L",
+    "gyrus": "Insular Gyrus",
+    "subregion": "hypergranular insula",
+    "network7": "Somatomotor",
+    "mni": [
+      -36.0,
+      -20.0,
+      10.0
+    ]
+  },
+  {
+    "id": 164,
+    "name": "INS_R_6_1",
+    "label": "G_R",
+    "lobe": "Insula",
+    "hemi": "R",
+    "gyrus": "Insular Gyrus",
+    "subregion": "hypergranular insula",
+    "network7": "Somatomotor",
+    "mni": [
+      37.0,
+      -18.0,
+      8.0
+    ]
+  },
+  {
+    "id": 165,
+    "name": "INS_L_6_2",
+    "label": "vIa_L",
+    "lobe": "Insula",
+    "hemi": "L",
+    "gyrus": "Insular Gyrus",
+    "subregion": "ventral agranular insula",
+    "network7": "SCGM",
+    "mni": [
+      -32.0,
+      14.0,
+      -13.0
+    ]
+  },
+  {
+    "id": 166,
+    "name": "INS_R_6_2",
+    "label": "vIa_R",
+    "lobe": "Insula",
+    "hemi": "R",
+    "gyrus": "Insular Gyrus",
+    "subregion": "ventral agranular insula",
+    "network7": "Frontoparietal",
+    "mni": [
+      33.0,
+      14.0,
+      -13.0
+    ]
+  },
+  {
+    "id": 167,
+    "name": "INS_L_6_3",
+    "label": "dIa_L",
+    "lobe": "Insula",
+    "hemi": "L",
+    "gyrus": "Insular Gyrus",
+    "subregion": "dorsal agranular insula",
+    "network7": "Ventral Attention",
+    "mni": [
+      -34.0,
+      18.0,
+      1.0
+    ]
+  },
+  {
+    "id": 168,
+    "name": "INS_R_6_3",
+    "label": "dIa_R",
+    "lobe": "Insula",
+    "hemi": "R",
+    "gyrus": "Insular Gyrus",
+    "subregion": "dorsal agranular insula",
+    "network7": "Ventral Attention",
+    "mni": [
+      36.0,
+      18.0,
+      1.0
+    ]
+  },
+  {
+    "id": 169,
+    "name": "INS_L_6_4",
+    "label": "vId/vIg_L",
+    "lobe": "Insula",
+    "hemi": "L",
+    "gyrus": "Insular Gyrus",
+    "subregion": "ventral dysgranular and granular insula",
+    "network7": "Ventral Attention",
+    "mni": [
+      -38.0,
+      -4.0,
+      -9.0
+    ]
+  },
+  {
+    "id": 170,
+    "name": "INS_R_6_4",
+    "label": "vId/vIg_R",
+    "lobe": "Insula",
+    "hemi": "R",
+    "gyrus": "Insular Gyrus",
+    "subregion": "ventral dysgranular and granular insula",
+    "network7": "Ventral Attention",
+    "mni": [
+      39.0,
+      -2.0,
+      -9.0
+    ]
+  },
+  {
+    "id": 171,
+    "name": "INS_L_6_5",
+    "label": "dIg_L",
+    "lobe": "Insula",
+    "hemi": "L",
+    "gyrus": "Insular Gyrus",
+    "subregion": "dorsal granular insula",
+    "network7": "Somatomotor",
+    "mni": [
+      -38.0,
+      -8.0,
+      8.0
+    ]
+  },
+  {
+    "id": 172,
+    "name": "INS_R_6_5",
+    "label": "dIg_R",
+    "lobe": "Insula",
+    "hemi": "R",
+    "gyrus": "Insular Gyrus",
+    "subregion": "dorsal granular insula",
+    "network7": "Somatomotor",
+    "mni": [
+      39.0,
+      -7.0,
+      8.0
+    ]
+  },
+  {
+    "id": 173,
+    "name": "INS_L_6_6",
+    "label": "dId_L",
+    "lobe": "Insula",
+    "hemi": "L",
+    "gyrus": "Insular Gyrus",
+    "subregion": "dorsal dysgranular insula",
+    "network7": "Ventral Attention",
+    "mni": [
+      -38.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "id": 174,
+    "name": "INS_R_6_6",
+    "label": "dId_R",
+    "lobe": "Insula",
+    "hemi": "R",
+    "gyrus": "Insular Gyrus",
+    "subregion": "dorsal dysgranular insula",
+    "network7": "Ventral Attention",
+    "mni": [
+      38.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "id": 175,
+    "name": "CG_L_7_1",
+    "label": "A23d_L",
+    "lobe": "Limbic",
+    "hemi": "L",
+    "gyrus": "Cingulate Gyrus",
+    "subregion": "dorsal area 23",
+    "network7": "Default",
+    "mni": [
+      -4.0,
+      -39.0,
+      31.0
+    ]
+  },
+  {
+    "id": 176,
+    "name": "CG_R_7_1",
+    "label": "A23d_R",
+    "lobe": "Limbic",
+    "hemi": "R",
+    "gyrus": "Cingulate Gyrus",
+    "subregion": "dorsal area 23",
+    "network7": "Default",
+    "mni": [
+      4.0,
+      -37.0,
+      32.0
+    ]
+  },
+  {
+    "id": 177,
+    "name": "CG_L_7_2",
+    "label": "A24rv_L",
+    "lobe": "Limbic",
+    "hemi": "L",
+    "gyrus": "Cingulate Gyrus",
+    "subregion": "rostroventral area 24",
+    "network7": "SCGM",
+    "mni": [
+      -3.0,
+      8.0,
+      25.0
+    ]
+  },
+  {
+    "id": 178,
+    "name": "CG_R_7_2",
+    "label": "A24rv_R",
+    "lobe": "Limbic",
+    "hemi": "R",
+    "gyrus": "Cingulate Gyrus",
+    "subregion": "rostroventral area 24",
+    "network7": "SCGM",
+    "mni": [
+      5.0,
+      22.0,
+      12.0
+    ]
+  },
+  {
+    "id": 179,
+    "name": "CG_L_7_3",
+    "label": "A32p_L",
+    "lobe": "Limbic",
+    "hemi": "L",
+    "gyrus": "Cingulate Gyrus",
+    "subregion": "pregenual area 32",
+    "network7": "Default",
+    "mni": [
+      -6.0,
+      34.0,
+      21.0
+    ]
+  },
+  {
+    "id": 180,
+    "name": "CG_R_7_3",
+    "label": "A32p_R",
+    "lobe": "Limbic",
+    "hemi": "R",
+    "gyrus": "Cingulate Gyrus",
+    "subregion": "pregenual area 32",
+    "network7": "Ventral Attention",
+    "mni": [
+      5.0,
+      28.0,
+      27.0
+    ]
+  },
+  {
+    "id": 181,
+    "name": "CG_L_7_4",
+    "label": "A23v_L",
+    "lobe": "Limbic",
+    "hemi": "L",
+    "gyrus": "Cingulate Gyrus",
+    "subregion": "ventral area 23",
+    "network7": "Default",
+    "mni": [
+      -8.0,
+      -47.0,
+      10.0
+    ]
+  },
+  {
+    "id": 182,
+    "name": "CG_R_7_4",
+    "label": "A23v_R",
+    "lobe": "Limbic",
+    "hemi": "R",
+    "gyrus": "Cingulate Gyrus",
+    "subregion": "ventral area 23",
+    "network7": "Visual",
+    "mni": [
+      9.0,
+      -44.0,
+      11.0
+    ]
+  },
+  {
+    "id": 183,
+    "name": "CG_L_7_5",
+    "label": "A24cd_L",
+    "lobe": "Limbic",
+    "hemi": "L",
+    "gyrus": "Cingulate Gyrus",
+    "subregion": "caudodorsal area 24",
+    "network7": "Ventral Attention",
+    "mni": [
+      -5.0,
+      7.0,
+      37.0
+    ]
+  },
+  {
+    "id": 184,
+    "name": "CG_R_7_5",
+    "label": "A24cd_R",
+    "lobe": "Limbic",
+    "hemi": "R",
+    "gyrus": "Cingulate Gyrus",
+    "subregion": "caudodorsal area 24",
+    "network7": "Ventral Attention",
+    "mni": [
+      4.0,
+      6.0,
+      38.0
+    ]
+  },
+  {
+    "id": 185,
+    "name": "CG_L_7_6",
+    "label": "A23c_L",
+    "lobe": "Limbic",
+    "hemi": "L",
+    "gyrus": "Cingulate Gyrus",
+    "subregion": "caudal area 23",
+    "network7": "Ventral Attention",
+    "mni": [
+      -7.0,
+      -23.0,
+      41.0
+    ]
+  },
+  {
+    "id": 186,
+    "name": "CG_R_7_6",
+    "label": "A23c_R",
+    "lobe": "Limbic",
+    "hemi": "R",
+    "gyrus": "Cingulate Gyrus",
+    "subregion": "caudal area 23",
+    "network7": "Ventral Attention",
+    "mni": [
+      6.0,
+      -20.0,
+      40.0
+    ]
+  },
+  {
+    "id": 187,
+    "name": "CG_L_7_7",
+    "label": "A32sg_L",
+    "lobe": "Limbic",
+    "hemi": "L",
+    "gyrus": "Cingulate Gyrus",
+    "subregion": "subgenual area 32",
+    "network7": "Default",
+    "mni": [
+      -4.0,
+      39.0,
+      -2.0
+    ]
+  },
+  {
+    "id": 188,
+    "name": "CG_R_7_7",
+    "label": "A32sg_R",
+    "lobe": "Limbic",
+    "hemi": "R",
+    "gyrus": "Cingulate Gyrus",
+    "subregion": "subgenual area 32",
+    "network7": "Default",
+    "mni": [
+      5.0,
+      41.0,
+      6.0
+    ]
+  },
+  {
+    "id": 189,
+    "name": "MVOcC_L_5_1",
+    "label": "cLinG_L",
+    "lobe": "Occipital",
+    "hemi": "L",
+    "gyrus": "MedioVentral Occipital Cortex",
+    "subregion": "caudal lingual gyrus",
+    "network7": "Visual",
+    "mni": [
+      -11.0,
+      -82.0,
+      -11.0
+    ]
+  },
+  {
+    "id": 190,
+    "name": "MVOcC_R_5_1",
+    "label": "cLinG_R",
+    "lobe": "Occipital",
+    "hemi": "R",
+    "gyrus": "MedioVentral Occipital Cortex",
+    "subregion": "caudal lingual gyrus",
+    "network7": "Visual",
+    "mni": [
+      10.0,
+      -85.0,
+      -9.0
+    ]
+  },
+  {
+    "id": 191,
+    "name": "MVOcC_L_5_2",
+    "label": "rCunG_L",
+    "lobe": "Occipital",
+    "hemi": "L",
+    "gyrus": "MedioVentral Occipital Cortex",
+    "subregion": "rostral cuneus gyrus",
+    "network7": "Visual",
+    "mni": [
+      -5.0,
+      -81.0,
+      10.0
+    ]
+  },
+  {
+    "id": 192,
+    "name": "MVOcC_R_5_2",
+    "label": "rCunG_R",
+    "lobe": "Occipital",
+    "hemi": "R",
+    "gyrus": "MedioVentral Occipital Cortex",
+    "subregion": "rostral cuneus gyrus",
+    "network7": "Visual",
+    "mni": [
+      7.0,
+      -76.0,
+      11.0
+    ]
+  },
+  {
+    "id": 193,
+    "name": "MVOcC_L_5_3",
+    "label": "cCunG_L",
+    "lobe": "Occipital",
+    "hemi": "L",
+    "gyrus": "MedioVentral Occipital Cortex",
+    "subregion": "caudal cuneus gyrus",
+    "network7": "Visual",
+    "mni": [
+      -6.0,
+      -94.0,
+      1.0
+    ]
+  },
+  {
+    "id": 194,
+    "name": "MVOcC_R_5_3",
+    "label": "cCunG_R",
+    "lobe": "Occipital",
+    "hemi": "R",
+    "gyrus": "MedioVentral Occipital Cortex",
+    "subregion": "caudal cuneus gyrus",
+    "network7": "Visual",
+    "mni": [
+      8.0,
+      -90.0,
+      12.0
+    ]
+  },
+  {
+    "id": 195,
+    "name": "MVOcC_L_5_4",
+    "label": "rLinG_L",
+    "lobe": "Occipital",
+    "hemi": "L",
+    "gyrus": "MedioVentral Occipital Cortex",
+    "subregion": "rostral lingual gyrus",
+    "network7": "Visual",
+    "mni": [
+      -17.0,
+      -60.0,
+      -6.0
+    ]
+  },
+  {
+    "id": 196,
+    "name": "MVOcC_R_5_4",
+    "label": "rLinG_R",
+    "lobe": "Occipital",
+    "hemi": "R",
+    "gyrus": "MedioVentral Occipital Cortex",
+    "subregion": "rostral lingual gyrus",
+    "network7": "Visual",
+    "mni": [
+      18.0,
+      -60.0,
+      -7.0
+    ]
+  },
+  {
+    "id": 197,
+    "name": "MVOcC_L_5_5",
+    "label": "vmPOS_L",
+    "lobe": "Occipital",
+    "hemi": "L",
+    "gyrus": "MedioVentral Occipital Cortex",
+    "subregion": "ventromedial parietooccipital sulcus",
+    "network7": "Visual",
+    "mni": [
+      -13.0,
+      -68.0,
+      12.0
+    ]
+  },
+  {
+    "id": 198,
+    "name": "MVOcC_R_5_5",
+    "label": "vmPOS_R",
+    "lobe": "Occipital",
+    "hemi": "R",
+    "gyrus": "MedioVentral Occipital Cortex",
+    "subregion": "ventromedial parietooccipital sulcus",
+    "network7": "Visual",
+    "mni": [
+      15.0,
+      -63.0,
+      12.0
+    ]
+  },
+  {
+    "id": 199,
+    "name": "LOcC_L_4_1",
+    "label": "mOccG_L",
+    "lobe": "Occipital",
+    "hemi": "L",
+    "gyrus": "lateral Occipital Cortex",
+    "subregion": "middle occipital gyrus",
+    "network7": "Visual",
+    "mni": [
+      -31.0,
+      -89.0,
+      11.0
+    ]
+  },
+  {
+    "id": 200,
+    "name": "LOcC_R_4_1",
+    "label": "mOccG_R",
+    "lobe": "Occipital",
+    "hemi": "R",
+    "gyrus": "lateral Occipital Cortex",
+    "subregion": "middle occipital gyrus",
+    "network7": "Visual",
+    "mni": [
+      34.0,
+      -86.0,
+      11.0
+    ]
+  },
+  {
+    "id": 201,
+    "name": "LOcC_L_4_2",
+    "label": "V5/MT+_L",
+    "lobe": "Occipital",
+    "hemi": "L",
+    "gyrus": "lateral Occipital Cortex",
+    "subregion": "area V5/MT+",
+    "network7": "Dorsal Attention",
+    "mni": [
+      -46.0,
+      -74.0,
+      3.0
+    ]
+  },
+  {
+    "id": 202,
+    "name": "LOcC_R_4_2",
+    "label": "V5/MT+_R",
+    "lobe": "Occipital",
+    "hemi": "R",
+    "gyrus": "lateral Occipital Cortex",
+    "subregion": "area V5/MT+",
+    "network7": "Visual",
+    "mni": [
+      48.0,
+      -70.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 203,
+    "name": "LOcC_L_4_3",
+    "label": "OPC_L",
+    "lobe": "Occipital",
+    "hemi": "L",
+    "gyrus": "lateral Occipital Cortex",
+    "subregion": "occipital polar cortex",
+    "network7": "Visual",
+    "mni": [
+      -18.0,
+      -99.0,
+      2.0
+    ]
+  },
+  {
+    "id": 204,
+    "name": "LOcC_R_4_3",
+    "label": "OPC_R",
+    "lobe": "Occipital",
+    "hemi": "R",
+    "gyrus": "lateral Occipital Cortex",
+    "subregion": "occipital polar cortex",
+    "network7": "Visual",
+    "mni": [
+      22.0,
+      -97.0,
+      4.0
+    ]
+  },
+  {
+    "id": 205,
+    "name": "LOcC_L_4_4",
+    "label": "iOccG_L",
+    "lobe": "Occipital",
+    "hemi": "L",
+    "gyrus": "lateral Occipital Cortex",
+    "subregion": "inferior occipital gyrus",
+    "network7": "Visual",
+    "mni": [
+      -30.0,
+      -88.0,
+      -12.0
+    ]
+  },
+  {
+    "id": 206,
+    "name": "LOcC_R_4_4",
+    "label": "iOccG_R",
+    "lobe": "Occipital",
+    "hemi": "R",
+    "gyrus": "lateral Occipital Cortex",
+    "subregion": "inferior occipital gyrus",
+    "network7": "Visual",
+    "mni": [
+      32.0,
+      -85.0,
+      -12.0
+    ]
+  },
+  {
+    "id": 207,
+    "name": "LOcC_L_2_1",
+    "label": "msOccG_L",
+    "lobe": "Occipital",
+    "hemi": "L",
+    "gyrus": "lateral Occipital Cortex",
+    "subregion": "medial superior occipital gyrus",
+    "network7": "Visual",
+    "mni": [
+      -11.0,
+      -88.0,
+      31.0
+    ]
+  },
+  {
+    "id": 208,
+    "name": "LOcC_R_2_1",
+    "label": "msOccG_R",
+    "lobe": "Occipital",
+    "hemi": "R",
+    "gyrus": "lateral Occipital Cortex",
+    "subregion": "medial superior occipital gyrus",
+    "network7": "Visual",
+    "mni": [
+      16.0,
+      -85.0,
+      34.0
+    ]
+  },
+  {
+    "id": 209,
+    "name": "LOcC_L_2_2",
+    "label": "lsOccG_L",
+    "lobe": "Occipital",
+    "hemi": "L",
+    "gyrus": "lateral Occipital Cortex",
+    "subregion": "lateral superior occipital gyrus",
+    "network7": "Visual",
+    "mni": [
+      -22.0,
+      -77.0,
+      36.0
+    ]
+  },
+  {
+    "id": 210,
+    "name": "LOcC_R_2_2",
+    "label": "lsOccG_R",
+    "lobe": "Occipital",
+    "hemi": "R",
+    "gyrus": "lateral Occipital Cortex",
+    "subregion": "lateral superior occipital gyrus",
+    "network7": "Visual",
+    "mni": [
+      29.0,
+      -75.0,
+      36.0
+    ]
+  },
+  {
+    "id": 211,
+    "name": "Amyg_L_2_1",
+    "label": "mAmyg_L",
+    "lobe": "SCGM",
+    "hemi": "L",
+    "gyrus": "Amygdala",
+    "subregion": "medial amygdala",
+    "network7": "SCGM",
+    "mni": [
+      -19.0,
+      -2.0,
+      -20.0
+    ]
+  },
+  {
+    "id": 212,
+    "name": "Amyg_R_2_1",
+    "label": "mAmyg_R",
+    "lobe": "SCGM",
+    "hemi": "R",
+    "gyrus": "Amygdala",
+    "subregion": "medial amygdala",
+    "network7": "SCGM",
+    "mni": [
+      19.0,
+      -2.0,
+      -19.0
+    ]
+  },
+  {
+    "id": 213,
+    "name": "Amyg_L_2_2",
+    "label": "lAmyg_L",
+    "lobe": "SCGM",
+    "hemi": "L",
+    "gyrus": "Amygdala",
+    "subregion": "lateral amygdala",
+    "network7": "SCGM",
+    "mni": [
+      -27.0,
+      -4.0,
+      -20.0
+    ]
+  },
+  {
+    "id": 214,
+    "name": "Amyg_R_2_2",
+    "label": "lAmyg_R",
+    "lobe": "SCGM",
+    "hemi": "R",
+    "gyrus": "Amygdala",
+    "subregion": "lateral amygdala",
+    "network7": "SCGM",
+    "mni": [
+      28.0,
+      -3.0,
+      -20.0
+    ]
+  },
+  {
+    "id": 215,
+    "name": "Hipp_L_2_1",
+    "label": "rHipp_L",
+    "lobe": "SCGM",
+    "hemi": "L",
+    "gyrus": "Hippocampus",
+    "subregion": "rostral hippocampus",
+    "network7": "SCGM",
+    "mni": [
+      -22.0,
+      -14.0,
+      -19.0
+    ]
+  },
+  {
+    "id": 216,
+    "name": "Hipp_R_2_1",
+    "label": "rHipp_R",
+    "lobe": "SCGM",
+    "hemi": "R",
+    "gyrus": "Hippocampus",
+    "subregion": "rostral hippocampus",
+    "network7": "SCGM",
+    "mni": [
+      22.0,
+      -12.0,
+      -20.0
+    ]
+  },
+  {
+    "id": 217,
+    "name": "Hipp_L_2_2",
+    "label": "cHipp_L",
+    "lobe": "SCGM",
+    "hemi": "L",
+    "gyrus": "Hippocampus",
+    "subregion": "caudal hippocampus",
+    "network7": "SCGM",
+    "mni": [
+      -28.0,
+      -30.0,
+      -10.0
+    ]
+  },
+  {
+    "id": 218,
+    "name": "Hipp_R_2_2",
+    "label": "cHipp_R",
+    "lobe": "SCGM",
+    "hemi": "R",
+    "gyrus": "Hippocampus",
+    "subregion": "caudal hippocampus",
+    "network7": "SCGM",
+    "mni": [
+      29.0,
+      -27.0,
+      -10.0
+    ]
+  },
+  {
+    "id": 219,
+    "name": "BG_L_6_1",
+    "label": "vCa_L",
+    "lobe": "SCGM",
+    "hemi": "L",
+    "gyrus": "Basal Ganglia",
+    "subregion": "ventral caudate",
+    "network7": "SCGM",
+    "mni": [
+      -12.0,
+      14.0,
+      0.0
+    ]
+  },
+  {
+    "id": 220,
+    "name": "BG_R_6_1",
+    "label": "vCa_R",
+    "lobe": "SCGM",
+    "hemi": "R",
+    "gyrus": "Basal Ganglia",
+    "subregion": "ventral caudate",
+    "network7": "SCGM",
+    "mni": [
+      15.0,
+      14.0,
+      -2.0
+    ]
+  },
+  {
+    "id": 221,
+    "name": "BG_L_6_2",
+    "label": "GP_L",
+    "lobe": "SCGM",
+    "hemi": "L",
+    "gyrus": "Basal Ganglia",
+    "subregion": "globus pallidus",
+    "network7": "SCGM",
+    "mni": [
+      -22.0,
+      -2.0,
+      4.0
+    ]
+  },
+  {
+    "id": 222,
+    "name": "BG_R_6_2",
+    "label": "GP_R",
+    "lobe": "SCGM",
+    "hemi": "R",
+    "gyrus": "Basal Ganglia",
+    "subregion": "globus pallidus",
+    "network7": "SCGM",
+    "mni": [
+      22.0,
+      -2.0,
+      3.0
+    ]
+  },
+  {
+    "id": 223,
+    "name": "BG_L_6_3",
+    "label": "NAC_L",
+    "lobe": "SCGM",
+    "hemi": "L",
+    "gyrus": "Basal Ganglia",
+    "subregion": "nucleus accumbens",
+    "network7": "SCGM",
+    "mni": [
+      -17.0,
+      3.0,
+      -9.0
+    ]
+  },
+  {
+    "id": 224,
+    "name": "BG_R_6_3",
+    "label": "NAC_R",
+    "lobe": "SCGM",
+    "hemi": "R",
+    "gyrus": "Basal Ganglia",
+    "subregion": "nucleus accumbens",
+    "network7": "SCGM",
+    "mni": [
+      15.0,
+      8.0,
+      -9.0
+    ]
+  },
+  {
+    "id": 225,
+    "name": "BG_L_6_4",
+    "label": "vmPu_L",
+    "lobe": "SCGM",
+    "hemi": "L",
+    "gyrus": "Basal Ganglia",
+    "subregion": "ventromedial putamen",
+    "network7": "SCGM",
+    "mni": [
+      -23.0,
+      7.0,
+      -4.0
+    ]
+  },
+  {
+    "id": 226,
+    "name": "BG_R_6_4",
+    "label": "vmPu_R",
+    "lobe": "SCGM",
+    "hemi": "R",
+    "gyrus": "Basal Ganglia",
+    "subregion": "ventromedial putamen",
+    "network7": "SCGM",
+    "mni": [
+      22.0,
+      8.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 227,
+    "name": "BG_L_6_5",
+    "label": "dCa_L",
+    "lobe": "SCGM",
+    "hemi": "L",
+    "gyrus": "Basal Ganglia",
+    "subregion": "dorsal caudate",
+    "network7": "SCGM",
+    "mni": [
+      -14.0,
+      2.0,
+      16.0
+    ]
+  },
+  {
+    "id": 228,
+    "name": "BG_R_6_5",
+    "label": "dCa_R",
+    "lobe": "SCGM",
+    "hemi": "R",
+    "gyrus": "Basal Ganglia",
+    "subregion": "dorsal caudate",
+    "network7": "SCGM",
+    "mni": [
+      14.0,
+      5.0,
+      14.0
+    ]
+  },
+  {
+    "id": 229,
+    "name": "BG_L_6_6",
+    "label": "dlPu_L",
+    "lobe": "SCGM",
+    "hemi": "L",
+    "gyrus": "Basal Ganglia",
+    "subregion": "dorsolateral putamen",
+    "network7": "SCGM",
+    "mni": [
+      -28.0,
+      -5.0,
+      2.0
+    ]
+  },
+  {
+    "id": 230,
+    "name": "BG_R_6_6",
+    "label": "dlPu_R",
+    "lobe": "SCGM",
+    "hemi": "R",
+    "gyrus": "Basal Ganglia",
+    "subregion": "dorsolateral putamen",
+    "network7": "SCGM",
+    "mni": [
+      29.0,
+      -3.0,
+      1.0
+    ]
+  },
+  {
+    "id": 231,
+    "name": "Tha_L_8_1",
+    "label": "mPFtha_L",
+    "lobe": "SCGM",
+    "hemi": "L",
+    "gyrus": "Thalamus",
+    "subregion": "medial pre-frontal thalamus",
+    "network7": "SCGM",
+    "mni": [
+      -7.0,
+      -12.0,
+      5.0
+    ]
+  },
+  {
+    "id": 232,
+    "name": "Tha_R_8_1",
+    "label": "mPFtha_R",
+    "lobe": "SCGM",
+    "hemi": "R",
+    "gyrus": "Thalamus",
+    "subregion": "medial pre-frontal thalamus",
+    "network7": "SCGM",
+    "mni": [
+      7.0,
+      -11.0,
+      6.0
+    ]
+  },
+  {
+    "id": 233,
+    "name": "Tha_L_8_2",
+    "label": "mPMtha_L",
+    "lobe": "SCGM",
+    "hemi": "L",
+    "gyrus": "Thalamus",
+    "subregion": "pre-motor thalamus",
+    "network7": "SCGM",
+    "mni": [
+      -18.0,
+      -13.0,
+      3.0
+    ]
+  },
+  {
+    "id": 234,
+    "name": "Tha_R_8_2",
+    "label": "mPMtha_R",
+    "lobe": "SCGM",
+    "hemi": "R",
+    "gyrus": "Thalamus",
+    "subregion": "pre-motor thalamus",
+    "network7": "SCGM",
+    "mni": [
+      12.0,
+      -14.0,
+      1.0
+    ]
+  },
+  {
+    "id": 235,
+    "name": "Tha_L_8_3",
+    "label": "Stha_L",
+    "lobe": "SCGM",
+    "hemi": "L",
+    "gyrus": "Thalamus",
+    "subregion": "sensory thalamus",
+    "network7": "SCGM",
+    "mni": [
+      -18.0,
+      -23.0,
+      4.0
+    ]
+  },
+  {
+    "id": 236,
+    "name": "Tha_R_8_3",
+    "label": "Stha_R",
+    "lobe": "SCGM",
+    "hemi": "R",
+    "gyrus": "Thalamus",
+    "subregion": "sensory thalamus",
+    "network7": "SCGM",
+    "mni": [
+      18.0,
+      -22.0,
+      3.0
+    ]
+  },
+  {
+    "id": 237,
+    "name": "Tha_L_8_4",
+    "label": "rTtha_L",
+    "lobe": "SCGM",
+    "hemi": "L",
+    "gyrus": "Thalamus",
+    "subregion": "rostral temporal thalamus",
+    "network7": "SCGM",
+    "mni": [
+      -7.0,
+      -14.0,
+      7.0
+    ]
+  },
+  {
+    "id": 238,
+    "name": "Tha_R_8_4",
+    "label": "rTtha_R",
+    "lobe": "SCGM",
+    "hemi": "R",
+    "gyrus": "Thalamus",
+    "subregion": "rostral temporal thalamus",
+    "network7": "SCGM",
+    "mni": [
+      3.0,
+      -13.0,
+      5.0
+    ]
+  },
+  {
+    "id": 239,
+    "name": "Tha_L_8_5",
+    "label": "PPtha_L",
+    "lobe": "SCGM",
+    "hemi": "L",
+    "gyrus": "Thalamus",
+    "subregion": "posterior parietal thalamus",
+    "network7": "SCGM",
+    "mni": [
+      -16.0,
+      -24.0,
+      6.0
+    ]
+  },
+  {
+    "id": 240,
+    "name": "Tha_R_8_5",
+    "label": "PPtha_R",
+    "lobe": "SCGM",
+    "hemi": "R",
+    "gyrus": "Thalamus",
+    "subregion": "posterior parietal thalamus",
+    "network7": "SCGM",
+    "mni": [
+      15.0,
+      -25.0,
+      6.0
+    ]
+  },
+  {
+    "id": 241,
+    "name": "Tha_L_8_6",
+    "label": "Otha_L",
+    "lobe": "SCGM",
+    "hemi": "L",
+    "gyrus": "Thalamus",
+    "subregion": "occipital thalamus",
+    "network7": "SCGM",
+    "mni": [
+      -15.0,
+      -28.0,
+      4.0
+    ]
+  },
+  {
+    "id": 242,
+    "name": "Tha_R_8_6",
+    "label": "Otha_R",
+    "lobe": "SCGM",
+    "hemi": "R",
+    "gyrus": "Thalamus",
+    "subregion": "occipital thalamus",
+    "network7": "SCGM",
+    "mni": [
+      13.0,
+      -27.0,
+      8.0
+    ]
+  },
+  {
+    "id": 243,
+    "name": "Tha_L_8_7",
+    "label": "cTtha_L",
+    "lobe": "SCGM",
+    "hemi": "L",
+    "gyrus": "Thalamus",
+    "subregion": "caudal temporal thalamus",
+    "network7": "SCGM",
+    "mni": [
+      -12.0,
+      -22.0,
+      13.0
+    ]
+  },
+  {
+    "id": 244,
+    "name": "Tha_R_8_7",
+    "label": "cTtha_R",
+    "lobe": "SCGM",
+    "hemi": "R",
+    "gyrus": "Thalamus",
+    "subregion": "caudal temporal thalamus",
+    "network7": "SCGM",
+    "mni": [
+      10.0,
+      -14.0,
+      14.0
+    ]
+  },
+  {
+    "id": 245,
+    "name": "Tha_L_8_8",
+    "label": "lPFtha_L",
+    "lobe": "SCGM",
+    "hemi": "L",
+    "gyrus": "Thalamus",
+    "subregion": "lateral pre-frontal thalamus",
+    "network7": "SCGM",
+    "mni": [
+      -11.0,
+      -14.0,
+      2.0
+    ]
+  },
+  {
+    "id": 246,
+    "name": "Tha_R_8_8",
+    "label": "lPFtha_R",
+    "lobe": "SCGM",
+    "hemi": "R",
+    "gyrus": "Thalamus",
+    "subregion": "lateral pre-frontal thalamus",
+    "network7": "SCGM",
+    "mni": [
+      13.0,
+      -16.0,
+      7.0
+    ]
+  }
 ]
