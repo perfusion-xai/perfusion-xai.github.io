@@ -39,6 +39,8 @@ export default function BrainnetomeAtlas({
   highlight = null,
   onHover,
   className = "h-[520px]",
+  label = null,
+  sublabel = null,
 }) {
   const wrapRef = useRef(null);
   const [isFs, setIsFs] = useState(false);
@@ -119,6 +121,20 @@ export default function BrainnetomeAtlas({
           />
         </GizmoHelper>
       </Canvas>
+
+      {/* Top-left: section label, only when fullscreen so non-FS views stay clean */}
+      {isFs && (label || sublabel) && (
+        <div className="absolute top-3 left-3 z-10 bg-paper/90 border border-ink/15 rounded px-3 py-2 max-w-md">
+          {label && (
+            <div className="text-ink text-sm tracking-editorial">{label}</div>
+          )}
+          {sublabel && (
+            <div className="font-mono text-[10px] uppercase tracking-widest text-ink2 mt-0.5">
+              {sublabel}
+            </div>
+          )}
+        </div>
+      )}
 
       {/* Top-right: fullscreen toggle */}
       <button

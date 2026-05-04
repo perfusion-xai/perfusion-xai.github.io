@@ -17,6 +17,8 @@ export default function SexMorphSection() {
             caption="Cohen's d (female − male) · diverging colormap. 2D = nilearn projection · 3D = interactive atlas."
             mode="sex-morph"
             morph={1}
+            title="Effect size, mapped"
+            subtitle="Result · 2 · Cohen's d (female − male) · whole-brain mean d = 1.28"
           />
         </div>
         <aside className="md:col-span-3 bg-paper2 border border-ink/10 rounded-md p-6 text-sm">

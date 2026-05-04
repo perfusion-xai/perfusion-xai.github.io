@@ -17,6 +17,8 @@ export default function FingerprintSection() {
             alt="Glass-brain projection of the 30 consensus regions, colored by Yeo-7 network"
             caption="30 consensus regions colored by Yeo-7 network. 2D = nilearn glass-brain projection · 3D = interactive Brainnetome atlas."
             mode="shap-explode"
+            title="The 30 consensus regions"
+            subtitle="Result · 1 · colored by Yeo-7 network + SCGM"
           />
         </div>
         <aside className="md:col-span-3 bg-paper2 border border-ink/10 rounded-md p-6">

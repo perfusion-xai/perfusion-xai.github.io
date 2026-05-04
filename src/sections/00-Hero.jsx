@@ -23,6 +23,8 @@ export default function HeroSection() {
           alt="Glass-brain projection of the 30 consensus regions, colored by Yeo-7 network"
           caption="30 consensus regions colored by Yeo-7 network. Switch to 3D for an interactive atlas view."
           mode="shap-explode"
+          title="A 30-region perfusion fingerprint of biological sex"
+          subtitle="Aithal · Sinha · Babu · IISc 2026 · ASL · Brainnetome · SHAP"
         />
       </div>
     </section>

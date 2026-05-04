@@ -13,6 +13,8 @@ export default function BrainViewer({
   mode = "shap-explode",
   morph = 1,
   className = "",
+  title = null,
+  subtitle = null,
 }) {
   const [view, setView] = useState("static");
 
@@ -56,7 +58,7 @@ export default function BrainViewer({
             </div>
           }
         >
-          <BrainnetomeAtlas mode={mode} morph={morph} className="h-[520px]" />
+          <BrainnetomeAtlas mode={mode} morph={morph} className="h-[520px]" label={title} sublabel={subtitle} />
         </Suspense>
       )}
 

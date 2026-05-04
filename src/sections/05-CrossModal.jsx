@@ -16,6 +16,8 @@ export default function CrossModalSection() {
             alt="Glass-brain projection of the 4 cross-modal regions"
             caption="The 4 regions selected by both modalities (saffron). 2D = nilearn projection · 3D = interactive atlas."
             mode="compare"
+            title="CBF and morphometry barely agree"
+            subtitle="Result · 3 · 4 cross-modal regions · Jaccard 0.074"
           />
         </div>
         <aside className="md:col-span-3 bg-paper2 border border-ink/10 rounded-md p-6 text-sm space-y-3">
