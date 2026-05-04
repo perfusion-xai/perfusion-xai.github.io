@@ -174,8 +174,19 @@ export default function BrainnetomeAtlas({
             {hoveredMeta.lobe} · {hoveredMeta.hemi} · {hoveredMeta.network7}
           </div>
           {hoveredStat && (
-            <div className="text-ink2 mt-1">
-              d = {hoveredStat.cohens_d.toFixed(2)} · SHAP {hoveredStat.shap_mean_freq}/500
+            <div className="text-ink2 mt-1 space-y-0.5">
+              <div>d = {hoveredStat.cohens_d.toFixed(2)} · p = {hoveredStat.p < 0.001 ? "<0.001" : hoveredStat.p.toFixed(3)}</div>
+              {hoveredStat.shap_mean_freq > 0 ? (
+                <div>
+                  <span className={hoveredStat.in_consensus30 ? "text-female" : ""}>
+                    SHAP {hoveredStat.shap_mean_freq}/500
+                  </span>
+                  {hoveredStat.in_consensus30 && " · consensus"}
+                  {hoveredStat.in_crossmodal4 && " · cross-modal"}
+                </div>
+              ) : (
+                <div className="text-ink2/70">not in consensus 30</div>
+              )}
             </div>
           )}
         </div>
