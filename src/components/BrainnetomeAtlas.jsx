@@ -26,11 +26,11 @@ const ATLAS_URL = "/assets/meshes/atlas.glb";
 
 // Pick a camera distance that works on phones too (so L/R extremes are visible).
 function initialCamera() {
-  if (typeof window === "undefined") return { position: [120, 80, 180], fov: 32 };
+  if (typeof window === "undefined") return { position: [200, 140, 320], fov: 30 };
   const w = window.innerWidth;
-  if (w < 640) return { position: [140, 100, 240], fov: 38 };
-  if (w < 1024) return { position: [130, 90, 210], fov: 34 };
-  return { position: [120, 80, 180], fov: 32 };
+  if (w < 640) return { position: [240, 170, 400], fov: 34 };
+  if (w < 1024) return { position: [220, 155, 360], fov: 32 };
+  return { position: [200, 140, 320], fov: 30 };
 }
 
 export default function BrainnetomeAtlas({
@@ -106,7 +106,7 @@ export default function BrainnetomeAtlas({
         <OrbitControls
           enablePan={false}
           minDistance={120}
-          maxDistance={isFs ? 600 : 480}
+          maxDistance={isFs ? 800 : 600}
           autoRotate={mode === "rest"}
           autoRotateSpeed={0.6}
         />
