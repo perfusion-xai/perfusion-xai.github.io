@@ -7,7 +7,7 @@ export default function HeroSection() {
         <div className="flex flex-wrap items-end justify-between gap-4 mb-6">
           <div>
             <div className="font-mono text-xs uppercase tracking-widest text-ink2">
-              Aithal · Sinha · Babu — IISc · 2026
+              Ninad Aithal · 2026
             </div>
             <h1 className="text-3xl md:text-5xl tracking-editorial mt-2 max-w-prose">
               A 30-region <span className="text-female">perfusion fingerprint</span> of biological sex.
@@ -24,7 +24,7 @@ export default function HeroSection() {
           caption="30 consensus regions colored by Yeo-7 network. Switch to 3D for an interactive atlas view."
           mode="shap-explode"
           title="A 30-region perfusion fingerprint of biological sex"
-          subtitle="Aithal · Sinha · Babu · IISc 2026 · ASL · Brainnetome · SHAP"
+          subtitle="Ninad Aithal · 2026 · ASL · Brainnetome · SHAP"
         />
       </div>
     </section>

@@ -28,7 +28,7 @@ function Footer() {
     <footer className="border-t border-ink/15 mt-24 py-10">
       <div className="max-w-wide mx-auto px-6 text-sm text-ink2 flex flex-wrap gap-6 justify-between">
         <div>
-          Aithal · Sinha · Babu — Indian Institute of Science, Bengaluru
+          Ninad Aithal · 2026
         </div>
         <div className="font-mono">
           <a href="#" className="hover:text-female">arXiv</a>
