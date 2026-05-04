@@ -58,7 +58,10 @@ export default function BrainnetomeAtlas({
 
   const handleHover = (id, x, y) => {
     setHoveredId(id);
-    if (id != null) setTooltipPos({ x, y });
+    if (id != null && wrapRef.current) {
+      const rect = wrapRef.current.getBoundingClientRect();
+      setTooltipPos({ x: x - rect.left, y: y - rect.top });
+    }
     if (onHover) onHover(id);
   };
 
@@ -145,9 +148,14 @@ export default function BrainnetomeAtlas({
         {isFs ? "exit ⤢" : "full ⤢"}
       </button>
 
+      {/* Top-center: drag hint (shown briefly via CSS hover-only is excessive — just always show) */}
+      <div className="absolute top-3 left-1/2 -translate-x-1/2 z-10 font-mono text-[10px] uppercase tracking-widest text-ink2 bg-paper/85 border border-ink/10 rounded px-2 py-1 pointer-events-none">
+        drag to rotate · scroll to zoom · click axis to snap{isFs ? " · Esc to exit" : ""}
+      </div>
+
       {/* Bottom-left: orientation legend */}
       <div className="absolute bottom-3 left-3 z-10 font-mono text-[10px] uppercase tracking-widest text-ink2 bg-paper/85 border border-ink/10 rounded px-2 py-1">
-        L / R · A / P · S / I  ·  click axes to snap 90°
+        L · R · A · P · S · I
       </div>
 
       {/* Hover tooltip */}
@@ -308,15 +316,15 @@ function materialFor(mode, s, m, morph, highlight, id) {
 // Anatomical orientation labels in 3D world space.
 // Brainnetome MNI: x = L(−)→R(+), y = P(−)→A(+), z = I(−)→S(+).
 function OrientationLabels() {
-  const D = 100;
+  const D = 120;
   return (
     <group>
       <OrientText position={[-D, 0, 0]} label="L" />
       <OrientText position={[ D, 0, 0]} label="R" />
-      <OrientText position={[0, D + 10, 0]} label="A" />
-      <OrientText position={[0, -(D + 10), 0]} label="P" />
-      <OrientText position={[0, 0, D + 10]} label="S" />
-      <OrientText position={[0, 0, -(D + 10)]} label="I" />
+      <OrientText position={[0, D, 0]} label="A" />
+      <OrientText position={[0, -D, 0]} label="P" />
+      <OrientText position={[0, 0, D]} label="S" />
+      <OrientText position={[0, 0, -D]} label="I" />
     </group>
   );
 }
@@ -325,11 +333,15 @@ function OrientText({ position, label }) {
   return (
     <Text
       position={position}
-      fontSize={9}
-      color={palette.ink2}
+      fontSize={20}
+      fontWeight={700}
+      color={palette.ink}
+      outlineWidth={0.6}
+      outlineColor="#ffffff"
       anchorX="center"
       anchorY="middle"
-      depthOffset={-1}
+      depthTest={false}
+      renderOrder={3}
     >
       {label}
     </Text>
