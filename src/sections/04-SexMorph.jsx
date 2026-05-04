@@ -1,48 +1,36 @@
-import { useState } from "react";
 import Section from "../components/Section.jsx";
-import BrainnetomeAtlas from "../components/BrainnetomeAtlas.jsx";
+import GlassBrain from "../components/GlassBrain.jsx";
 
 export default function SexMorphSection() {
-  const [t, setT] = useState(0.6); // -1 (male) ↔ +1 (female); start mid-female
-
   return (
     <Section
       id="morph"
       eyebrow="Result · 2"
-      title="The discriminative pattern, made tangible."
-      lede="Drag the slider. Each region is colored by its Cohen's d for the female–male contrast, weighted by your slider position. Regions that genuinely differ between sexes light up; regions that don't stay paper-coloured."
+      title="Effect size, mapped."
+      lede="Each voxel of every consensus region is colored by its Cohen's d for the female–male contrast. Whole-brain mean d = 1.28 (large); cortical mean = 1.30; subcortical = 0.82. Red voxels are female-elevated; blue voxels are male-elevated."
     >
       <div className="grid md:grid-cols-12 gap-6 mt-6">
-        <div className="md:col-span-8">
-          <BrainnetomeAtlas mode="sex-morph" morph={t} className="h-[520px]" />
+        <div className="md:col-span-9">
+          <GlassBrain
+            src="assets/figures/fig_glass_cohensd.png"
+            alt="Glass-brain projection of Cohen's d for the 30 consensus regions"
+            caption="Cohen's d (female − male) projected onto a glass-brain template. Diverging colormap · symmetric vmin/vmax."
+          />
         </div>
-        <aside className="md:col-span-4 bg-paper2 border border-ink/10 rounded-md p-6">
+        <aside className="md:col-span-3 bg-paper2 border border-ink/10 rounded-md p-6 text-sm">
           <div className="font-mono text-xs uppercase tracking-widest text-ink2 mb-3">
-            Morph
+            Effect-size summary
           </div>
-          <div className="flex items-center gap-3">
-            <span className="font-mono text-male">M</span>
-            <input
-              type="range"
-              min="-1"
-              max="1"
-              step="0.01"
-              value={t}
-              onChange={(e) => setT(parseFloat(e.target.value))}
-              className="flex-1 accent-female"
-              aria-label="Sex morph slider"
-            />
-            <span className="font-mono text-female">F</span>
-          </div>
-          <div className="text-sm mt-4 text-ink2">
-            <p>
-              Morph value: <span className="font-mono">{t.toFixed(2)}</span>
-            </p>
-            <p className="mt-3">
-              Whole-brain mean Cohen's <em>d</em> = <span className="font-mono text-female">1.28</span> (large).
-              Cortical mean = <span className="font-mono">1.30</span>; subcortical = <span className="font-mono">0.82</span>.
-            </p>
-          </div>
+          <ul className="space-y-2 text-sm">
+            <li>Whole brain: <span className="font-mono text-female">d = 1.28</span></li>
+            <li>Cortical: <span className="font-mono">d = 1.30</span></li>
+            <li>Subcortical: <span className="font-mono">d = 0.82</span></li>
+          </ul>
+          <hr className="my-4" />
+          <p className="text-xs text-ink2">
+            All consensus regions show female-elevated CBF; the diverging colormap
+            emphasises magnitude differences within that one-sided pattern.
+          </p>
         </aside>
       </div>
     </Section>

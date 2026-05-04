@@ -1,5 +1,5 @@
 import Section from "../components/Section.jsx";
-import BrainnetomeAtlas from "../components/BrainnetomeAtlas.jsx";
+import GlassBrain from "../components/GlassBrain.jsx";
 
 export default function CrossModalSection() {
   return (
@@ -7,21 +7,17 @@ export default function CrossModalSection() {
       id="crossmodal"
       eyebrow="Result · 3"
       title="CBF and morphometry barely agree."
-      lede="The 30 CBF biomarkers and 28 FreeSurfer-morphometry biomarkers share only 4 regions (Jaccard 0.074). Perfusion and structure encode complementary aspects of sex-related brain organization."
+      lede="The 30 CBF biomarkers and 28 FreeSurfer morphometry biomarkers share only 4 regions (Jaccard 0.074). Perfusion and structure encode complementary aspects of sex-related brain organization."
     >
       <div className="grid md:grid-cols-12 gap-6 mt-6">
-        <div className="md:col-span-8">
-          <BrainnetomeAtlas mode="compare" className="h-[520px]" />
+        <div className="md:col-span-9">
+          <GlassBrain
+            src="assets/figures/fig_glass_crossmodal.png"
+            alt="Glass-brain projection of the 4 cross-modal regions"
+            caption="The 4 regions selected by both modalities (saffron). Three are parietal-association; one is primary visual."
+          />
         </div>
-        <aside className="md:col-span-4 bg-paper2 border border-ink/10 rounded-md p-6 text-sm space-y-3">
-          <div className="font-mono text-xs uppercase tracking-widest text-ink2">
-            Legend
-          </div>
-          <Legend color="bg-female" label="CBF-only (26 regions)" />
-          <Legend color="bg-male" label="Morph-only (24 regions)" />
-          <Legend color="bg-highlight" label="Both modalities (4 regions)" />
-
-          <hr />
+        <aside className="md:col-span-3 bg-paper2 border border-ink/10 rounded-md p-6 text-sm space-y-3">
           <div className="font-mono text-xs uppercase tracking-widest text-ink2">
             The 4 cross-modal hits
           </div>
@@ -31,20 +27,15 @@ export default function CrossModalSection() {
             <li><span className="text-highlight">A39rd_R</span> — angular gyrus (right)</li>
             <li><span className="text-highlight">cLinG_R</span> — caudal lingual gyrus (right)</li>
           </ul>
-          <p className="text-ink2">
-            Three of four are parietal-association regions; the fourth is a primary visual region.
-          </p>
+          <hr />
+          <ul className="space-y-1 text-xs">
+            <li>CBF biomarkers: <span className="font-mono">30</span></li>
+            <li>Morphometry biomarkers: <span className="font-mono">28</span></li>
+            <li>Intersection: <span className="font-mono text-highlight">4</span></li>
+            <li>Jaccard index: <span className="font-mono">0.074</span></li>
+          </ul>
         </aside>
       </div>
     </Section>
-  );
-}
-
-function Legend({ color, label }) {
-  return (
-    <div className="flex items-center gap-3">
-      <span className={`inline-block w-4 h-4 rounded-sm ${color}`} />
-      <span>{label}</span>
-    </div>
   );
 }
