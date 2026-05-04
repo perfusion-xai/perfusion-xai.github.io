@@ -28,6 +28,19 @@ export function divergingColor(t) {
   return mixHex(stops[i], stops[i + 1], f);
 }
 
+// Categorical palette for Yeo-7 networks + SCGM (subcortical grey matter).
+// Tab10-flavored but slightly desaturated to fit the Perfusion Print page.
+export const networkColors = {
+  "Visual":            "#3A6FA8",
+  "Somatomotor":       "#E89B2C",
+  "Dorsal Attention":  "#2E8B57",
+  "Ventral Attention": "#C8312B",
+  "Limbic":            "#8E5BA8",
+  "Frontoparietal":    "#8B5A3C",
+  "Default":           "#D17BA8",
+  "SCGM":              "#5A6478",
+};
+
 // Sequential map from cream → arterial red, for one-sided magnitudes
 // (e.g., |Cohen's d| or SHAP frequency). t in [0, 1].
 const SEQUENTIAL_STOPS = ["#F4EAD9", "#E8B19A", "#D86A56", "#C8312B", "#8E1D17"];

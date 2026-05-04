@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Section from "../components/Section.jsx";
 import BrainnetomeAtlas from "../components/BrainnetomeAtlas.jsx";
 import { loadRegions, loadRegionStats, byId } from "../lib/data.js";
+import { networkColors } from "../lib/theme.js";
 
 export default function FingerprintSection() {
   const [hovered, setHovered] = useState(null);
@@ -54,9 +55,22 @@ export default function FingerprintSection() {
           ) : (
             <div className="text-sm text-ink2">
               Move your cursor onto the brain. Highlighted regions belong to the
-              30-region consensus set; faded regions did not pass the binomial threshold.
+              30-region consensus set; the rest are rendered as a translucent
+              glass brain for context.
             </div>
           )}
+          <hr className="my-4" />
+          <div className="font-mono text-[10px] uppercase tracking-widest text-ink2 mb-2">
+            Network · Yeo-7 + SCGM
+          </div>
+          <ul className="space-y-1 text-xs">
+            {Object.entries(networkColors).map(([name, color]) => (
+              <li key={name} className="flex items-center gap-2">
+                <span className="inline-block w-3 h-3 rounded-sm" style={{ background: color }} />
+                <span className="text-ink2">{name}</span>
+              </li>
+            ))}
+          </ul>
         </aside>
       </div>
     </Section>
