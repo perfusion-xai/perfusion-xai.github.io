@@ -33,7 +33,7 @@ function Footer() {
         <div className="font-mono">
           <a href="#" className="hover:text-female">arXiv</a>
           {" · "}
-          <a href="https://github.com/blackpearl006/superCBF" className="hover:text-female">code</a>
+          <a href="https://github.com/blackpearl006/perfusion-xai" className="hover:text-female">code</a>
           {" · "}
           <a href="https://www.scidb.cn/en/detail?dataSetId=826407529641672704" className="hover:text-female">data (ISYB)</a>
         </div>

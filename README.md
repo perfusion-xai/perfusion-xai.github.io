@@ -52,7 +52,7 @@ npm run dev          # http://localhost:5173
 ## Generate data assets
 
 The atlas, region metadata, and SHAP overlays are produced from the analysis
-repo at `../perfusion-xai/` (clone of `blackpearl006/superCBF`).
+repo at `../perfusion-xai/` (`blackpearl006/perfusion-xai`).
 
 ```bash
 pip install -r scripts/requirements.txt
@@ -72,4 +72,4 @@ npx gh-pages -d dist -b gh-pages   # manual deploy
 ## License
 
 Code: MIT. Manuscript figures and per-region statistics are derived from the
-ISYB cohort and the analysis pipeline at https://github.com/blackpearl006/superCBF.
+ISYB cohort and the analysis pipeline at https://github.com/blackpearl006/perfusion-xai.

@@ -9,8 +9,8 @@ const LINKS = [
   },
   {
     title: "Code",
-    sub: "github.com/blackpearl006/superCBF",
-    href: "https://github.com/blackpearl006/superCBF",
+    sub: "github.com/blackpearl006/perfusion-xai",
+    href: "https://github.com/blackpearl006/perfusion-xai",
     note: "Analysis scripts, models, SHAP outputs",
   },
   {
