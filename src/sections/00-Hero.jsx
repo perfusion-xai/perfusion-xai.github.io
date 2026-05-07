@@ -1,4 +1,5 @@
 import BrainViewer from "../components/BrainViewer.jsx";
+import FigureModal from "../components/FigureModal.jsx";
 
 export default function HeroSection() {
   return (
@@ -26,6 +27,15 @@ export default function HeroSection() {
           title="A 30-region perfusion fingerprint of biological sex"
           subtitle="Ninad Aithal · 2026 · ASL · Brainnetome · SHAP"
         />
+
+        <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2">
+          <FigureModal
+            src="assets/figures/manuscript/fig1_overview.png"
+            alt="End-to-end study framework"
+            label="View overall framework (Figure 1)"
+            caption="Study Overview. End-to-end framework for data-driven, explainable sex classification from cerebral blood flow."
+          />
+        </div>
       </div>
     </section>
   );

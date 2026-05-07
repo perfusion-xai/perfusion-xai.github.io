@@ -1,5 +1,6 @@
 import Section from "../components/Section.jsx";
 import BrainViewer from "../components/BrainViewer.jsx";
+import FigureModal from "../components/FigureModal.jsx";
 import { networkColors } from "../lib/theme.js";
 
 export default function FingerprintSection() {
@@ -41,6 +42,47 @@ export default function FingerprintSection() {
           </p>
         </aside>
       </div>
+
+      <div className="mt-6 grid md:grid-cols-3 gap-4">
+        <FigureCard
+          src="assets/figures/manuscript/biomarkers_mean.png"
+          label="Biomarkers · mean CBF"
+          caption="Surface visualisation of regions identified as sex-discriminative biomarkers using mean CBF. Warmer colours indicate stronger SHAP contributions (33 significant regions before consensus intersection)."
+        />
+        <FigureCard
+          src="assets/figures/manuscript/biomarkers_median.png"
+          label="Biomarkers · median CBF"
+          caption="Surface visualisation of regions identified as sex-discriminative biomarkers using median CBF. 37 regions reach significance; 30 are shared with the mean-CBF set (J = 0.75, r = 0.84)."
+        />
+        <FigureCard
+          src="assets/figures/manuscript/biomarkers_max.png"
+          label="Biomarkers · max CBF"
+          caption="Surface visualisation of biomarker regions identified using maximum CBF. 40 significant regions, with reduced concordance to central-tendency summaries but competitive classification (BAcc 0.85 ± 0.06)."
+        />
+      </div>
+
+      <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2">
+        <FigureModal
+          src="assets/figures/manuscript/fig3_xai.png"
+          alt="SHAP-based xAI pipeline"
+          label="View SHAP pipeline (Figure 3)"
+          caption="Explainable AI pipeline for identifying sex-discriminative cerebral perfusion biomarkers. SHAP-based model interpretation across 100 iterations of 5-fold cross-validation on 215 subjects (95 M, 150 F). For each of the 500 trained logistic-regression models, SHAP values quantify the contribution of each region's CBF. Regions ranked in the top 20% of SHAP importance are aggregated across models into a frequency map; binomial testing with Bonferroni correction selects regions appearing in >289 of 500 models (p < 0.05, corrected) as significant ROIs."
+        />
+      </div>
     </Section>
+  );
+}
+
+function FigureCard({ src, label, caption }) {
+  return (
+    <div className="bg-paper2 border border-ink/10 rounded-md p-3">
+      <img src={src} alt={label} className="w-full h-auto rounded-sm" />
+      <div className="mt-2 flex items-center justify-between gap-2">
+        <div className="font-mono text-xs uppercase tracking-widest text-ink2">
+          {label}
+        </div>
+        <FigureModal src={src} alt={label} label="enlarge" caption={caption} />
+      </div>
+    </div>
   );
 }

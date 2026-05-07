@@ -1,5 +1,6 @@
 import Section from "../components/Section.jsx";
 import ReadMore from "../components/ReadMore.jsx";
+import FigureModal from "../components/FigureModal.jsx";
 
 export default function WhatIsCBF() {
   return (
@@ -76,6 +77,27 @@ export default function WhatIsCBF() {
               about <em>physiology</em>, not anatomy.
             </p>
           </ReadMore>
+
+          <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2">
+            <FigureModal
+              src="assets/figures/manuscript/age_whole.png"
+              alt="Mean CBF vs age, whole brain"
+              label="Age trend · whole brain (18–30 y)"
+              caption="Whole-brain mean CBF as a function of age, with LOWESS smoothers fit per sex (males: blue; females: red). Females exhibit consistently higher CBF than males across the 18–30 year range."
+            />
+            <FigureModal
+              src="assets/figures/manuscript/age_cortical.png"
+              alt="Mean CBF vs age, cortical compartment"
+              label="Age trend · cortical"
+              caption="Cortical mean CBF as a function of age, LOWESS per sex. Cortical compartments preserve the female-elevated baseline across young adulthood."
+            />
+            <FigureModal
+              src="assets/figures/manuscript/age_subcortical.png"
+              alt="Mean CBF vs age, subcortical compartment"
+              label="Age trend · subcortical"
+              caption="Subcortical mean CBF as a function of age, LOWESS per sex. Effect size is smaller (Cohen's d = 0.82) but the female-elevated pattern still holds."
+            />
+          </div>
         </div>
       </div>
     </Section>

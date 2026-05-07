@@ -1,8 +1,8 @@
 import Section from "../components/Section.jsx";
 
 const STATS = [
-  { value: "0.91", label: "balanced accuracy", sub: "mean CBF · logistic regression · 5-fold CV" },
-  { value: "0.95", label: "ROC-AUC", sub: "outperforming morphometry's 0.88" },
+  { value: "0.92", label: "balanced accuracy", sub: "3D CBF map · SFCN-CBF · 5-fold CV" },
+  { value: "0.95", label: "ROC-AUC", sub: "mean-CBF logistic regression · vs morphometry's 0.88" },
   { value: "30", label: "consensus regions", sub: "frontoparietal control + default mode dominant" },
 ];
 
@@ -12,7 +12,7 @@ export default function TLDR() {
       id="tldr"
       eyebrow="TL;DR"
       title="In one breath."
-      lede="Cerebral blood flow classifies biological sex in 215 healthy young adults at 91% balanced accuracy, matching a 2.1M-parameter 3D CNN with simple logistic regression on 246 atlas regions. Explainable AI converges on 30 regions concentrated in association-cortex networks — and they barely overlap with structural-MRI sex differences."
+      lede="Cerebral blood flow classifies biological sex in 215 healthy young adults at 92% balanced accuracy with a 2.1M-parameter 3D CNN, and 89% with simple logistic regression on 246 atlas regions. Explainable AI converges on 30 regions concentrated in association-cortex networks — and they barely overlap with structural-MRI sex differences."
     >
       <div className="grid md:grid-cols-3 gap-6 mt-6">
         {STATS.map((s) => (

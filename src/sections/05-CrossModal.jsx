@@ -1,5 +1,6 @@
 import Section from "../components/Section.jsx";
 import BrainViewer from "../components/BrainViewer.jsx";
+import FigureModal from "../components/FigureModal.jsx";
 
 export default function CrossModalSection() {
   return (
@@ -59,6 +60,21 @@ export default function CrossModalSection() {
             <li>Jaccard index: <span className="font-mono">0.074</span></li>
           </ul>
         </aside>
+      </div>
+
+      <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2">
+        <FigureModal
+          src="assets/figures/manuscript/fig5_crossmodal_panel.png"
+          alt="Multi-method explainable AI cross-modal panel"
+          label="View multi-method xAI panel (surfaces · UpSet · radar · Grad-CAM)"
+          caption="Multi-method explainable AI analysis of sex differences in cerebral perfusion. (A) Surface visualisations of brain regions identified as sex-discriminative biomarkers using mean, median, and maximum CBF, alongside morphometry-derived features. Warmer colours indicate stronger SHAP contributions. (B) Pairwise correlation matrix quantifying overlap. (C) UpSet plot showing intersections of biomarkers across modalities. (D) Radar plot summarising the distribution across functional networks (Yeo 7-network atlas). (E) Grad-CAM heatmaps from the SFCN-CBF deep network for males and females, capturing spatial regions of high model attention."
+        />
+        <FigureModal
+          src="assets/figures/manuscript/biomarkers_morph.png"
+          alt="Morphometry SHAP biomarker map"
+          label="Morphometry SHAP biomarker map"
+          caption="Surface visualisation of the 28 sex-discriminative regions identified from FreeSurfer morphometric features (volume + surface area + cortical thickness, aggregated by region). Anatomical distribution is dominated by visual (32%) and default-mode (14%) networks — distinct from the frontoparietal-control dominance of CBF biomarkers."
+        />
       </div>
     </Section>
   );
