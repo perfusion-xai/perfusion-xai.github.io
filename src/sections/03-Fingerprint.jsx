@@ -1,9 +1,17 @@
+import { useState } from "react";
 import Section from "../components/Section.jsx";
 import BrainViewer from "../components/BrainViewer.jsx";
 import FigureModal from "../components/FigureModal.jsx";
 import { networkColors } from "../lib/theme.js";
 
 export default function FingerprintSection() {
+  // Default open on desktop, closed on mobile.
+  const [legendOpen, setLegendOpen] = useState(() =>
+    typeof window !== "undefined"
+      ? window.matchMedia("(min-width: 768px)").matches
+      : true,
+  );
+
   return (
     <Section
       id="fingerprint"
@@ -12,7 +20,7 @@ export default function FingerprintSection() {
       lede="SHAP attribution across 500 logistic-regression models — 100 iterations × 5-fold CV — selects 30 atlas regions whose mean CBF most strongly drives sex classification. They concentrate in the frontoparietal control (27%) and default-mode (17%) networks."
     >
       <div className="grid md:grid-cols-12 gap-6 mt-6">
-        <div className="md:col-span-9">
+        <div className={legendOpen ? "md:col-span-9" : "md:col-span-11"}>
           <BrainViewer
             staticSrc="assets/figures/fig_glass_networks.png"
             alt="Glass-brain projection of the 30 consensus regions, colored by Yeo-7 network"
@@ -21,26 +29,62 @@ export default function FingerprintSection() {
             title="The 30 consensus regions"
             subtitle="Result · 1 · colored by Yeo-7 network + SCGM"
           />
+
+          {/* Mobile-only reopen row when the legend is closed */}
+          {!legendOpen && (
+            <button
+              onClick={() => setLegendOpen(true)}
+              className="md:hidden mt-3 w-full bg-paper2 border border-ink/10 rounded-md py-2 font-mono text-xs uppercase tracking-widest text-ink2 hover:text-female hover:border-female"
+            >
+              ▸ Show network legend
+            </button>
+          )}
         </div>
-        <aside className="md:col-span-3 bg-paper2 border border-ink/10 rounded-md p-6">
-          <div className="font-mono text-xs uppercase tracking-widest text-ink2 mb-3">
-            Network · Yeo-7 + SCGM
-          </div>
-          <ul className="space-y-1.5 text-xs">
-            {Object.entries(networkColors).map(([name, color]) => (
-              <li key={name} className="flex items-center gap-2">
-                <span className="inline-block w-3 h-3 rounded-sm" style={{ background: color }} />
-                <span className="text-ink2">{name}</span>
-              </li>
-            ))}
-          </ul>
-          <hr className="my-4" />
-          <p className="text-xs text-ink2">
-            Highlighted voxels are the union of all 30 consensus regions, projected
-            through the brain volume from each viewing axis. Generated with
-            <code className="font-mono"> nilearn.plotting.plot_glass_brain</code>.
-          </p>
-        </aside>
+
+        {legendOpen ? (
+          <aside className="md:col-span-3 bg-paper2 border border-ink/10 rounded-md p-6">
+            <div className="flex items-center justify-between mb-3">
+              <div className="font-mono text-xs uppercase tracking-widest text-ink2">
+                Network · Yeo-7 + SCGM
+              </div>
+              <button
+                onClick={() => setLegendOpen(false)}
+                aria-label="Hide network legend"
+                className="font-mono text-xs uppercase tracking-widest text-ink2 hover:text-female"
+              >
+                ✕ hide
+              </button>
+            </div>
+            <ul className="space-y-1.5 text-xs">
+              {Object.entries(networkColors).map(([name, color]) => (
+                <li key={name} className="flex items-center gap-2">
+                  <span className="inline-block w-3 h-3 rounded-sm" style={{ background: color }} />
+                  <span className="text-ink2">{name}</span>
+                </li>
+              ))}
+            </ul>
+            <hr className="my-4" />
+            <p className="text-xs text-ink2">
+              Highlighted voxels are the union of all 30 consensus regions, projected
+              through the brain volume from each viewing axis. Generated with
+              <code className="font-mono"> nilearn.plotting.plot_glass_brain</code>.
+            </p>
+          </aside>
+        ) : (
+          <button
+            onClick={() => setLegendOpen(true)}
+            aria-label="Show network legend"
+            title="Show network legend"
+            className="hidden md:flex md:col-span-1 bg-paper2 border border-ink/10 hover:border-female rounded-md items-center justify-center min-h-[200px] group"
+          >
+            <span
+              className="font-mono text-xs uppercase tracking-widest text-ink2 group-hover:text-female whitespace-nowrap"
+              style={{ writingMode: "vertical-rl", transform: "rotate(180deg)" }}
+            >
+              ◂ Network legend
+            </span>
+          </button>
+        )}
       </div>
 
       <div className="mt-6 grid md:grid-cols-3 gap-4">
