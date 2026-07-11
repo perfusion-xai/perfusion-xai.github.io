@@ -2,7 +2,7 @@ import Section from "../components/Section.jsx";
 
 const LINKS = [
   {
-    title: "Article/ Preprint",
+    title: "Preprint",
     sub: "Data-Driven Identification of Sex Differences in Cerebral Blood Flow Using Arterial Spin Labelling and Explainable Artificial Intelligence",
     href: "https://doi.org/10.64898/2026.07.05.736642",
     note: "doi.org/10.64898/2026.07.05.736642",
