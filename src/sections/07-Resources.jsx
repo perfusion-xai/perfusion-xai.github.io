@@ -2,10 +2,10 @@ import Section from "../components/Section.jsx";
 
 const LINKS = [
   {
-    title: "DATA-DRIVEN IDENTIFICATION OF SEX DIFFERENCES IN CEREBRAL BLOOD FLOW USING ARTERIAL SPIN LABELLING AND EXPLAINABLE ARTIFICIAL INTELLIGENCE",
+    title: "Data-Driven Identification of Sex Differences in Cerebral Blood Flow Using Arterial Spin Labelling and Explainable Artificial Intelligence",
     sub: "biorxiv",
     href: "https://doi.org/10.64898/2026.07.05.736642",
-    note: "DOI: https://doi.org/10.64898/2026.07.05.736642",
+    note: "doi.org/10.64898/2026.07.05.736642",
   },
   {
     title: "Code",
