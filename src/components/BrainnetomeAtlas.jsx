@@ -44,6 +44,9 @@ export default function BrainnetomeAtlas({
 }) {
   const wrapRef = useRef(null);
   const [isFs, setIsFs] = useState(false);
+  // iOS Safari on iPhone has no Fullscreen API on non-<video> elements, so
+  // native requestFullscreen silently no-ops. Fall back to a CSS overlay.
+  const [pseudoFs, setPseudoFs] = useState(false);
   const [hoveredId, setHoveredId] = useState(null);
   const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 });
   const [meta, setMeta] = useState(null);
@@ -51,6 +54,13 @@ export default function BrainnetomeAtlas({
   const [disabledNets, setDisabledNets] = useState(() => new Set());
   const [shellOnly, setShellOnly] = useState(false);
   const [shellAlpha, setShellAlpha] = useState(0.30);
+  // Networks panel: open by default on desktop, collapsed on mobile so it
+  // doesn't cover the brain in portrait. Mirrors 03-Fingerprint's legend.
+  const [legendOpen, setLegendOpen] = useState(() =>
+    typeof window !== "undefined"
+      ? window.matchMedia("(min-width: 768px)").matches
+      : true,
+  );
 
   const toggleNet = (n) =>
     setDisabledNets((prev) => {
@@ -77,11 +87,14 @@ export default function BrainnetomeAtlas({
   };
 
   const toggleFullscreen = () => {
-    if (!wrapRef.current) return;
-    if (!document.fullscreenElement) {
-      wrapRef.current.requestFullscreen?.();
+    const el = wrapRef.current;
+    if (!el) return;
+    if (typeof el.requestFullscreen === "function") {
+      if (!document.fullscreenElement) el.requestFullscreen();
+      else document.exitFullscreen?.();
     } else {
-      document.exitFullscreen?.();
+      // iOS fallback: toggle the CSS overlay.
+      setPseudoFs((v) => !v);
     }
   };
 
@@ -92,13 +105,18 @@ export default function BrainnetomeAtlas({
   }, []);
 
   const camInit = useMemo(initialCamera, []);
+  const fullscreen = isFs || pseudoFs;
   const hoveredMeta = hoveredId != null && meta ? meta.get(hoveredId) : null;
   const hoveredStat = hoveredId != null && stats ? stats.get(hoveredId) : null;
 
   return (
     <div
       ref={wrapRef}
-      className={`relative bg-white border border-ink/10 rounded-md overflow-hidden ${className}`}
+      className={`bg-white border border-ink/10 overflow-hidden ${
+        pseudoFs
+          ? "fixed inset-0 z-[60] w-screen h-screen rounded-none"
+          : `relative rounded-md ${className}`
+      }`}
     >
       <Canvas
         camera={camInit}
@@ -125,7 +143,7 @@ export default function BrainnetomeAtlas({
         <OrbitControls
           enablePan={false}
           minDistance={120}
-          maxDistance={isFs ? 800 : 600}
+          maxDistance={fullscreen ? 800 : 600}
           autoRotate={mode === "rest"}
           autoRotateSpeed={0.6}
         />
@@ -140,7 +158,7 @@ export default function BrainnetomeAtlas({
       </Canvas>
 
       {/* Top-left: section label, only when fullscreen so non-FS views stay clean */}
-      {isFs && (label || sublabel) && (
+      {fullscreen && (label || sublabel) && (
         <div className="absolute top-3 left-3 z-10 bg-paper/90 border border-ink/15 rounded px-3 py-2 max-w-md">
           {label && (
             <div className="text-ink text-sm tracking-editorial">{label}</div>
@@ -159,13 +177,32 @@ export default function BrainnetomeAtlas({
         className="absolute top-3 right-3 z-10 px-2 py-1 bg-paper/90 border border-ink/15 rounded text-xs font-mono uppercase tracking-widest hover:border-female"
         aria-label="Toggle fullscreen"
       >
-        {isFs ? "exit ⤢" : "full ⤢"}
+        {fullscreen ? "exit ⤢" : "full ⤢"}
       </button>
 
-      {/* Right side: network filter + legend (always visible — also shows in fullscreen) */}
+      {/* Right side: network filter + legend. Collapsible — defaults collapsed
+          on mobile so it doesn't cover the brain in portrait. */}
+      {!legendOpen ? (
+        <button
+          onClick={() => setLegendOpen(true)}
+          className="absolute top-14 right-3 z-10 px-2 py-1 bg-paper/95 border border-ink/15 rounded text-[10px] font-mono uppercase tracking-widest text-ink2 shadow-sm hover:border-female"
+          aria-label="Show networks legend"
+        >
+          Networks ▾
+        </button>
+      ) : (
       <div className="absolute top-14 right-3 z-10 bg-paper/95 border border-ink/15 rounded p-2 max-w-[180px] shadow-sm">
-        <div className="font-mono text-[10px] uppercase tracking-widest text-ink2 mb-1.5 px-1">
-          Networks
+        <div className="flex items-center justify-between mb-1.5 px-1">
+          <div className="font-mono text-[10px] uppercase tracking-widest text-ink2">
+            Networks
+          </div>
+          <button
+            onClick={() => setLegendOpen(false)}
+            className="font-mono text-[11px] leading-none text-ink2 hover:text-female"
+            aria-label="Collapse networks legend"
+          >
+            ▴
+          </button>
         </div>
         <ul className="space-y-1">
           {Object.entries(networkColors).map(([name, color]) => {
@@ -219,10 +256,11 @@ export default function BrainnetomeAtlas({
           </div>
         </div>
       </div>
+      )}
 
       {/* Top-center: drag hint (shown briefly via CSS hover-only is excessive — just always show) */}
       <div className="absolute top-3 left-1/2 -translate-x-1/2 z-10 font-mono text-[10px] uppercase tracking-widest text-ink2 bg-paper/85 border border-ink/10 rounded px-2 py-1 pointer-events-none">
-        drag to rotate · scroll to zoom · click axis to snap{isFs ? " · Esc to exit" : ""}
+        drag to rotate · scroll to zoom · click axis to snap{fullscreen ? (pseudoFs ? " · tap exit ⤢" : " · Esc to exit") : ""}
       </div>
 
       {/* Bottom-left: orientation legend */}
